@@ -1,11 +1,15 @@
 import express from "express";
-import article from "../models/Service";
+import Article from "../models/Service";
 
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-  const data = await article.find();
-  res.json(data);
+  try {
+    const articles = await Article.find(); //
+    res.json(articles);
+  } catch (err) {
+    res.status(500).json({ error: "Erreur serveur" });
+  }
 });
 
 export default router;

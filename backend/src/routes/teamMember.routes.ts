@@ -1,11 +1,15 @@
 import express from "express";
-import teamMember from "../models/TeamMember";
+import TeamMember from "../models/TeamMember";
 
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-  const data = await teamMember.find();
-  res.json(data);
+  try {
+    const teamMembers = await TeamMember.find(); //
+    res.json(teamMembers);
+  } catch (err) {
+    res.status(500).json({ error: "Erreur serveur" });
+  }
 });
 
 export default router;

@@ -1,11 +1,15 @@
 import express from "express";
-import faq from "../models/Faq";
+import Faq from "../models/Faq";
 
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-  const data = await faq.find();
-  res.json(data);
+  try {
+    const faqs = await Faq.find(); //
+    res.json(faqs);
+  } catch (err) {
+    res.status(500).json({ error: "Erreur serveur" });
+  }
 });
 
 export default router;
