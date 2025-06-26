@@ -1,0 +1,17 @@
+import logo from "../../assets/logo.webp";
+import NavBar from "../navBar/navBar";
+import "./Header.css";
+
+export default function Header() {
+  return (
+    <header className="header">
+      <img
+        src={logo}
+        alt="Logo du Chantier d'à Côté"
+        aria-label="Logo du Chantier d'à Côté"
+        className="header-logo"
+      />
+      <NavBar />
+    </header>
+  );
+}
