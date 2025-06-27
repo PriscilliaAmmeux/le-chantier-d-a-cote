@@ -18,8 +18,22 @@ export default function Footer() {
       <div className="footer-center">
         <p>
           © {new Date().getFullYear()}{" "}
-          <span className="font-bold">Le Chantier d'à côté.</span> Tous droits
-          réservés.
+          <span className="font-bold-white">Le Chantier d'à côté.</span>{" "}
+          <span className="not-display-mobile">Tous droits réservés.</span>
+        </p>
+        <div className="footer-links">
+          <p className="footer-link">Mentions légales</p>
+          <p className="footer-link">Politiques de confidentialités</p>
+        </div>
+        <p>
+          Créé par le collectif{" "}
+          <a
+            href="https://kreawebsolutions.fr/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link footer-link-krea">
+            Kréawebsolution
+          </a>
         </p>
       </div>
 
