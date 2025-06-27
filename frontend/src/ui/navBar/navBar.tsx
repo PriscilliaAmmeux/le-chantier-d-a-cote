@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 export default function NavBar() {
@@ -5,28 +6,28 @@ export default function NavBar() {
     <nav className="navbar" aria-label="Menu principal">
       <ul className="navbar-list">
         <li>
-          <a href="#home">Accueil</a>
+          <Link to="/">Accueil</Link>
         </li>
         <li>
-          <a href="#about">Qui sommes-nous ?</a>
-        </li>{" "}
-        <li>
-          <a href="#services">Nos prestations / nos activités </a>
+          <Link to="/about">Qui sommes-nous ?</Link>
         </li>
         <li>
-          <a href="#missions">Missions</a>
+          <Link to="/services">Nos prestations / nos activités</Link>
         </li>
         <li>
-          <a href="#convergences">Convergences</a>
+          <Link to="/missions">Missions</Link>
         </li>
         <li>
-          <a href="#faq">FAQ</a>
+          <Link to="/convergences">Convergences</Link>
         </li>
         <li>
-          <a href="#blog">Blog</a>
+          <Link to="/faq">FAQ</Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/blog">Blog</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
