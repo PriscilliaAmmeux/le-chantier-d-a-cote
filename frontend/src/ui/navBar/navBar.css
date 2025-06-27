@@ -1,3 +1,5 @@
+@import "../variables.css";
+
 .navbar {
   width: 100%;
   padding: 1rem 0;
@@ -15,7 +17,7 @@
 }
 
 .navbar-list li a {
-  color: #4c342c;
+  color: var(--color-brown);
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;

@@ -1,5 +1,7 @@
+@import "../variables.css";
+
 .footer {
-  background-color: #9cd484;
+  background-color: var(--color-green);
   padding: 2rem;
   display: flex;
   justify-content: space-around;
@@ -18,7 +20,7 @@
 .footer-center {
   text-align: center;
   flex: 1;
-  color: #4c342c;
+  color: var(--color-brown);
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
@@ -33,7 +35,7 @@
 }
 
 .footer-link-krea {
-  color: #4c342c;
+  color: var(--color-brown);
 }
 
 .footer-link:hover,
@@ -44,7 +46,7 @@
 .footer-right a {
   text-align: center;
   flex: 1;
-  color: #4c342c;
+  color: var(--color-brown);
 }
 
 .footer-right {
@@ -55,7 +57,7 @@
 
 .social-icon {
   vertical-align: middle;
-  color: #4c342c;
+  color: var(--color-brown);
   font-size: 2rem;
 }
 
