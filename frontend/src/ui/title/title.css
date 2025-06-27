@@ -1,5 +1,7 @@
+@import "../variables.css";
+
 .title {
-  color: #4c342c;
+  color: var(--color-brown);
   text-transform: uppercase;
   text-align: center;
   font-size: 2rem;
