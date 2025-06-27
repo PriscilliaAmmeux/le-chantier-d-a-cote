@@ -1,0 +1,26 @@
+.title-data-month,
+.data-value {
+  color: #0cb424;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.title-data-month {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.data-block {
+  padding: 1rem;
+}
+
+.data-section {
+  margin: 2rem 0;
+  gap: 2rem;
+}
