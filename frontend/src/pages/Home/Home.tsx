@@ -1,5 +1,6 @@
 import DataMonth from "../../components/dataMonth/dataMonth";
 import Layout from "../../ui/layout/layout";
+import SectionFinanciers from "../../ui/sectionFinanciers/sectionFinanciers";
 import Title from "../../ui/title/title";
 import "./Home.css";
 
@@ -9,6 +10,10 @@ export default function Home() {
       <section className="home-data-month">
         <Title text="Le Chantier d'à côté" isHome />
         <DataMonth />
+      </section>
+      <section>
+      
+        <SectionFinanciers />
       </section>
     </Layout>
   );

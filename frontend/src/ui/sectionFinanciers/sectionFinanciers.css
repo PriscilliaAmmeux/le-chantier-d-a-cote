@@ -1,0 +1,30 @@
+.logo-financeurs {
+  width: 5rem;
+}
+
+.section-financeurs {
+  border-radius: 12px;
+  padding: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem auto;
+  max-width: 30rem;
+}
+
+.section-financeurs .logos-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.logo-financeurs {
+  max-height: 60px;
+  max-width: 160px;
+  object-fit: contain;
+}
