@@ -1,0 +1,8 @@
+@import "../variables.css";
+
+.sub-subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: var(--color-brown);
+}
