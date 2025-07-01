@@ -1,0 +1,6 @@
+.home-presentation-text {
+    flex: 2;
+    margin: 2rem;
+    max-width: 40rem;
+    text-align: justify;
+  }

@@ -13,3 +13,25 @@
   justify-content: center;
   margin: 2rem 0;
 }
+
+.home-presentation {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.home-presentation-financiers {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .home-presentation {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .home-presentation-financiers {
+    justify-content: flex-start;
+  }
+}
