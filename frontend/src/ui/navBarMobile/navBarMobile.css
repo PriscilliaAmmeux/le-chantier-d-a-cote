@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .navbar-mobile {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+    z-index: 1000;
+    border-top: 1px solid #ccc;
+  }
+  .navbar-mobile a {
+    color: var(--color-brown);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  .navbar-mobile .nav-icon {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+  }
+}
