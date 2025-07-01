@@ -26,3 +26,18 @@
   margin: 2rem 0;
   gap: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .data-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.data-block {
+  padding: 1rem;
+}
+
+.data-section {
+  margin: 2rem 0;
+  gap: 2rem;
+}
