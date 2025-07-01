@@ -1,4 +1,5 @@
 import DataMonth from "../../components/dataMonth/dataMonth";
+import Button from "../../ui/button/button";
 import Layout from "../../ui/layout/layout";
 import SectionFinanciers from "../../ui/sectionFinanciers/sectionFinanciers";
 import Title from "../../ui/title/title";
@@ -12,9 +13,15 @@ export default function Home() {
         <DataMonth />
       </section>
       <section>
-      
         <SectionFinanciers />
       </section>
+      <div className="button-center">
+        <Button
+          text={"En savoir plus"}
+          to={"/about"}
+          ariaLabel="En savoir plus"
+        />
+      </div>
     </Layout>
   );
 }
