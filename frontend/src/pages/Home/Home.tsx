@@ -1,5 +1,7 @@
 import DataMonth from "../../components/dataMonth/dataMonth";
 import Button from "../../ui/button/button";
+import HomeIntro from "../../ui/homeIntro/homeIntro";
+import HomePresentation from "../../ui/homePresentation/homePresentation";
 import Layout from "../../ui/layout/layout";
 import SectionFinanciers from "../../ui/sectionFinanciers/sectionFinanciers";
 import Title from "../../ui/title/title";
@@ -12,8 +14,12 @@ export default function Home() {
         <Title text="Le Chantier d'à côté" isHome />
         <DataMonth />
       </section>
-      <section>
-        <SectionFinanciers />
+      <HomeIntro />
+      <section className="home-presentation">
+        <HomePresentation />
+        <div className="home-presentation-financiers">
+          <SectionFinanciers />
+        </div>
       </section>
       <div className="button-center">
         <Button
