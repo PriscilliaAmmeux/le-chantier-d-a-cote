@@ -28,3 +28,18 @@
   max-width: 160px;
   object-fit: contain;
 }
+
+@media screen and (max-width: 480px) {
+  .section-financeurs {
+    padding: 1rem 0;
+    margin: 1rem;
+  }
+  .section-financeurs .logos-wrapper {
+    gap: 0;
+    justify-content: space-around;
+  }
+  .logo-financeurs {
+    max-height: 50px;
+    max-width: 90px;
+  }
+}
