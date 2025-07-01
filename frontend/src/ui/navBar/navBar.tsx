@@ -3,7 +3,7 @@ import "./NavBar.css";
 
 export default function NavBar() {
   return (
-    <nav className="navbar" aria-label="Menu principal">
+    <nav className="navbar navbar-desktop" aria-label="Menu principal">
       <ul className="navbar-list">
         <li>
           <Link to="/">Accueil</Link>

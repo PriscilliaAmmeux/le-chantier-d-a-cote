@@ -1,5 +1,12 @@
 @import "../variables.css";
 
+.navbar-desktop {
+  display: block;
+}
+.navbar-mobile {
+  display: none;
+}
+
 .navbar {
   width: 100%;
   padding: 1rem 0;
@@ -26,4 +33,10 @@
 .navbar-list li a:hover,
 .navbar-list li a:focus {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navbar-desktop {
+    display: none;
+  }
 }

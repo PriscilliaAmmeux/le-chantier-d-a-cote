@@ -1,5 +1,6 @@
 import logo from "../../assets/logo.webp";
 import NavBar from "../navBar/navBar";
+import NavBarMobile from "../navBarMobile/navBarMobile";
 import "./Header.css";
 
 export default function Header() {
@@ -12,6 +13,7 @@ export default function Header() {
         className="header-logo"
       />
       <NavBar />
+      <NavBarMobile />
     </header>
   );
 }
