@@ -30,6 +30,11 @@
 @media screen and (max-width: 768px) {
   .data-grid {
     grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .title-data-month,
+  .data-value {
+    font-size: 2rem;
   }
 }
 

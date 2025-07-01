@@ -6,3 +6,9 @@
   margin-bottom: 0.5rem;
   color: var(--color-brown);
 }
+
+@media screen and (max-width: 768px) {
+  .subtitle {
+    font-size: 1.5rem;
+  }
+}
