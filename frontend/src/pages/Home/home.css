@@ -7,3 +7,9 @@
   padding: 2rem;
   gap: 2rem;
 }
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
