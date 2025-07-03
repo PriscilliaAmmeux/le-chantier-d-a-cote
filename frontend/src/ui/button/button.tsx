@@ -12,7 +12,7 @@ export default function Button({ text, to, ariaLabel }: ButtonProps) {
     return (
       <Link
         to={to}
-        className="custom-button"
+        className="custom-button font-bold"
         aria-label={ariaLabel || text}
         role="button"
         tabIndex={0}>
@@ -22,7 +22,7 @@ export default function Button({ text, to, ariaLabel }: ButtonProps) {
   }
   return (
     <button
-      className="custom-button"
+      className="custom-button font-bold"
       type="button"
       aria-label={ariaLabel || text}>
       {text}

@@ -3,8 +3,7 @@
 .title-data-month,
 .data-value {
   color: var(--color-bright-green);
-  font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .title-data-month {
@@ -34,15 +33,9 @@
   }
   .title-data-month,
   .data-value {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-}
-
-.data-block {
-  padding: 1rem;
-}
-
-.data-section {
-  margin: 2rem 0;
-  gap: 2rem;
+  .data-section {
+    margin: 0.5rem 0;
+  }
 }
