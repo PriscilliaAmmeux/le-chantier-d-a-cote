@@ -1,10 +1,9 @@
-import TeamSupervisors from "../../components/teamSupervisors/teamSupervisors";
 import SubSubtitle from "../subSubtitle/subSubtitle";
 import Subtitle from "../subtitle/subtitle";
 import teamSupervisors from "../../api/teamSupervisors.json";
 import teamASP from "../../api/teamASP.json";
 import "./team.css";
-import TeamASP from "../../components/teamASP/teamAsp";
+import TeamList from "../../components/teamList/teamList";
 
 export default function Team() {
   return (
@@ -34,7 +33,7 @@ export default function Team() {
             retrouver des repères, des compétences et une place active dans la
             société.
           </p>
-          <TeamSupervisors supervisors={teamSupervisors} />
+          <TeamList members={teamSupervisors} />
         </section>
 
         <section>
@@ -51,7 +50,7 @@ export default function Team() {
             sans imposer. Elles sont les repères humains d’un accompagnement
             individualisé et bienveillant.
           </p>
-          <TeamASP teamASP={teamASP} />
+          <TeamList members={teamASP} />
         </section>
       </div>
     </section>
