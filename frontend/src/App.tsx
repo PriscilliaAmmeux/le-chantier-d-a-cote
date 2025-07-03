@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import About from "./pages/About/about";
+import About from "./pages/About/About";
 import Services from "./pages/Services/services";
 import Missions from "./pages/Missions/missions";
 import Convergences from "./pages/Convergences/convergences";

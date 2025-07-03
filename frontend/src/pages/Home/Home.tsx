@@ -10,7 +10,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <Layout className="home">
+    <Layout>
       <section className="home-data-month">
         <Title text="Le Chantier d'à côté" isHome />
         <DataMonth />
