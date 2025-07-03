@@ -4,7 +4,7 @@
   color: var(--color-brown);
   text-transform: uppercase;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {

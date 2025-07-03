@@ -1,4 +1,26 @@
 .home-presentation-text-objective {
   margin: 0 2rem;
   text-align: justify;
+  font-size: 1.2rem;
+}
+
+.home-presentation-text-objective p {
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+
+.home-presentation-text-objective h3,
+p {
+  text-align: center;
+}
+
+.home-presentation-text-objective h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+  .home-presentation-text-objective {
+    margin: 0;
+  }
 }

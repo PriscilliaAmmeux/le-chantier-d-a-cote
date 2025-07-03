@@ -7,7 +7,7 @@ interface SubSubtitleProps {
 export default function SubSubtitle({ subSubtitle }: SubSubtitleProps) {
   return (
     <section>
-      <h3 className="sub-subtitle">{subSubtitle}</h3>
+      <h3 className="sub-subtitle font-bold">{subSubtitle}</h3>
     </section>
   );
 }

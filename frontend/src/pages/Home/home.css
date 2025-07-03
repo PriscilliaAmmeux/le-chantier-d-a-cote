@@ -24,6 +24,7 @@
   flex: 1;
   display: flex;
   justify-content: center;
+  margin-top: 4.5rem;
 }
 
 @media (max-width: 900px) {
@@ -33,5 +34,6 @@
   }
   .home-presentation-financiers {
     justify-content: flex-start;
+    margin-top: 0;
   }
 }

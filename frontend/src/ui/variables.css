@@ -3,3 +3,7 @@
   --color-bright-green: #0cb424;
   --color-brown: #4c342c;
 }
+
+.font-bold {
+  font-weight: bold;
+}
