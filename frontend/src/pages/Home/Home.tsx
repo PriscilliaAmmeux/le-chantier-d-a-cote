@@ -1,4 +1,5 @@
 import DataMonth from "../../components/dataMonth/dataMonth";
+import TestimonialsCarousel from "../../components/testimonialsCarousel/testimonialsCarousel";
 import Button from "../../ui/button/button";
 import HomeIntro from "../../ui/homeIntro/homeIntro";
 import HomePresentation from "../../ui/homePresentation/homePresentation";
@@ -21,13 +22,14 @@ export default function Home() {
           <SectionFinanciers />
         </div>
       </section>
-      <div className="button-center">
+      <section className="button-center">
         <Button
           text={"En savoir plus"}
           to={"/about"}
           ariaLabel="En savoir plus"
         />
-      </div>
+      </section>
+      <TestimonialsCarousel />
     </Layout>
   );
 }
