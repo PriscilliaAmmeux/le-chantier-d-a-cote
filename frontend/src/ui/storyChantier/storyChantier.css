@@ -1,0 +1,16 @@
+@import "../variables.css";
+
+.story-content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.story-list {
+  margin: 1rem 0 1.5rem 2rem;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+}
+
+.story-content p {
+  margin-bottom: 1.2rem;
+}
