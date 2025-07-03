@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Antoine",
+    "photo": "profil.png",
+    "presentation": "attente texte"
+  },
+  {
+    "id": 2,
+    "name": "David",
+    "photo": "profil.png",
+    "presentation": "attente texte"
+  },
+  {
+    "id": 3,
+    "name": "Gabrielle",
+    "photo": "profil.png",
+    "presentation": "attente texte"
+  },
+  {
+    "id": 4,
+    "name": "Brice",
+    "photo": "profil.png",
+    "presentation": "attente texte"
+  }
+]

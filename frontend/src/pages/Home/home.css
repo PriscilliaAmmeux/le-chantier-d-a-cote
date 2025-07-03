@@ -1,7 +1,4 @@
-.home-data-month {
-  padding: 2rem;
-  gap: 2rem;
-}
+@import "../../ui/variables.css";
 
 .button-center {
   display: flex;

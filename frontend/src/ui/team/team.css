@@ -1,0 +1,39 @@
+@import "../variables.css";
+
+.team {
+  background-color: rgb(var(--color-green-rgb, 156, 212, 132), 0.17);
+  position: relative;
+  box-sizing: border-box;
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 0;
+  line-height: 1.7;
+}
+
+.team-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+.team div {
+  gap: 2;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
+
+@media (max-width: 700px) {
+  .team {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .team-inner {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
