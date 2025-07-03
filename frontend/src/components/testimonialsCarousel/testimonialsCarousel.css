@@ -1,0 +1,44 @@
+.testimonials-carousel {
+  width: 100%;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.swiper {
+  width: 100%;
+  min-height: 200px;
+  box-sizing: border-box;
+}
+
+.swiper-button-prev {
+  left: 10px;
+  color: var(--color-green);
+}
+
+.swiper-button-next {
+  right: 10px;
+  color: var(--color-green);
+}
+
+.swiper-pagination-bullet:hover {
+  background: var(--color-bright-green);
+}
+
+.testimonial {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 180px;
+  height: 100%;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-green);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-bright-green);
+}
