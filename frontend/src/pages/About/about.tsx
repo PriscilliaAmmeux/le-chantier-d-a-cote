@@ -1,14 +1,17 @@
-import Layout from "../../ui/layout/layout";
 import Subtitle from "../../ui/subtitle/subtitle";
 import Title from "../../ui/title/title";
 import SubSubtitle from "../../ui/subSubtitle/subSubtitle";
-import "./About.css";
 import StoryChantier from "../../ui/storyChantier/storyChantier";
+import Team from "../../ui/team/team";
+import "./About.css";
+import Layout from "../../ui/layout/layout";
 
 export default function About() {
   return (
     <Layout>
-      <Title text="Qui sommes-nous ?" />
+      <div className="margin-title">
+        <Title text="Qui sommes-nous ?" />
+      </div>
       <p className="about-presentation  text-align-justify">
         Le Chantier d’à Côté est une structure de l'Économie Sociale et
         Solidaire (ESS). Basée depuis sa création en 2021 à Val de Cognac
@@ -18,15 +21,7 @@ export default function About() {
       </p>
       <StoryChantier />
 
-      <section>
-        <Subtitle subtitle={"Présentation du personnel"} />
-        <SubSubtitle
-          subSubtitle={"Nos Encadrants Techniques en Insertion (ETI)"}
-        />
-        <SubSubtitle
-          subSubtitle={"Nos Accompagnatrices Socio-Professionnelles (ASP)"}
-        />
-      </section>
+      <Team />
 
       <section>
         <Subtitle subtitle={"Nos zones d’intervention"} />

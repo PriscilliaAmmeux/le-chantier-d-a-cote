@@ -11,7 +11,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <Layout>
-      <section className="home-data-month">
+      <section className="margin-title">
         <Title text="Le Chantier d'à côté" isHome />
         <DataMonth />
       </section>

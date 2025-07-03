@@ -3,6 +3,7 @@ import "./Title.css";
 interface TitleProps {
   text: string;
   isHome?: boolean; // true = h1, false = h2
+  classname?: string;
 }
 
 export default function Title({ text, isHome = false }: TitleProps) {
