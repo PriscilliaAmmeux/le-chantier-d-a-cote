@@ -1,7 +1,7 @@
 @import "../variables.css";
 
 .team {
-  background-color: rgb(var(--color-green-rgb, 156, 212, 132), 0.17);
+  background-color: var(--color-green-opacity);
   position: relative;
   box-sizing: border-box;
   width: 100vw;

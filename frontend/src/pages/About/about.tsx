@@ -8,6 +8,7 @@ import WhyWorkTogether from "../../ui/whyWorkTogether/whyWorkTogether";
 import WhoWeAre from "../../ui/whoWeAre/whoWeAre";
 import InterventionZones from "../../ui/interventionZones/interventionZones";
 import HowFinance from "../../ui/howFinance";
+import HowToJoin from "../../ui/howToJoin/howToJoin";
 
 export default function About() {
   return (
@@ -25,13 +26,7 @@ export default function About() {
         </div>
       </section>
 
-      <section>
-        <Subtitle subtitle={"Comment rejoindre le Chantier d’à Côté ?"} />
-        <SubSubtitle subSubtitle="Pour bénéficier du Parcours d’Insertion" />
-        <SubSubtitle subSubtitle="Aucun prérequis, aucune sélection" />
-        <SubSubtitle subSubtitle="Une intégration progressive, adaptée à chacun (PHC)" />
-        <SubSubtitle subSubtitle="Nos promesses et objectifs" />
-      </section>
+      <HowToJoin/>
     </Layout>
   );
 }

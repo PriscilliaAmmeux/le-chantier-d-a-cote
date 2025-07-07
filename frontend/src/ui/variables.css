@@ -2,6 +2,7 @@
   --color-green: #9cd484;
   --color-bright-green: #0cb424;
   --color-brown: #4c342c;
+  --color-green-opacity: rgb(var(--color-green-rgb, 156, 212, 132), 0.17);
 }
 
 .font-bold {
