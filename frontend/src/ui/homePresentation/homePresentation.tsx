@@ -33,7 +33,11 @@ export default function HomePresentation() {
           <li key={idx}>{item}</li>
         ))}
       </ul>
-      <ContactLink />
+      <div className="center-contact-link">
+        <ContactLink
+          children={"Rejoignez notre programme d’insertion professionnelle"}
+        />
+      </div>
     </section>
   );
 }

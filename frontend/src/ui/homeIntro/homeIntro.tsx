@@ -23,7 +23,11 @@ export default function HomeIntro() {
           spécialement pour vous.
         </p>
       </div>
-      <ContactLink />
+      <div className="center-contact-link">
+        <ContactLink
+          children={"Bénéficier de notre programme d’insertion professionnelle"}
+        />
+      </div>
     </section>
   );
 }
