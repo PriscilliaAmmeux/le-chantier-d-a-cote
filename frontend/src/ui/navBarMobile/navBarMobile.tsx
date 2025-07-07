@@ -20,7 +20,7 @@ export default function NavBarMobile() {
       <Link to="/about" aria-label="Qui sommes-nous">
         <FaUserCircle className="nav-icon" />
       </Link>
-      <Link to="/services" aria-label="Prestations">
+      <Link to="/activities" aria-label="Prestations">
         <FaHandsHelping className="nav-icon" />
       </Link>
       <Link to="/missions" aria-label="Missions">

@@ -1,9 +1,9 @@
 import Layout from "../../ui/layout/layout";
 import Title from "../../ui/title/title";
 
-export default function Services() {
+export default function Activities() {
   return (
-    <Layout className="services">
+    <Layout>
       <Title text="Nos prestations / Nos Activités" />
     </Layout>
   );

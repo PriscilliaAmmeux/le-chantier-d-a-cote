@@ -1,4 +1,4 @@
-import CardSection from "../../components/CardSection/cardSection";
+import CardSection from "../../components/cardSection/cardSection";
 import Subtitle from "../subtitle/subtitle";
 import "./whyWorkTogether.css";
 
