@@ -12,7 +12,7 @@ export default function NavBar() {
           <Link to="/about">Qui sommes-nous ?</Link>
         </li>
         <li>
-          <Link to="/services">Nos prestations / nos activités</Link>
+          <Link to="/activities">Nos prestations / nos activités</Link>
         </li>
         <li>
           <Link to="/missions">Missions</Link>
