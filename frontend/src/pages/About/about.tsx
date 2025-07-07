@@ -1,31 +1,23 @@
 import Subtitle from "../../ui/subtitle/subtitle";
-import Title from "../../ui/title/title";
 import SubSubtitle from "../../ui/subSubtitle/subSubtitle";
 import StoryChantier from "../../ui/storyChantier/storyChantier";
 import Team from "../../ui/team/team";
 import "./About.css";
 import Layout from "../../ui/layout/layout";
+import WhyWorkTogether from "../../ui/whyWorkTogether/whyWorkTogether";
+import WhoWeAre from "../../ui/whoWeAre/whoWeAre";
+import InterventionZones from "../../ui/interventionZones/interventionZones";
 
 export default function About() {
   return (
     <Layout>
-      <div className="margin-title">
-        <Title text="Qui sommes-nous ?" />
-      </div>
-      <p className="about-presentation  text-align-justify">
-        Le Chantier d’à Côté est une structure de l'Économie Sociale et
-        Solidaire (ESS). Basée depuis sa création en 2021 à Val de Cognac
-        (16370), elle est présidée par Francis Bouchereau et gérée par Karynne
-        Aubert, directrice du chantier. Le chantier dépend du dispositif de
-        l’insertion par l’activité économique.
-      </p>
+      <WhoWeAre />
       <StoryChantier />
-
       <Team />
-
-      <section>
-        <Subtitle subtitle={"Nos zones d’intervention"} />
-      </section>
+      <div className="about-cards-row">
+        <WhyWorkTogether />
+        <InterventionZones />
+      </div>
 
       <section>
         <Subtitle subtitle={"Comment finançons-nous nos missions ?"} />
