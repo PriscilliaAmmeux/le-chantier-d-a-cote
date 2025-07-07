@@ -3,7 +3,6 @@ import "./contactLink.css";
 
 interface ContactLinkProps {
   children?: React.ReactNode;
-  className?: string;
 }
 
 export default function ContactLink({ children }: ContactLinkProps) {
