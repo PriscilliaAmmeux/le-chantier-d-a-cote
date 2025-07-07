@@ -32,6 +32,13 @@ export default function HowToJoin() {
     "Le Chantier d’à Côté, c’est un projet humain, ancré localement, au service des personnes les plus éloignées de l’emploi.",
   ];
 
+  const integrationSteps = [
+    "Ici, on ne demande pas à chacun d’être prêt. On l’aide à le devenir.",
+    "Les premiers pas se font doucement : 4 heures par semaine, parfois en binôme, parfois à l’écart du groupe, selon les besoins. On prend le temps.",
+    "Il y a ceux qui dorment encore en tente, ceux qui n’ont pas parlé depuis des mois, ceux qui doutent de tout — même de leur droit d’être là.",
+    "Chaque parcours est un ajustement permanent entre ce qu’on peut faire aujourd’hui… et ce qu’on fera demain.",
+  ];
+
   return (
     <section className="section-how-to-join">
       <Subtitle subtitle="Comment rejoindre le Chantier d’à Côté ?" />
@@ -69,23 +76,11 @@ export default function HowToJoin() {
 
         <li>
           <SubSubtitle subSubtitle="Une intégration progressive, adaptée à chacun (PHC)" />
-          <p className="text-align-justify">
-            Ici, on ne demande pas à chacun d’être prêt. On l’aide à le devenir.
-          </p>
-          <p className="text-align-justify">
-            Les premiers pas se font doucement : 4 heures par semaine, parfois
-            en binôme, parfois à l’écart du groupe, selon les besoins. On prend
-            le temps.
-          </p>
-          <p className="text-align-justify">
-            Il y a ceux qui dorment encore en tente, ceux qui n’ont pas parlé
-            depuis des mois, ceux qui doutent de tout — même de leur droit
-            d’être là.
-          </p>
-          <p className="text-align-justify">
-            Chaque parcours est un ajustement permanent entre ce qu’on peut
-            faire aujourd’hui… et ce qu’on fera demain.
-          </p>
+          {integrationSteps.map((step, idx) => (
+            <p className="text-align-justify" key={idx}>
+              {step}
+            </p>
+          ))}
         </li>
 
         <li>
