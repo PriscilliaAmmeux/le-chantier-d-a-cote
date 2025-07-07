@@ -25,8 +25,7 @@ export default function About() {
           <HowFinance />
         </div>
       </section>
-
-      <HowToJoin/>
+      <HowToJoin />
     </Layout>
   );
 }
