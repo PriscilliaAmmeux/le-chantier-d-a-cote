@@ -1,26 +1,22 @@
 @import "../../ui/variables.css";
-
 .about-cards-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
   gap: 2rem;
-  justify-content: center;
-  align-items: stretch;
   margin: 2rem 0;
-  flex-wrap: wrap;
+  align-items: start;
 }
 
-.about-cards-row > * {
-  flex: 1 1 350px;
-  min-width: 320px;
-  max-width: 500px;
+.about-cards-col-left,
+.about-cards-col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
+
 @media (max-width: 900px) {
   .about-cards-row {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 1.5rem;
-  }
-  .about-cards-row > * {
-    max-width: 100%;
-    min-width: 0;
   }
 }

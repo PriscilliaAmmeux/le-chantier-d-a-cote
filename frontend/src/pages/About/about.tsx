@@ -7,6 +7,7 @@ import Layout from "../../ui/layout/layout";
 import WhyWorkTogether from "../../ui/whyWorkTogether/whyWorkTogether";
 import WhoWeAre from "../../ui/whoWeAre/whoWeAre";
 import InterventionZones from "../../ui/interventionZones/interventionZones";
+import HowFinance from "../../ui/howFinance";
 
 export default function About() {
   return (
@@ -14,13 +15,14 @@ export default function About() {
       <WhoWeAre />
       <StoryChantier />
       <Team />
-      <div className="about-cards-row">
-        <WhyWorkTogether />
-        <InterventionZones />
-      </div>
-
-      <section>
-        <Subtitle subtitle={"Comment finançons-nous nos missions ?"} />
+      <section className="about-cards-row">
+        <div className="about-cards-col-left">
+          <WhyWorkTogether />
+        </div>
+        <div className="about-cards-col-right">
+          <InterventionZones />
+          <HowFinance />
+        </div>
       </section>
 
       <section>
