@@ -2,7 +2,6 @@ import "./subSubtitle.css";
 
 interface SubSubtitleProps {
   subSubtitle: string;
-  className?: string;
 }
 
 export default function SubSubtitle({ subSubtitle }: SubSubtitleProps) {
