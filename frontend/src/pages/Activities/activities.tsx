@@ -1,31 +1,33 @@
 import Layout from "../../ui/layout/layout";
 import SubSubtitle from "../../ui/subSubtitle/subSubtitle";
 import Title from "../../ui/title/title";
-import imgEspacesVerts from "../../assets/img4.webp";
+
 import "./activities.css";
 import ActivityBlock from "../../components/activityBlock/activityBlock";
-import GreenSpacesMissionsList from "../../ui/greenSpaceMissionList/greenSpaceMissionList";
 
-const greenSpacesBenefits = [
+import imgBuilding from "../../assets/img5.webp";
+import GreenSpace from "../../ui/greenSpace/greenSpace";
+
+const buildingList = [
   {
-    title: "C’est accessible à tous.",
-    desc: "Pas besoin d’expérience ou de qualification préalable, ce qui convient aux personnes très éloignées de l’emploi.",
+    title: "C’est professionnalisant.",
+    desc: "Les techniques apprises (petite maçonnerie, peinture, pose de revêtements, etc.) sont recherchées dans de nombreux métiers du bâtiment.",
   },
   {
-    title: "C’est formateur.",
-    desc: "On y apprend des gestes techniques simples mais rigoureux, le respect de consignes, le travail en équipe, la ponctualité.",
+    title: "C’est polyvalent.",
+    desc: "On y apprend la précision, la minutie, l’endurance, le respect des consignes et des normes de sécurité. Des compétences transférables vers d’autres secteurs professionnels.",
   },
   {
-    title: "C’est valorisant.",
-    desc: "On voit le résultat du travail rapidement, ce qui (re)donne confiance en soi.",
+    title: "C’est collectif.",
+    desc: "Les chantiers nécessitent coordination, entraide, communication. L’occasion d’apprendre à travailler en équipe.",
   },
   {
-    title: "C’est en lien avec le territoire.",
-    desc: "Ces missions répondent à un vrai besoin local, en lien avec les collectivités et/ou les structures publiques.",
+    title: "C’est concret.",
+    desc: "Le résultat est visible : murs repeints, sols posés, cloisons montées…",
   },
   {
-    title: "C’est évolutif.",
-    desc: "Les tâches peuvent être adaptées selon le niveau et l’autonomie des personnes en difficulté.",
+    title: "C’est gratifiant.",
+    desc: "Contribuer à la transformation d’un lieu redonne confiance en soi. Voir l’impact direct de son travail donne un vrai sentiment d’utilité.",
   },
 ];
 
@@ -40,25 +42,32 @@ export default function Activities() {
         retour à l’emploi : l’entretien des espaces verts, la rénovation de
         bâtiments et les travaux viticoles.
       </p>
+      <GreenSpace />
 
       <ActivityBlock
-        image={imgEspacesVerts}
-        alt="Entretien des espaces verts"
-        imageLeft>
-        <SubSubtitle subSubtitle="Entretien des espaces verts et des espaces naturels" />
+        image={imgBuilding}
+        alt="Rénovation de bâtiments"
+        imageLeft={false}>
+        <SubSubtitle subSubtitle="Rénovation second œuvre des bâtiments" />
         <p className="text-align-justify line-height">
-          On a choisi cette activité économique pour les nombreux avantages qui
-          en découlent, à savoir :
+          La rénovation de bâtiment fait partie des piliers de notre
+          accompagnement social. C’est une activité riche, complète et
+          structurante pour les personnes éloignées de l’emploi que nous
+          accompagnons.
+        </p>
+        <p className="text-align-justify line-height">
+          Pourquoi proposons-nous la rénovation de bâtiments ? Parce que cette
+          mission coche de nombreuses cases utiles à une réelle insertion dans
+          l’emploi :
         </p>
         <ul className="line-height ">
-          {greenSpacesBenefits.map((item, idx) => (
+          {buildingList.map((item, idx) => (
             <li className="text-align-justify line-height" key={idx}>
               <span className="font-bold">{item.title}</span> {item.desc}
             </li>
           ))}
         </ul>
       </ActivityBlock>
-      <GreenSpacesMissionsList />
     </Layout>
   );
 }
