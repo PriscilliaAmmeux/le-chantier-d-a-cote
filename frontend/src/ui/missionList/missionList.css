@@ -8,4 +8,7 @@
   font-size: 1.25rem;
   font-weight: bold;
   margin: 1rem 0;
+  color: var(--color-bright-green);
+  display: flex;
+  text-align: center;
 }
