@@ -1,0 +1,11 @@
+@import "../../ui/variables.css";
+
+.margin-list {
+  margin: 2rem 0;
+}
+
+.green-space-summary-large {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
