@@ -1,0 +1,36 @@
+@import "../../ui/variables.css";
+
+.activity-block-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2.5rem 0;
+}
+.activity-block-flex.right {
+  flex-direction: row-reverse;
+}
+.activity-block-img {
+  width: 220px;
+  min-width: 160px;
+  max-width: 260px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.activity-block-content {
+  flex: 1;
+}
+@media (max-width: 800px) {
+  .activity-block-flex,
+  .activity-block-flex.right {
+    flex-direction: column !important;
+    align-items: stretch;
+    gap: 1.2rem;
+  }
+  .activity-block-img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
