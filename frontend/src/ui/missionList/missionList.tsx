@@ -2,15 +2,13 @@ import "./missionList.css";
 
 interface Mission {
   title: string;
-  desc: string;
-
+  desc: string | string[];
 }
 
 interface MissionsListProps {
   missions: Mission[];
   summary?: string[];
   children?: React.ReactNode;
-  
 }
 
 export default function MissionsList({
@@ -26,9 +24,19 @@ export default function MissionsList({
         {missions.map((mission, idx) => (
           <li className="text-align-justify line-height" key={idx}>
             <span className="font-bold">{mission.title}</span>
-            {mission.desc.startsWith(mission.title)
-              ? ` ${mission.desc.slice(mission.title.length)}`
-              : ` ${mission.desc}`}
+            {typeof mission.desc === "string" ? (
+              mission.desc.startsWith(mission.title) ? (
+                ` ${mission.desc.slice(mission.title.length)}`
+              ) : (
+                ` ${mission.desc}`
+              )
+            ) : (
+              <ul>
+                {mission.desc.map((d, i) => (
+                  <li key={i}>{d}</li>
+                ))}
+              </ul>
+            )}
           </li>
         ))}
       </ul>
