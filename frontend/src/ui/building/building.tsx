@@ -1,8 +1,8 @@
 import SubSubtitle from "../../ui/subSubtitle/subSubtitle";
 import ActivityBlock from "../../components/activityBlock/activityBlock";
-
 import imgBuilding from "../../assets/img5.webp";
 import MissionsList from "../missionList/missionList";
+import "./building.css";
 
 const buildingList = [
   {
@@ -76,7 +76,10 @@ export default function Building() {
         image={imgBuilding}
         alt="Rénovation de bâtiments"
         imageLeft={false}>
-        <SubSubtitle subSubtitle="Rénovation second œuvre des bâtiments" />
+        <SubSubtitle
+          className="sub-subtitle-highlight"
+          subSubtitle="Rénovation second œuvre des bâtiments"
+        />
         <p className="text-align-justify line-height">
           La rénovation de bâtiment fait partie des piliers de notre
           accompagnement social. C’est une activité riche, complète et

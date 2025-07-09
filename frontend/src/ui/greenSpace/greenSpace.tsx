@@ -63,7 +63,10 @@ export default function GreenSpace() {
         image={imgEspacesVerts}
         alt="Entretien des espaces verts"
         imageLeft>
-        <SubSubtitle subSubtitle="Entretien des espaces verts et des espaces naturels" />
+        <SubSubtitle
+          className="sub-subtitle-highlight"
+          subSubtitle="Entretien des espaces verts et des espaces naturels"
+        />
         <p className="text-align-justify line-height">
           On a choisi cette activité économique pour les nombreux avantages qui
           en découlent, à savoir :
