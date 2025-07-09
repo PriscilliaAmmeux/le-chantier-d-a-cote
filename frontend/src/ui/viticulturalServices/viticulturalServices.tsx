@@ -93,7 +93,7 @@ export default function ViticulturalServices() {
           riche d’enseignements. Par ailleurs, nous nous basons sur cette
           activité parce qu’elle offre de nombreux bénéfices pour nos demandeurs
           d’emploi :
-        </p>{" "}
+        </p>
         <ul className="line-height ">
           {viticultureList.map((item, idx) => (
             <li className="text-align-justify line-height" key={idx}>
