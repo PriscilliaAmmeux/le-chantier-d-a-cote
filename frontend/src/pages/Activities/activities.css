@@ -1,1 +1,9 @@
 @import "../../ui/variables.css";
+
+.activity-section {
+  border-radius: 18px;
+  padding: 1rem 2rem;
+  margin-bottom: 3.5rem;
+  background: linear-gradient(135deg, #f8fafc 60%, #eafaf1 100%);
+  transition: box-shadow 0.2s;
+}
