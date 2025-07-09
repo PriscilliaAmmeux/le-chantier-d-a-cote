@@ -18,7 +18,7 @@ export default function MissionsList({
 }: MissionsListProps) {
   return (
     <section>
-      <h4>Les différents types de missions </h4>
+      <h4 className="mission-list-title">Les différents types de missions </h4>
       <p className="text-align-justify line-height">{children}</p>
       <ul className="margin-list">
         {missions.map((mission, idx) => (
