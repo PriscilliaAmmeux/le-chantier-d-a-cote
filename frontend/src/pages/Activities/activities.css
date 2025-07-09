@@ -7,3 +7,10 @@
   background: linear-gradient(135deg, #f8fafc 60%, #eafaf1 100%);
   transition: box-shadow 0.2s;
 }
+
+.activities-btn-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

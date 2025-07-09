@@ -4,6 +4,8 @@ import Title from "../../ui/title/title";
 import "./activities.css";
 import Building from "../../ui/building/building";
 import ViticulturalServices from "../../ui/viticulturalServices/viticulturalServices";
+import ContactLink from "../../ui/contactLink/contactLink";
+import Button from "../../ui/button/button";
 
 export default function Activities() {
   return (
@@ -27,6 +29,13 @@ export default function Activities() {
       <section className="activity-section">
         <ViticulturalServices />
       </section>
+      <div className="activities-btn-center">
+        <Button
+          text={"Contactez nous"}
+          to={"/contact"}
+          ariaLabel="Contactez nous"
+        />
+      </div>
     </Layout>
   );
 }
