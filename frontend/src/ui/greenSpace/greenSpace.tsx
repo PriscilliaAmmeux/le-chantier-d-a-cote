@@ -28,24 +28,24 @@ const greenSpacesBenefits = [
 
 const greenSpacesMissions = [
   {
-    title: "D’abord, la tonte,",
-    desc: "une mission simple en apparence, mais qui demande précision, sécurité et autonomie. Cela inclut la manipulation des tondeuses thermiques ou manuelles, le réglage des hauteurs de coupe, et l'entretien des surfaces engazonnées.",
+    title: "D’abord, la tonte :",
+    desc: "Une mission simple en apparence, mais qui demande précision, sécurité et autonomie. Cela inclut la manipulation des tondeuses thermiques ou manuelles, le réglage des hauteurs de coupe, et l'entretien des surfaces engazonnées.",
   },
   {
-    title: "La taille,",
-    desc: "on apprend à reconnaître les essences, manier les outils (sécateurs, taille-haies), et respecter les périodes de taille. Haies, arbustes, massifs… chaque végétal a ses spécificités.",
+    title: "La taille :",
+    desc: "On apprend à reconnaître les essences, manier les outils (sécateurs, taille-haies), et respecter les périodes de taille. Haies, arbustes, massifs… chaque végétal a ses spécificités.",
   },
   {
-    title: "Le débroussaillage,",
-    desc: "un travail souvent plus physique, réalisé avec un outil motorisé. Il demande de la concentration, une bonne posture et des gestes sûrs. Idéal pour renforcer l’endurance et la confiance.",
+    title: "Le débroussaillage :",
+    desc: "Un travail souvent plus physique, réalisé avec un outil motorisé. Il demande de la concentration, une bonne posture et des gestes sûrs. Idéal pour renforcer l’endurance et la confiance.",
   },
   {
-    title: "Le désherbage manuel,",
-    desc: "essentiel pour l’entretien écologique ; cette mission développe la patience, l’attention au détail, et l’implication dans un travail discret mais fondamental.",
+    title: "Le désherbage manuel :",
+    desc: "Essentiel pour l’entretien écologique ; cette mission développe la patience, l’attention au détail, et l’implication dans un travail discret mais fondamental.",
   },
   {
-    title: "Ou encore la plantation",
-    desc: ", cela inclut les plantations saisonnières ou la création de massifs. On y apprend à préparer un sol, installer une plante, l’arroser, l’entretenir. Une belle mission qui sensibilise à la nature.",
+    title: "Ou encore la plantation :",
+    desc: "Cela inclut les plantations saisonnières ou la création de massifs. On y apprend à préparer un sol, installer une plante, l’arroser, l’entretenir. Une belle mission qui sensibilise à la nature.",
   },
 ];
 

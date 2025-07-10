@@ -103,7 +103,7 @@ export default function ViticulturalServices() {
         </ul>
       </ActivityBlock>
       {viticulturalParagraphs.map((text, idx) => (
-        <p className="text-align-justify line-height" key={idx}>
+        <p className="text-align-justify line-height padding-top" key={idx}>
           {text}
         </p>
       ))}
@@ -121,7 +121,7 @@ export default function ViticulturalServices() {
           ))}
         </ul>
       </div>
-      <div className="margin-top margin-bottom">
+      <div className="margin-top margin-bottom padding-bottom">
         <p className="text-align-justify line-height">
           La formation a permis aux encadrants techniques de formaliser leur
           travail, ainsi que de :
