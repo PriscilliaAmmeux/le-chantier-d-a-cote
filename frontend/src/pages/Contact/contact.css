@@ -1,3 +1,5 @@
+@import "../../ui/variables.css";
+
 .contact-flex {
   display: flex;
   gap: 2rem;
@@ -8,6 +10,19 @@
 .contact-flex > * {
   flex: 1 1 320px;
   min-width: 320px;
+}
+
+.background-green {
+  background-color: var(--color-green-opacity);
+  position: relative;
+  box-sizing: border-box;
+  width: 100vw;
+  margin-left: 50%;
+  padding: 1rem 1rem;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 800px) {
