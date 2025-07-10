@@ -98,7 +98,7 @@ export default function Form({ className }: FormProps) {
       <input
         type="text"
         name="user_name"
-        placeholder="Votre nom"
+        placeholder="Votre nom *"
         required
         aria-required="true"
         value={name}
@@ -110,7 +110,7 @@ export default function Form({ className }: FormProps) {
       <input
         type="text"
         name="user_firstname"
-        placeholder="Votre prénom"
+        placeholder="Votre prénom *"
         required
         aria-required="true"
         value={firstname}
@@ -122,7 +122,7 @@ export default function Form({ className }: FormProps) {
       <input
         type="tel"
         name="user_phone"
-        placeholder="Votre téléphone"
+        placeholder="Votre téléphone *"
         required
         aria-required="true"
         value={phone}
@@ -134,7 +134,7 @@ export default function Form({ className }: FormProps) {
       <input
         type="email"
         name="user_email"
-        placeholder="Votre email"
+        placeholder="Votre email *"
         required
         aria-required="true"
         value={email}
@@ -145,7 +145,7 @@ export default function Form({ className }: FormProps) {
       </label>
       <textarea
         name="message"
-        placeholder="Votre message"
+        placeholder="Votre message *"
         required
         aria-required="true"
         value={message}
