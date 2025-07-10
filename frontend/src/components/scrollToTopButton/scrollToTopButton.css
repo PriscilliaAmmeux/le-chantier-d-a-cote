@@ -1,0 +1,11 @@
+.style-button-scroll {
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  background-color: var(--color-brown);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
