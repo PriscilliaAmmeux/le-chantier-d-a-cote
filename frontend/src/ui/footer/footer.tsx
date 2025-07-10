@@ -2,7 +2,6 @@ import logo from "../../assets/logo-footer.webp";
 import { FaFacebook } from "react-icons/fa";
 import "./footer.css";
 import { GrLinkedin } from "react-icons/gr";
-import { ScrollRestoration } from "react-router-dom";
 import ScrollToTopButton from "../../components/scrollToTopButton/scrollToTopButton";
 
 export default function Footer() {
