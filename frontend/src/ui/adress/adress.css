@@ -1,0 +1,49 @@
+.adress-section {
+  background: #f7f3f0;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 12px rgba(33, 56, 83, 0.04);
+  max-width: 400px;
+}
+
+.adress-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-brown);
+  margin-bottom: 1rem;
+}
+
+.adress-block {
+  font-style: normal;
+  text-align: left;
+}
+
+.adress-line {
+  margin-bottom: 0.7em;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.adress-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  text-align: left;
+}
+
+.adress-hours-title {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.adress-hours {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.adress-hours li {
+  margin-bottom: 0.3em;
+}

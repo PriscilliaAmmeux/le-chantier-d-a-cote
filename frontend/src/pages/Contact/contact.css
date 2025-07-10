@@ -1,0 +1,19 @@
+.contact-flex {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-flex > * {
+  flex: 1 1 320px;
+  min-width: 320px;
+}
+
+@media (max-width: 800px) {
+  .contact-flex {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+  }
+}
