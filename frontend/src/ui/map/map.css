@@ -18,7 +18,7 @@
   font-size: 1.1rem;
   color: var(--color-brown);
   border-radius: 12px;
-  pointer-events: none;
+  pointer-events: auto;
 }
 
 .map-iframe {

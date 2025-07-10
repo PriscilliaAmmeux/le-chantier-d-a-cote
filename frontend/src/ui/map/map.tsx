@@ -35,6 +35,7 @@ export default function Map() {
         allowFullScreen={true}
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
+        sandbox="allow-scripts allow-same-origin allow-popups"
         ref={iframeRef}
         title="Carte Google Maps"
         className="map-iframe"
