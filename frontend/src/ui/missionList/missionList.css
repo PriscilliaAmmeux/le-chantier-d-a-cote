@@ -24,3 +24,25 @@
   background: linear-gradient(90deg, #eafaf1 60%, transparent 100%);
   display: inline-block;
 }
+
+.mission-subtitle {
+  margin-top: 0.3em;
+  margin-bottom: 0.7em;
+  font-style: italic;
+  color: var(--color-brown);
+  display: block;
+}
+
+.mission-desc {
+  margin-bottom: 0.7em;
+  display: block;
+}
+
+.mission-summary {
+  margin-top: 0.7em;
+  color: #444;
+  font-style: italic;
+  color: var(--color-brown);
+  font-size: 1rem;
+  margin-bottom: 0.7em;
+}
