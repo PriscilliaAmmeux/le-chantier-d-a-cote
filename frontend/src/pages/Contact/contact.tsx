@@ -1,3 +1,4 @@
+import Form from "../../components/form/form";
 import Adress from "../../ui/adress/adress";
 import Layout from "../../ui/layout/layout";
 import Map from "../../ui/map/map";
@@ -11,6 +12,9 @@ export default function Contact() {
       <section className="contact-flex">
         <Map />
         <Adress />
+      </section>
+      <section className="background-green">
+        <Form />
       </section>
     </Layout>
   );
