@@ -2,6 +2,8 @@ import logo from "../../assets/logo-footer.webp";
 import { FaFacebook } from "react-icons/fa";
 import "./footer.css";
 import { GrLinkedin } from "react-icons/gr";
+import { ScrollRestoration } from "react-router-dom";
+import ScrollToTopButton from "../../components/scrollToTopButton/scrollToTopButton";
 
 export default function Footer() {
   return (
@@ -22,8 +24,10 @@ export default function Footer() {
           <span className="not-display-mobile">Tous droits réservés.</span>
         </p>
         <div className="footer-links">
-          <p className="footer-link">Mentions légales</p>
-          <p className="footer-link">Politiques de confidentialités</p>
+          <p className="footer-link cursor-pointer">Mentions légales</p>
+          <p className="footer-link cursor-pointer">
+            Politiques de confidentialités
+          </p>
         </div>
         <p>
           Créé par le collectif{" "}
@@ -53,6 +57,7 @@ export default function Footer() {
           <GrLinkedin className="social-icon" />
         </a>
       </div>
+      <ScrollToTopButton />
     </footer>
   );
 }

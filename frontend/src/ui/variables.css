@@ -49,3 +49,7 @@
   background: linear-gradient(90deg, #f7f3f0 60%, transparent 100%);
   display: inline-block;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
