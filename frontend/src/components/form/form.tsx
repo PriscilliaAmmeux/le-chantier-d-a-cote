@@ -89,7 +89,7 @@ export default function Form({ className }: FormProps) {
       onSubmit={sendEmail}
       noValidate>
       <div className="form-header">
-        <h4 className="form-header-title">Envoie nous un message</h4>
+        <h4 className="form-header-title">Envoi nous un message</h4>
       </div>
 
       <label htmlFor="name" className="sr-only">
