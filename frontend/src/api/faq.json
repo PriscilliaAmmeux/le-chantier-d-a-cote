@@ -1,0 +1,73 @@
+[
+  {
+    "category": "Questions générales",
+    "questions": [
+      {
+        "question": "C'est quoi, exactement, un chantier d'insertion ?",
+        "answer": "Un chantier d'insertion est une structure qui propose un emploi à des personnes en difficulté d'accès à l'emploi classique. L'idée est de travailler dans des conditions réelles, être rémunéré·e, accompagné·e et soutenu·e pour remettre le pied à l'étrier. Chez nous, on travaille, on apprend, et on avance à son rythme."
+      },
+      {
+        "question": "Quels types d'activités sont proposés ?",
+        "answer": "Nous intervenons principalement dans les espaces verts, la rénovation de bâtiment en second œuvre, et les prestations manuelles viticoles. Bref, ça bouge !"
+      },
+      {
+        "question": "C'est pour qui ?",
+        "answer": "Le chantier s'adresse aux personnes éloignées de l'emploi : bénéficiaires du RSA, jeunes sans qualification, personnes en situation de handicap, demandeurs d'emploi longue durée, etc. Nous sommes là pour construire ensemble le parcours de chacun."
+      },
+      {
+        "question": "C'est payé ?",
+        "answer": "Oui ! Il s'agit d'un contrat de travail à durée déterminée d'insertion (CDDI). Les salariés perçoivent une rémunération au SMIC horaire, et bénéficient des mêmes droits que dans n'importe quel emploi (congés, cotisations, etc.)."
+      },
+      {
+        "question": "Et l'objectif, c'est quoi ?",
+        "answer": "L'objectif, c'est la sortie dite positive. Retrouver un emploi stable, pourvoir à une formation qualifiante, passer son permis, accéder au logement ou bâtir un projet pro solide. On prépare l'avenir."
+      }
+    ]
+  },
+  {
+    "category": "Pour les personnes intéressées par un poste en insertion",
+    "questions": [
+      {
+        "question": "Comment postuler ?",
+        "answer": "Il faut être orienté·e par un conseiller (France Travail, mission locale, assistante sociale, etc.). Mais si vous êtes motivé·e et que vous ne savez pas par où commencer, vous pouvez aussi nous contacter directement : on vous expliquera les démarches."
+      },
+      {
+        "question": "Faut-il avoir une expérience particulière ?",
+        "answer": "Non. L'important, c'est la motivation. On vous aide à apprendre sur le terrain, à votre rythme."
+      },
+      {
+        "question": "Et si j'ai des soucis personnels à côté ? (logement, santé, etc.)",
+        "answer": "Vous êtes justement au bon endroit. En plus du travail, vous serez accompagné·e par un Accompagnant Socio-Professionnel (ASP) qui vous aidera dans vos démarches telles que papiers, logement, santé, dettes, mobilité… on ne vous laisse pas seul·e dans la tempête."
+      },
+      {
+        "question": "Combien de temps dure un contrat ?",
+        "answer": "Un CDDI dure généralement entre 4 mois et 2 ans, selon votre situation et vos besoins. C'est un tremplin, pas une fin en soi."
+      },
+      {
+        "question": "Est-ce que je peux accéder à une formation pendant mon passage au chantier ?",
+        "answer": "Oui, et c'est même encouragé ! On peut vous aider à identifier les formations qui vous correspondent, et à les intégrer dans votre parcours d'insertion."
+      }
+    ]
+  },
+  {
+    "category": "Pour les partenaires, collectivités et entreprises",
+    "questions": [
+      {
+        "question": "Comment collaborer avec Le Chantier d'à Côté ?",
+        "answer": "Vous pouvez nous confier des prestations, soutenir financièrement des projets, ou même accueillir un salarié en fin de parcours. Notre équipe est là pour imaginer les formes de partenariat qui font sens avec vos besoins et vos engagements RSE (Responsabilité Sociétale des Entreprises)."
+      },
+      {
+        "question": "Proposez-vous des chantiers dans d'autres communes ?",
+        "answer": "Selon les besoins et les partenariats locaux, nous pouvons intervenir sur différents territoires. Parlons-en !"
+      },
+      {
+        "question": "Qui encadre les salariés ?",
+        "answer": "Des Encadrants Techniques en Insertion (ETI), professionnels du terrain et formés à l'accompagnement. Ils assurent la qualité du travail réalisé et la montée en compétences des salariés. Et des Accompagnants Socio-Professionnels (ASP) qui assurent le suivi global du salarié : démarches administratives, projet professionnel, difficultés sociales ou de santé, etc. Ensemble, ils forment le binôme indispensable à une insertion réussie."
+      },
+      {
+        "question": "Puis-je faire un don ou soutenir votre action ?",
+        "answer": "Oui, et mille mercis ! Vous pouvez faire un don matériel, financier ou nous aider en relayant nos actions. Contactez-nous pour en discuter."
+      }
+    ]
+  }
+]
