@@ -1,4 +1,4 @@
-import logo from "../../../public/logo-footer.webp";
+import logo from "/logo-footer.webp";
 import { FaFacebook } from "react-icons/fa";
 import "./footer.css";
 import { GrLinkedin } from "react-icons/gr";

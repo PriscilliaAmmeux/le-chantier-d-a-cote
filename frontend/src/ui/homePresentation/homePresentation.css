@@ -10,4 +10,24 @@
 }
 .center-contact-link {
   margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .home-presentation-text {
+    text-align: center;
+  }
+
+  .home-presentation-text p {
+    margin: 1rem auto;
+    max-width: 90%;
+  }
+
+  .home-presentation-text ul {
+    margin: 1rem auto;
+    max-width: 90%;
+    text-align: left;
+  }
 }

@@ -22,7 +22,7 @@ export default function TeamList({ members }: TeamListProps) {
           {idx % 2 === 0 ? (
             <>
               <img
-                src={`/images/team/${member.photo}`}
+                src={`${member.photo}`}
                 alt={`Portrait de ${member.name}`}
                 aria-label={`Portrait de ${member.name}`}
                 className="supervisor-photo"
@@ -46,7 +46,7 @@ export default function TeamList({ members }: TeamListProps) {
                 </div>
               </div>
               <img
-                src={`/images/team/${member.photo}`}
+                src={`${member.photo}`}
                 alt={`Portrait de ${member.name}`}
                 aria-label={`Portrait de ${member.name}`}
                 className="supervisor-photo"
