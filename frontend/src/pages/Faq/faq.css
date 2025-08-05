@@ -77,7 +77,7 @@
 }
 
 .faq-answer.open {
-  max-height: 200px;
+  max-height: none;
   padding: 1rem 1.5rem;
 }
 

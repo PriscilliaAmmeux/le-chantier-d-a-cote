@@ -8,9 +8,12 @@ export default function Faq() {
   const [openItems, setOpenItems] = useState<string[]>([]);
 
   const toggleItem = (id: string) => {
-    setOpenItems((prev) =>
-      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
-    );
+    setOpenItems((prev) => {
+      const isCurrentlyOpen = prev.includes(id);
+      return isCurrentlyOpen
+        ? prev.filter((item) => item !== id)
+        : [...prev, id];
+    });
   };
 
   return (
