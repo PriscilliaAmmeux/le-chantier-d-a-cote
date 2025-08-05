@@ -64,8 +64,8 @@
 .form-contact .form-privacy input[type="checkbox"] {
   margin-top: 0.2em;
   margin-right: 0.5em;
-  flex-shrink: 0; 
-  width: auto; 
+  flex-shrink: 0;
+  width: auto;
 }
 
 .form-contact .form-privacy label {
@@ -79,16 +79,6 @@
 .form-contact .form-privacy a {
   color: var(--color-green);
   text-decoration: underline;
-}
-
-.form-contact .form-privacy {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 1rem;
-  justify-content: flex-start;
-  text-align: left;
-  width: 100%;
-  margin-left: -0.5rem; 
 }
 
 .form-contact .form-submit-btn {
