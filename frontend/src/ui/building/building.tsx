@@ -1,6 +1,6 @@
 import SubSubtitle from "../../ui/subSubtitle/subSubtitle";
 import ActivityBlock from "../../components/activityBlock/activityBlock";
-import imgBuilding from "../../assets/img5.webp";
+import imgBuilding from "../../../public/img5.webp";
 import MissionsList from "../missionList/missionList";
 import "./building.css";
 

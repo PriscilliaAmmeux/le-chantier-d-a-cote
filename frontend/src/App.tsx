@@ -7,6 +7,7 @@ import Blog from "./pages/Blog/blog";
 import Contact from "./pages/Contact/contact";
 import Activities from "./pages/Activities/activities";
 import About from "./pages/About/about";
+import Article from "./pages/Article/article";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/convergences" element={<Convergences />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<Article />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>

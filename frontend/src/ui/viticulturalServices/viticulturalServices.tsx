@@ -1,5 +1,5 @@
 import ActivityBlock from "../../components/activityBlock/activityBlock";
-import imgViticulture from "../../assets/img6.webp";
+import imgViticulture from "../../../public/img6.webp";
 import SubSubtitle from "../subSubtitle/subSubtitle";
 import MissionsList from "../missionList/missionList";
 import "./viticulturalServices.css";

@@ -5,7 +5,6 @@ export default function HowFinance() {
   return (
     <CardSection>
       <Subtitle subtitle={"Comment finançons-nous nos missions ?"} />
-      {/* Ajoute ici ton texte explicatif */}
       <p className="text-align-justify">
         Le Chantier d’à Côté finance ses missions grâce à un modèle hybride :
         subventions publiques, partenariats institutionnels, recettes issues des

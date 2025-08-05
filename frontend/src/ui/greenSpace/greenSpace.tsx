@@ -1,6 +1,6 @@
 import ActivityBlock from "../../components/activityBlock/activityBlock";
 import SubSubtitle from "../subSubtitle/subSubtitle";
-import imgEspacesVerts from "../../assets/img4.webp";
+import imgEspacesVerts from "../../../public/img4.webp";
 import MissionsList from "../missionList/missionList";
 
 const greenSpacesBenefits = [
