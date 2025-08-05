@@ -7,7 +7,7 @@ import Blog from "./pages/Blog/blog";
 import Contact from "./pages/Contact/contact";
 import Activities from "./pages/Activities/activities";
 import About from "./pages/About/about";
-import Article from "./pages/Article/article";
+import Article from "./pages/Article/Article";
 
 function App() {
   return (
