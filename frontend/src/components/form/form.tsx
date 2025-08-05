@@ -72,7 +72,7 @@ export default function Form({ className }: FormProps) {
         (error) => {
           Swal.fire({
             title: "Erreur!",
-            text: "Une erreur est survenue lors de l'envoi du message. Veillez réessayer plus tard.",
+            text: "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer plus tard.",
             icon: "error",
           });
         }
@@ -89,7 +89,7 @@ export default function Form({ className }: FormProps) {
       onSubmit={sendEmail}
       noValidate>
       <div className="form-header">
-        <h4 className="form-header-title">Envoi nous un message</h4>
+        <h4 className="form-header-title">Envoie nous un message</h4>
       </div>
 
       <label htmlFor="name" className="sr-only">
