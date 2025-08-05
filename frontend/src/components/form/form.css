@@ -64,8 +64,8 @@
 .form-contact .form-privacy input[type="checkbox"] {
   margin-top: 0.2em;
   margin-right: 0.5em;
-  flex-shrink: 0; /* Empêche la checkbox de rétrécir */
-  width: auto; /* Taille naturelle de la checkbox */
+  flex-shrink: 0; 
+  width: auto; 
 }
 
 .form-contact .form-privacy label {
@@ -88,7 +88,7 @@
   justify-content: flex-start;
   text-align: left;
   width: 100%;
-  margin-left: -0.5rem; /* Déplace vers la gauche */
+  margin-left: -0.5rem; 
 }
 
 .form-contact .form-submit-btn {
