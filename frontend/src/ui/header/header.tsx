@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.webp";
+import logo from "../../../public/logo.webp";
 import NavBar from "../navBar/navBar";
 import NavBarMobile from "../navBarMobile/navBarMobile";
 import "./Header.css";
