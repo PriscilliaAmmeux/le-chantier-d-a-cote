@@ -173,7 +173,6 @@ export default function Form({ className }: FormProps) {
           <a href="/privacy" target="_blank">
             politique de confidentialité
           </a>
-          .
         </label>
       </div>
       <div className="form-submit-btn">
