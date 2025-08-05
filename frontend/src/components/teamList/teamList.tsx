@@ -46,7 +46,7 @@ export default function TeamList({ members }: TeamListProps) {
                 </div>
               </div>
               <img
-                src={`${member.photo}`}
+                src={member.photo}
                 alt={`Portrait de ${member.name}`}
                 aria-label={`Portrait de ${member.name}`}
                 className="supervisor-photo"
