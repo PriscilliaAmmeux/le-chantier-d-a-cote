@@ -1,7 +1,7 @@
-import logoUE from "../../../public/UE.webp";
-import logoCharente from "../../../public/logoCharente.webp";
-import logoRepFrance from "../../../public/logo-de-la-republique-francaise.webp";
-import logoConvergence from "../../../public/convergence.webp";
+import logoUE from "/UE.webp";
+import logoCharente from "/logoCharente.webp";
+import logoRepFrance from "/logo-de-la-republique-francaise.webp";
+import logoConvergence from "/convergence.webp";
 import "./sectionFinanciers.css";
 import SubSubtitle from "../subSubtitle/subSubtitle";
 

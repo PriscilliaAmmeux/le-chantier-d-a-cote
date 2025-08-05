@@ -1,3 +1,9 @@
+@import "../variables.css";
+
 .link-contact:hover {
   color: var(--color-bright-green);
+}
+
+.text-align-justify {
+  text-align: justify;
 }
