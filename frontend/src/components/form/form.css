@@ -58,21 +58,37 @@
   justify-content: flex-start;
   text-align: left;
   width: 100%;
+  padding-left: 1rem;
 }
 
 .form-contact .form-privacy input[type="checkbox"] {
   margin-top: 0.2em;
   margin-right: 0.5em;
+  flex-shrink: 0; /* Empêche la checkbox de rétrécir */
+  width: auto; /* Taille naturelle de la checkbox */
 }
 
 .form-contact .form-privacy label {
   font-size: 0.97rem;
   color: #222;
+  flex: 1;
+  text-align: justify;
+  padding-right: 1rem;
 }
 
 .form-contact .form-privacy a {
   color: var(--color-green);
   text-decoration: underline;
+}
+
+.form-contact .form-privacy {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+  text-align: left;
+  width: 100%;
+  margin-left: -0.5rem; /* Déplace vers la gauche */
 }
 
 .form-contact .form-submit-btn {
