@@ -29,13 +29,21 @@ export default function Footer() {
           </p>
         </div>
         <p>
-          Créé par le collectif{" "}
+          Design et développement par{" "}
           <a
-            href="https://kreawebsolutions.fr/"
+            href="https://www.priscillia-ammeux-portfolio.fr/"
             target="_blank"
             rel="noopener noreferrer"
-            className="footer-link footer-link-krea">
-            Kréawebsolution
+            className="footer-link">
+            Priscillia Ammeux
+          </a>{" "}
+          & rédaction par{" "}
+          <a
+            href="https://www.instagram.com/motssurmesure/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link">
+            Christelle (Mots sur Mesure)
           </a>
         </p>
       </div>
