@@ -1,5 +1,3 @@
-import Subtitle from "../../ui/subtitle/subtitle";
-import SubSubtitle from "../../ui/subSubtitle/subSubtitle";
 import StoryChantier from "../../ui/storyChantier/storyChantier";
 import Team from "../../ui/team/team";
 import "./About.css";
