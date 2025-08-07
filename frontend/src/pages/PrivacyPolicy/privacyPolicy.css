@@ -1,0 +1,70 @@
+@import "../../ui/variables.css";
+
+.privacy-policy {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.privacy-section {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.privacy-section:last-child {
+  border-bottom: none;
+}
+
+.privacy-text {
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  text-align: justify;
+  color: #444;
+  font-size: 1rem;
+}
+
+.privacy-text:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-text strong {
+  color: var(--color-bright-green);
+  font-weight: 600;
+}
+
+.privacy-section .subsubtitle {
+  margin-bottom: 1.5rem;
+  color: var(--color-bright-green);
+}
+
+.privacy-link {
+  color: var(--color-brown);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.privacy-link:hover {
+  color: var(--color-bright-green);
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .privacy-policy {
+    padding: 1rem;
+  }
+
+  .privacy-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .privacy-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+
+.privacy-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}

@@ -3,6 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import "./footer.css";
 import { GrLinkedin } from "react-icons/gr";
 import ScrollToTopButton from "../../components/scrollToTopButton/scrollToTopButton";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -23,10 +24,12 @@ export default function Footer() {
           <span className="not-display-mobile">Tous droits réservés.</span>
         </p>
         <div className="footer-links">
-          <p className="footer-link cursor-pointer">Mentions légales</p>
-          <p className="footer-link cursor-pointer">
+          <Link to="/legalNotices" className="footer-link cursor-pointer">
+            Mentions légales
+          </Link>
+          <Link to="/privacyPolicy" className="footer-link cursor-pointer">
             Politiques de confidentialités
-          </p>
+          </Link>
         </div>
         <p>
           Design et développement par{" "}
