@@ -8,6 +8,8 @@ import Contact from "./pages/Contact/contact";
 import Activities from "./pages/Activities/activities";
 import About from "./pages/About/about";
 import Article from "./pages/Article/Article";
+import LegalNotices from "./pages/LegalNotices/legalNotices";
+import PrivacyPolicy from "./pages/PrivacyPolicy/privacyPolicy";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<Article />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/legalNotices" element={<LegalNotices />} />
+        <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
   );
