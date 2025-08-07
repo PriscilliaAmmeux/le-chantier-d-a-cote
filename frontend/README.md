@@ -1,54 +1,99 @@
-# React + TypeScript + Vite
+# 🌱 Le Chantier d'à Côté - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application React pour le site web de l'association "Le Chantier d'à Côté".
 
-Currently, two official plugins are available:
+## 🛠️ Stack technique
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19.1.0** avec TypeScript
+- **Vite** pour le build et le développement
+- **React Router DOM** pour la navigation
+- **EmailJS** pour les formulaires de contact
+- **ESLint** pour la qualité du code
 
-## Expanding the ESLint configuration
+## 🚀 Démarrage rapide
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Installation des dépendances
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Développement
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm run dev
 ```
+
+Le site sera accessible sur `http://localhost:5173`
+
+### Build de production
+
+```bash
+npm run build
+```
+
+### Preview de la production
+
+```bash
+npm run preview
+```
+
+### Linting
+
+```bash
+npm run lint
+```
+
+## 📁 Structure des dossiers
+
+```
+src/
+├── api/                      # Données JSON (articles, FAQ, équipe)
+├── components/               # Composants réutilisables
+│   ├── activityBlock/
+│   ├── cardSection/
+│   ├── dataMonth/
+│   ├── form/
+│   └── ...
+├── pages/                    # Pages principales
+│   ├── Home/
+│   ├── About/
+│   ├── Contact/
+│   ├── Blog/
+│   └── ...
+├── ui/                       # Composants d'interface
+│   ├── header/
+│   ├── footer/
+│   ├── layout/
+│   └── ...
+├── App.tsx                   # Composant racine
+├── main.tsx                  # Point d'entrée
+└── index.css                 # Styles globaux
+```
+
+## ⚙️ Configuration
+
+### Variables d'environnement
+
+Créer un fichier `.env.local` avec :
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+### Configuration ESLint
+
+Le projet utilise une configuration ESLint adaptée avec des règles TypeScript et React.
+
+## 🎨 Styles
+
+- CSS personnalisé avec variables CSS
+- Design responsive (mobile-first)
+- Palette de couleurs verte
+- Optimisation des images (WebP)
+
+## 📞 Support
+
+Pour plus d'informations, consultez le README principal du projet dans le dossier racine.
