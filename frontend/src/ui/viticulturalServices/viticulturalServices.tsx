@@ -38,13 +38,16 @@ const viticulturalMissions = [
       "L’ébourgeonnage, le relevage et le palissage sont des étapes indispensables pour orienter la vigne et optimiser la production.",
       "L’ébourgeonnage consiste à retirer les jeunes pousses inutiles afin de concentrer l’énergie de la plante sur les sarments qui produisent les raisins. Ce geste permet de maîtriser la croissance de la vigne et de garantir une meilleure récolte.",
       "Le relevage consiste à redresser les rameaux pour éviter qu’ils ne traînent au sol. Cela permet à la vigne de mieux capter la lumière, ce qui favorise une croissance saine et limite les risques de maladies.",
+      "Enfin, le palissage, c’est le fait d’attacher les rameaux aux fils pour les guider et contrôler leur orientation. Cela permet de maintenir un espace adéquat entre les branches pour une meilleure aération et une exposition optimale au soleil.",
+      "Ces tâches sont réalisées au printemps, une période où la vigne connaît une croissance rapide.",
+      "Ce travail s’effectue en équipe, sur plusieurs jours, avec un rythme soutenu pour garantir une récolte à temps. Cela requiert une grande efficacité, car les raisins doivent être récoltés à leur maturité optimale.",
     ],
   },
 ];
 
 const viticulturalSummary = [
   "En résumé, les missions viticoles permettent d’apprendre à manipuler les plantes avec soin, à travailler en extérieur, en autonomie, tout en maintenant une bonne humeur dans des conditions parfois exigeantes.",
-  "Ces missions viticoles permettent à chacun de (re) prendre confiance, de développer ces compétences utiles et de s’inscrire dans une dynamique de travail. Au-delà de ça, ces activités favorisent la lutte contre l’exclusion, et facilitent la réinsertion des personnes accompagnées.",
+  "Ces missions viticoles permettent à chacun de (re)prendre confiance, de développer des compétences utiles et de s’inscrire dans une dynamique de travail. Au delà de ça, ces activités favorisent la lutte contre l’exclusion, et facilitent la réinsertion des personnes accompagnées.",
 ];
 
 const formationBenefits = [
