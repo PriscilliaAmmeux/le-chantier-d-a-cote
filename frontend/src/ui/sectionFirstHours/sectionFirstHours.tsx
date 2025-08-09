@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import Subtitle from "../subtitle/subtitle";
 import "./sectionFirstHours.css";
 
@@ -49,33 +48,28 @@ const firstHoursData = [
 ];
 
 export default function SectionFirstHours() {
-  // Optimisation avec useMemo pour éviter les re-rendus inutiles
-  const renderedItems = useMemo(() => {
-    return firstHoursData.map((item, index) => (
-      <article key={index} className="firsthours-item">
-        <h3 className="firsthours-title">{item.title}</h3>
-        <div className="firsthours-content">
-          {Array.isArray(item.description) ? (
-            item.description.map((paragraph, paragraphIndex) => (
-              <p key={paragraphIndex} className="convergences-text">
-                {paragraph}
-              </p>
-            ))
-          ) : (
-            <p className="convergences-text">{item.description}</p>
-          )}
-        </div>
-      </article>
-    ));
-  }, []);
-
   return (
     <section
       className="section-firthours"
       role="main"
       aria-label="Premières heures en chantier">
       <Subtitle subtitle="Premières heures" />
-      {renderedItems}
+      {firstHoursData.map((item, index) => (
+        <article key={index} className="firsthours-item">
+          <h3 className="firsthours-title">{item.title}</h3>
+          <div className="firsthours-content">
+            {Array.isArray(item.description) ? (
+              item.description.map((paragraph, paragraphIndex) => (
+                <p key={paragraphIndex} className="convergences-text">
+                  {paragraph}
+                </p>
+              ))
+            ) : (
+              <p className="convergences-text">{item.description}</p>
+            )}
+          </div>
+        </article>
+      ))}
     </section>
   );
 }
