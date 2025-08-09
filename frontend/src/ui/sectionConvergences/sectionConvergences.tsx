@@ -17,19 +17,21 @@ export default function SectionConvergences() {
         professionnelle des personnes les plus éloignées de l’emploi. Depuis sa
         création, l’association a mis en place des dispositifs novateurs, dont
         les{" "}
-        <span className="font-bold">Premières Heures en Chantier (PHC)</span>,
-        afin de soutenir les individus dans leur parcours de réinsertion.
+        <span className="font-bold color-brown">
+          Premières Heures en Chantier (PHC)
+        </span>
+        , afin de soutenir les individus dans leur parcours de réinsertion.
         L’objectif principal de{" "}
-        <span className="font-bold">Convergence France</span> est de briser le
-        cycle de l’exclusion en proposant aux personnes en grande précarité, des
-        opportunités de réintégration progressive dans le monde du travail, et
-        en garantissant un accompagnement personnalisé ainsi qu’un soutien
-        renforcé.
+        <span className="font-bold color-brown">Convergence France</span> est de
+        briser le cycle de l’exclusion en proposant aux personnes en grande
+        précarité, des opportunités de réintégration progressive dans le monde
+        du travail, et en garantissant un accompagnement personnalisé ainsi
+        qu’un soutien renforcé.
       </p>
       <div className="convergences-item">
-        <h4 className="convergences-subtitle">
+        <h3 className="convergences-subtitle">
           Contexte et origines de Convergence France
-        </h4>
+        </h3>
         <div className="convergences-content">
           <p className="convergences-text">
             A l’origine de Convergence France, il y a tout le panel des
@@ -44,12 +46,13 @@ export default function SectionConvergences() {
           </p>
           <p className="convergences-text">
             Les missions de{" "}
-            <span className="font-bold">Convergence France</span> se déploient à
-            travers un réseau de structures partenaires à l’échelle nationale.
-            En effet, les projets naissent grâce à un partenariat fort avec des
-            acteurs locaux, des collectivités publiques, et des entreprises
-            privées. Grâce à ces partenariats, l’accompagnement peut s’adapter à
-            chaque bénéficiaire et rend les dispositifs plus efficaces.
+            <span className="font-bold color-brown">Convergence France</span> se
+            déploient à travers un réseau de structures partenaires à l’échelle
+            nationale. En effet, les projets naissent grâce à un partenariat
+            fort avec des acteurs locaux, des collectivités publiques, et des
+            entreprises privées. Grâce à ces partenariats, l’accompagnement peut
+            s’adapter à chaque bénéficiaire et rend les dispositifs plus
+            efficaces.
           </p>
         </div>
       </div>

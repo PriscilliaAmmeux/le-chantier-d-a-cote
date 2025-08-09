@@ -5,9 +5,26 @@ const firstHoursData = [
   {
     title: "Les principaux dispositifs de Convergence France : Le PHC",
     description: [
-      "Le dispositif Premières Heures en Chantier (PHC) répond aux besoins des personnes particulièrement éloignées du marché du travail, en particulier celles confrontées à des obstacles sociaux complexes tels que la précarité, les problèmes de santé mentale, la dépendance, ou encore l'isolement social. L'objectif du PHC est de proposer un cadre de travail structuré, de bénéficier d'un suivi personnalisé ainsi qu'un soutien social renforcé. Les salariés sont donc accompagnés tout au long de l'insertion, qui se veut progressive.",
-      "Les chantiers d'insertion sous le programme PHC permettent aux bénéficiaires de travailler dans divers secteurs d'activité tels que l'entretien d'espaces verts, la viticulture, la construction ou encore la gestion des déchets. Mission principale : reprendre une activité à son rythme et adaptée à ses capacités. Ce dispositif étant flexible, les bénéficiaires peuvent commencer par quelques heures de travail par semaine. Ils sont soutenus dans leurs démarches administratives, de santé et sociales. Ce schéma est l'alternative parfaite pour éviter une pression trop forte, ce qui pourrait entraîner une démotivation ou un échec.",
-      "En complément Convergence France a mis en place l'accompagnement renforcé. En effet, le simple placement d'un salarié dans un chantier d'insertion peut s'avérer insuffisant ou inefficace pour ce dernier. Certains ont besoin de soins médicaux ou de soutien psychologique plus poussés.",
+      <>
+        Le dispositif{" "}
+        <span className="font-bold">Premières Heures en Chantier (PHC)</span>{" "}
+        répond aux besoins des personnes particulièrement éloignées du marché du
+        travail, en particulier celles confrontées à des obstacles sociaux
+        complexes tels que la précarité, les problèmes de santé mentale, la
+        dépendance, ou encore l'isolement social. L'objectif du PHC est de
+        proposer un cadre de travail structuré, de bénéficier d'un suivi
+        personnalisé ainsi qu'un soutien social renforcé. Les salariés sont donc
+        accompagnés tout au long de l'insertion, qui se veut progressive.
+      </>,
+      "Les chantiers d’insertion sous le programme PHC permettent aux bénéficiaires de travailler dans divers secteurs d’activité tels que l’entretien d’espaces verts, la viticulture, la construction ou encore la gestion des déchets. Mission principale : reprendre une activité à son rythme et adaptée à ses capacités. Ce dispositif étant flexible, les bénéficiaires peuvent commencer par quelques heures de travail par semaine. Ils sont soutenus dans leurs démarches administratives, de santé et sociales. Ce schéma est l’alternative parfaite pour éviter  une pression trop forte, ce qui pourrait entraîner une démotivation ou un échec.",
+      <>
+        En complément <span className="font-bold">Convergence France</span> a
+        mis en place l'accompagnement renforcé. En effet, le simple placement
+        d'un salarié dans un chantier d'insertion peut s'avérer insuffisant ou
+        inefficace pour ce dernier. Certains ont besoin de soins médicaux ou de
+        soutien psychologique plus poussés.
+      </>,
+
       "Il s'agit ici de reconsidérer l'aspect professionnel mais les dimensions sociales, psychologiques et sanitaires du bénéficiaire. En étant pris en charge de cette façon, la personne augmente ses chances de réussite en parcours de réinsertion.",
     ],
   },
@@ -36,14 +53,46 @@ const firstHoursData = [
   {
     title: "Perspectives",
     description: [
-      "L'association Convergence France envisage d'augmenter le nombre de chantiers d'insertion, notamment dans les zones rurales où la précarité est parfois encore plus marquée. Pour ce faire, elle mise sur des projets collaboratifs avec des entreprises locales, des acteurs publics et des structures d'accompagnement.",
-      "Un autre objectif pour Convergence France est de renforcer l'accompagnement des bénéficiaires vers l'emploi durable, en mettant en place des formations qualifiantes adaptées aux besoins du marché du travail. La mobilité géographique reste également un sujet important, car de nombreux bénéficiaires ont besoin de se déplacer pour accéder à des opportunités professionnelles, ce qui peut être un souci de taille pour la plupart d'entre eux. L'amélioration des dispositifs de mobilité, en partenariat avec des transports publics ou privés, pourrait dissiper ce blocage.",
+      <>
+        L'association <span className="font-bold">Convergence France</span>
+        envisage d'augmenter le nombre de chantiers d'insertion, notamment dans
+        les zones rurales où la précarité est parfois encore plus marquée. Pour
+        ce faire, elle mise sur des projets collaboratifs avec des entreprises
+        locales, des acteurs publics et des structures d'accompagnement.
+      </>,
+      <>
+        Un autre objectif pour{" "}
+        <span className="font-bold">Convergence France</span> est de renforcer
+        l'accompagnement des bénéficiaires vers l'emploi durable, en mettant en
+        place des formations qualifiantes adaptées aux besoins du marché du
+        travail. La <span className="font-bold">mobilité géographique</span>{" "}
+        reste également un sujet important, car de nombreux bénéficiaires ont
+        besoin de se déplacer pour accéder à des opportunités professionnelles,
+        ce qui peut être un souci de taille pour la plupart d'entre eux.
+        L'amélioration des dispositifs de mobilité, en partenariat avec des
+        transports publics ou privés, pourrait dissiper ce blocage.
+      </>,
     ],
   },
   {
     title: "Conclusion",
-    description:
-      "Convergence France est un élément incontournable dans le domaine de l'insertion sociale et professionnelle. Grâce à ses programmes comme Convergence ou Premières Heures en Chantier (PHC), l'association a permis à de nombreux bénéficiaires de retrouver un emploi, d'améliorer leur qualité de vie et de se réinsérer durablement dans la société. Cependant, il y a encore du travail, notamment en matière d'accès au logement et de partenariats renforcés. Si l'association parvient à étendre son réseau de partenaires et à consolider ses dispositifs de formation et de mobilité, elle pourra continuer à proposer des solutions pérennes à ceux qui en ont le plus besoin.",
+    description: (
+      <>
+        <span className="font-bold">Convergence France</span> est un élément
+        incontournable dans le domaine de l'insertion sociale et
+        professionnelle. Grâce à ses programmes comme
+        <span className="font-bold"> Convergence</span> ou{" "}
+        <span className="font-bold">Premières Heures en Chantier (PHC)</span>,
+        l'association a permis à de nombreux bénéficiaires de retrouver un
+        emploi, d'améliorer leur qualité de vie et de se réinsérer durablement
+        dans la société. Cependant, il y a encore du travail, notamment en
+        matière d'accès au logement et de partenariats renforcés. Si
+        l'association parvient à étendre son réseau de partenaires et à
+        consolider ses dispositifs de formation et de mobilité, elle pourra
+        continuer à proposer des solutions pérennes à ceux qui en ont le plus
+        besoin.
+      </>
+    ),
   },
 ];
 
@@ -51,9 +100,8 @@ export default function SectionFirstHours() {
   return (
     <section
       className="section-firthours"
-      role="main"
-      aria-label="Premières heures en chantier">
-      <Subtitle subtitle="Premières heures" />
+      aria-label="Premières Heures en Chantier">
+      <Subtitle subtitle="Premières Heures en Chantier" />
       {firstHoursData.map((item, index) => (
         <article key={index} className="firsthours-item">
           <h3 className="firsthours-title">{item.title}</h3>
