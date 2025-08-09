@@ -99,7 +99,7 @@ const firstHoursData = [
 export default function SectionFirstHours() {
   return (
     <section
-      className="section-firthours"
+      className="section-firsthours"
       aria-label="Premières Heures en Chantier">
       <Subtitle subtitle="Premières Heures en Chantier" />
       {firstHoursData.map((item, index) => (
