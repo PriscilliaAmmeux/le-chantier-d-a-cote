@@ -1,20 +1,12 @@
 @import "../../ui/variables.css";
 
-.section-firthours {
-  background-color: var(--color-green-opacity);
-  position: relative;
-  box-sizing: border-box;
-  width: 100vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  padding: 2rem 4rem;
-  line-height: 1.7;
-}
-.margin-top-subtitle {
-  margin-top: 2rem;
+.convergences {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
-.data-month-section {
+.data-section {
   background-color: var(--color-bright-green);
   position: relative;
   box-sizing: border-box;
@@ -27,22 +19,41 @@
   border-radius: 20px;
 }
 
-.data-month-section * {
-  color: white;
+.data-placeholder {
+  text-align: center;
 }
 
-.convergences-text {
-  text-align: justify;
+.data-title {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.data-text {
+  color: white;
+  font-style: italic;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .data-month-section {
+  .convergences {
+    padding: 0 1rem;
+  }
+  .data-section {
     padding: 1rem 2rem;
     margin: 1rem;
     border-radius: 15px;
+    max-width: 80%;
   }
+}
 
-  .section-firthours {
-    padding: 1rem 2rem;
+@media (max-width: 480px) {
+  .convergences {
+    padding: 0 0.5rem;
+  }
+  .data-section {
+    max-width: 90%;
+    padding: 1rem;
   }
 }

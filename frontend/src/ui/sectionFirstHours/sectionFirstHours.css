@@ -1,0 +1,224 @@
+@import "../variables.css";
+
+/* ================================================
+   FIRST HOURS SECTION
+   ================================================ */
+
+.section-firthours {
+  background-color: var(--color-green-opacity);
+  position: relative;
+  box-sizing: border-box;
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 4rem;
+  line-height: 1.7;
+}
+
+.firsthours-item {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firsthours-item:first-child {
+  margin-top: 2rem;
+}
+
+.firsthours-item:last-child {
+  margin-bottom: 2rem;
+}
+
+.firsthours-title {
+  color: var(--color-bright-green);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+  padding-bottom: 0.8rem;
+  border-bottom: 3px solid var(--color-bright-green);
+}
+
+.firsthours-content {
+  margin-top: 1.5rem;
+}
+
+.convergences-text {
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.convergences-text:last-child {
+  margin-bottom: 0;
+}
+
+/* ================================================
+   RESPONSIVE DESIGN
+   ================================================ */
+
+/* Tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .section-firthours {
+    padding: 3rem 2rem;
+  }
+
+  .firsthours-item {
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .firsthours-title {
+    font-size: 1.4rem;
+  }
+}
+
+/* Tablets Portrait (768px) */
+@media screen and (max-width: 768px) {
+  .section-firthours {
+    padding: 2rem 1.5rem;
+  }
+
+  .firsthours-item {
+    padding: 1.8rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+  }
+
+  .firsthours-title {
+    font-size: 1.3rem;
+    padding-bottom: 0.6rem;
+    border-bottom-width: 2px;
+  }
+
+  .convergences-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+}
+
+/* Mobile Landscape (640px) */
+@media screen and (max-width: 640px) {
+  .section-firthours {
+    padding: 1.5rem 1rem;
+  }
+
+  .firsthours-item {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .firsthours-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .convergences-text {
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* Mobile Portrait (480px) */
+@media screen and (max-width: 480px) {
+  .section-firthours {
+    padding: 1rem 0.8rem;
+  }
+
+  .firsthours-item {
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-radius: 10px;
+  }
+
+  .firsthours-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .convergences-text {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    text-align: justify;
+  }
+}
+
+/* Small Mobile (320px) */
+@media screen and (max-width: 320px) {
+  .section-firthours {
+    padding: 0.8rem 0.5rem;
+  }
+
+  .firsthours-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .firsthours-title {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .convergences-text {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+  }
+}
+
+/* ================================================
+   DARK MODE SUPPORT (Optional)
+   ================================================ */
+
+@media (prefers-color-scheme: dark) {
+  .firsthours-item {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+  }
+
+  .convergences-text {
+    color: #333;
+  }
+}
+
+/* ================================================
+   PRINT STYLES
+   ================================================ */
+
+@media print {
+  .section-firthours {
+    background: none;
+    width: 100%;
+    margin: 0;
+    transform: none;
+    padding: 1rem;
+  }
+
+  .firsthours-item {
+    background: none;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+  }
+
+  .firsthours-title {
+    color: #000;
+    border-bottom-color: #000;
+  }
+
+  .convergences-text {
+    color: #000;
+    text-align: justify;
+  }
+}
