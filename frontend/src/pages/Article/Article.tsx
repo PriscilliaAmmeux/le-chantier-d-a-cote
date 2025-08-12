@@ -17,6 +17,43 @@ export default function Article() {
     );
   }
 
+  const renderContentItem = (
+    item: string | { type: string; items: string[] },
+    index: number
+  ) => {
+    if (typeof item === "string") {
+      return (
+        <p key={index} className="article-paragraph">
+          {item}
+        </p>
+      );
+    }
+
+    if (item.type === "list") {
+      return (
+        <ul key={index} className="article-list">
+          {item.items.map((listItem, listIndex) => (
+            <li key={listIndex} className="article-list-item">
+              {listItem}
+            </li>
+          ))}
+        </ul>
+      );
+    }
+
+    return null;
+  };
+
+  const renderSectionContent = (
+    content: string | Array<string | { type: string; items: string[] }>
+  ) => {
+    if (typeof content === "string") {
+      return <p className="article-paragraph">{content}</p>;
+    }
+
+    return content.map((item, index) => renderContentItem(item, index));
+  };
+
   return (
     <Layout>
       <div className="article-header">
@@ -35,11 +72,7 @@ export default function Article() {
         {article.content?.map((section, index) => (
           <section key={index} className="article-section">
             <h2 className="article-subtitle">{section.subtitle}</h2>
-            {section.content.map((paragraph, pIndex) => (
-              <p key={pIndex} className="article-paragraph">
-                {paragraph}
-              </p>
-            ))}
+            {renderSectionContent(section.content)}
           </section>
         ))}
       </article>

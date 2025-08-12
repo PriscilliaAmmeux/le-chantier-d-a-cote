@@ -21,7 +21,7 @@
   padding: 1rem;
 }
 
-.data-section {
+.dataMonth-section {
   margin: 2rem 0;
   gap: 2rem;
 }
@@ -35,7 +35,7 @@
   .data-value {
     font-size: 1.5rem;
   }
-  .data-section {
+  .dataMonth-section {
     margin: 0.5rem 0;
   }
 }

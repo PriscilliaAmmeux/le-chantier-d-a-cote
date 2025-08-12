@@ -61,9 +61,87 @@
   {
     "id": 2,
     "image": "/img8.webp",
-    "aria": "Les métiers d'ETI et AS",
-    "title": "Les métiers d'ETI et ASP",
-    "summary": "test",
+    "aria": "Zoom sur les métiers d’Encadrant Technique et d’Accompagnant Socio-Professionnel",
+    "title": "Zoom sur les métiers d’Encadrant Technique et d’Accompagnant Socio-Professionnel",
+    "summary": "Quand on parle d’insertion professionnelle, on pense souvent aux bénéficiaires, à leur parcours, à leur retour progressif vers l’emploi. Mais derrière chacun d’entre eux, il y a des hommes et des femmes engagés, qui accompagnent, guident, recadrent parfois, encouragent toujours. Ce sont les Encadrants Techniques d’Insertion (ETI) et les Accompagnants Socio-Professionnels (ASP). Deux métiers souvent discrets, mais indispensables au bon fonctionnement d’un chantier d’insertion. Alors, qui sont ces héros du quotidien ? Que font-ils exactement ? Et pourquoi leur rôle est-il aussi déterminant ? On vous dit tout.",
+    "content": [
+      {
+        "subtitle": "Encadrant Technique d’Insertion : le chef d’orchestre",
+        "content": "L’ETI, c’est le capitaine du navire. Il est à la fois formateur, chef d’équipe, technicien et parfois psychologue à ses heures perdues. Concrètement, c’est lui qui encadre les salariés en insertion sur les chantiers, quelque soit l'activité, entretien d’espaces verts, rénovation de bâtiments, gestion des déchets, etc."
+      },
+      {
+        "subtitle": "La double casquette de l'ETI",
+        "content": [
+          "Ce qui rend ce métier si particulier, c'est la nécessité de jongler en permanence entre deux mondes :",
+          {
+            "type": "list",
+            "items": [
+              "Le monde technique, avec ses exigences de qualité, de sécurité, de délais. L'ETI doit s'assurer que le travail est bien fait, dans les temps, et dans le respect des normes.",
+              "Et le monde social, avec son rythme parfois chaotique. Ici, on compose avec des parcours de vie complexes, des personnes en reconstruction, parfois fragiles, souvent méfiantes, mais toujours pleines de potentiel."
+            ]
+          },
+          "L'ETI forme les salariés, leur apprend les gestes professionnels, les accompagne dans l'apprentissage des règles de base du monde du travail (ponctualité, respect des consignes, esprit d'équipe). Il est présent au quotidien, sur le terrain, et devient rapidement un repère pour les bénéficiaires."
+        ]
+      },
+      {
+        "subtitle": "Pas un métier pour les demi-motivés",
+        "content": [
+          "On pourrait croire qu’être ETI, c’est juste gérer une équipe. Eh bien pas seulement. C’est aussi transmettre un savoir-faire tout en cultivant le savoir-être. C’est avoir la patience d’un moine bouddhiste, la fermeté d’un prof de gym, et la bienveillance d’un bon pote. Rien que ça.",
+          "Mais c’est aussi un métier incroyablement gratifiant. Voir un salarié qui n’avait jamais tenu un outil progresser, prendre confiance, devenir autonome, c’est une petite victoire quotidienne. Et les ETI, ce sont des collectionneurs de petites victoires."
+        ]
+      },
+      {
+        "subtitle": "Accompagnant Socio-Professionnel : l’architecte du parcours de vie",
+        "content": "Si l’ETI est le capitaine du terrain, l’ASP, lui, est l’architecte de l’itinéraire. Moins visible sur le chantier, il travaille en coulisses pour que le salarié ne reste pas à quai. L’ASP, c’est le professionnel qui bâtit un parcours d’insertion cohérent, réaliste et adapté à chaque salarié du chantier."
+      },
+      {
+        "subtitle": "Des missions multiples, exigeantes et stratégiques (mais promis, pas de jargon pompeux ici)",
+        "content": [
+          "L’ASP commence par dresser un diagnostic de la situation de chaque salarié. Il identifie les freins à l’emploi (santé, logement, mobilité, manque de formation…), construit un projet professionnel, et met en place un accompagnement individualisé.",
+          "Il aide à :",
+          {
+            "type": "list",
+            "items": [
+              "mettre à jour un CV qui ne fait plus peur aux recruteurs,",
+              "s’entraîner pour les entretiens sans transpirer à grosses gouttes,",
+              "chercher des offres d’emploi,",
+              "s’inscrire à des formations,",
+              "ou même, parfois, à faire les démarches administratives les plus redoutées (coucou France Travail !)."
+            ]
+          },
+          "Il suit l’évolution du salarié tout au long du parcours, coordonne avec les autres structures (travailleurs sociaux, employeurs, organismes de formation), et agit en véritable chef d’orchestre du projet de vie."
+        ]
+      },
+      {
+        "subtitle": "Un rôle de soutien et de confiance",
+        "content": [
+          "L’ASP est souvent celui qui voit venir les décrochages, les petits blocages ou les grandes angoisses. Il ne résout pas tout, mais il écoute, oriente, soutient, et surtout, il croit en la personne en face. Même quand elle-même doute encore.",
+          "C’est un métier où l’on se prend des vents, des lapins, parfois des « j’veux plus venir », mais aussi beaucoup de merci, de regards qui changent, et de belles réussites à la clé."
+        ]
+      },
+      {
+        "subtitle": "ETI / ASP, un duo qui fonctionne",
+        "content": [
+          "La réussite d’un parcours d’insertion repose sur la complémentarité entre l’ETI et l’ASP. L’un agit sur le terrain, l’autre en backstage, mais tous deux œuvrent dans la même direction, celle de remettre en mouvement des personnes que la vie a parfois mises sur pause.",
+          "Quand la communication est fluide entre eux, quand les infos circulent, quand les regards se croisent en disant « il va mieux cette semaine, non ? », alors on sait qu’on avance dans la bonne direction.",
+          "Et pour les bénéficiaires, ce tandem devient un cadre sécurisant, une structure de référence, un point d’appui pour avancer."
+        ]
+      },
+      {
+        "subtitle": "Des métiers qui méritent d’être reconnus et valorisés",
+        "content": [
+          "Ces métiers ne sont pas toujours les plus visibles, ni les mieux rémunérés, soyons honnêtes. Mais ils sont fondamentaux. Sans ETI et sans ASP, aucun chantier d’insertion ne tiendrait la route.",
+          "Ils demandent une solide dose d’empathie, de rigueur, d’adaptabilité, et une bonne résistance à la fatigue émotionnelle. Mais ils offrent en retour, un sens profond, une utilité sociale réelle, et le sentiment de contribuer, chaque jour, à réparer un peu le monde."
+        ]
+      },
+      {
+        "subtitle": "Des métiers de lien, d’impact, et d’humanité",
+        "content": [
+          "L’Encadrant Technique d’Insertion et l’Accompagnant Socio-Professionnel sont les deux béquilles sur lesquelles s’appuie l’insertion. Sans eux, pas de dynamique, pas d’élan. Grâce à eux, des centaines de personnes chaque année retrouvent une place, un cap, et une dignité.",
+          "Alors si vous croisez un ETI ou un ASP aujourd’hui, pensez à leur dire merci, ou à leur offrir un café parce que franchement, c’est mérité."
+        ]
+      }
+    ],
     "slug": "les-metiers-d-eti-et-asp"
   },
   {
