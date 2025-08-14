@@ -52,7 +52,7 @@
 .article-title {
   max-width: 800px !important;
   margin: 0 auto !important;
-  padding: 0 1rem !important; /* Même padding que article-content */
+  padding: 0 1rem !important; /* Same padding as article-content */
   width: 100% !important;
   box-sizing: border-box !important;
 }
