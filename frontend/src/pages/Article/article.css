@@ -48,6 +48,7 @@
 }
 
 /* Titre avec la même largeur que le contenu */
+/* Title with the same width as the content */
 .article-title {
   max-width: 800px !important;
   margin: 0 auto !important;
