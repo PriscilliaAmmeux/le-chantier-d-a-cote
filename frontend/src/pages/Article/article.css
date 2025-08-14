@@ -22,6 +22,8 @@
   font-weight: 500;
   transition: color 0.3s ease;
   /* Même largeur que le contenu */
+  transition: color 0.3s ease;
+  /* Same width as the content */
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
