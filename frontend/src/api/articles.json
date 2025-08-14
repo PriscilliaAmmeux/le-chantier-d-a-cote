@@ -2,14 +2,14 @@
   {
     "id": 1,
     "image": "/img8.webp",
-    "aria": "Le chantier d'insertion, qu'est-ce que c'est ?",
-    "title": "Le chantier d'insertion, qu'est-ce que c'est ?",
-    "summary": "Le chantier d'insertion, au-delà d'un simple job, une véritable aventure humaine. Bienvenue au chantier : ici, on mélange boulot, apprentissage et surtout humanité. Et parfois aussi quelques anecdotes mémorables.",
+    "aria": "Le chantier d’insertion, au delà d’un simple job, une véritable aventure humaine",
+    "title": "Le chantier d’insertion, au delà d’un simple job, une véritable aventure humaine",
+    "summary": "Bienvenue au chantier : ici, on mélange boulot, apprentissage et surtout humanité. Et parfois aussi quelques anecdotes mémorables.",
     "slug": "chantier-insertion-aventure-humaine",
     "content": [
       {
         "subtitle": "Un chantier d’insertion, c’est quoi ?",
-        "content": [
+        "description": [
           "C’est un endroit où les personnes éloignées de l’emploi pour des raisons diverses et variées, trouvent une opportunité de se reconstruire, retrouver confiance, et acquérir des compétences. Vous y ajoutez une ambiance conviviale, des défis quotidiens, des encadrants à l’écoute et qui savent motiver leurs troupes, et vous obtenez la recette inratable du chantier d’insertion.",
           "Attention, quand on entend chantier, on imagine souvent des ouvriers casqués qui crient au-dessus du bruit des machines, mais le chantier d’insertion, ce n'est pas que ça. ",
           "Les activités sont tellement diverses qu’on ne peut pas tout vous citer. Nous allons quand même vous décrire quelques domaines abordés dans les chantiers, disons une vue d’ensemble. ",
@@ -20,7 +20,7 @@
       },
       {
         "subtitle": "Les possibilités sont aussi vastes que les talents des participants.",
-        "content": [
+        "description": [
           "Mais le chantier d’insertion, c’est aussi et surtout une seconde chance pour tous. Car dans un monde où le CV parfait est souvent la porte d’entrée pour l’emploi, les chantiers d’insertion offrent une belle alternative. Ici, pas besoin d’un parcours linéaire ou d’une longue liste de diplômes : tout le monde a sa chance, peu importe son passé.",
           "Et ça fonctionne. Parce que tout est pensé et conçu pour améliorer l’impact.",
           "Tout d’abord avec un accompagnement sur mesure. On pourrait croire que les encadrants se contentent de donner des consignes, mais ce n’est pas le cas : ils soutiennent, conseillent et adaptent les tâches aux besoins et compétences de chacun.",
@@ -38,7 +38,7 @@
       },
       {
         "subtitle": "Le rôle clé des structures porteuses",
-        "content": [
+        "description": [
           "TUn chantier d’insertion ne fonctionne pas tout seul. Il repose sur des structures spécialisées, souvent des associations ou des entreprises solidaires, qui mettent tout en œuvre pour créer un environnement propice à la réussite.",
           "Ces structures jouent plusieurs rôles essentiels.",
           "Tout d’abord la coordination et l’organisation. Elles identifient les besoins locaux et mettent en place les projets.",
@@ -48,7 +48,7 @@
       },
       {
         "subtitle": "Et si c’était pour vous ?",
-        "content": [
+        "description": [
           "Vous vous demandez si un chantier d’insertion est fait pour vous ou pour quelqu’un de votre entourage ? Il existe effectivement des raisons de sauter le pas, comme le besoin d’un nouveau départ. Après une période difficile, un chantier peut être l’occasion de reprendre pied. ",
           "Mais vous voulez peut-être apprendre autrement, sans long discours théorique, et avec une immersion dans le concret. Ou encore vous sentir utile, en participant à un projet collectif où vous contribuez à des actions qui ont du sens.",
           "Et même si vous n’êtes pas directement concerné, vous pouvez toujours soutenir ces initiatives : en en parlant autour de vous, en recrutant des personnes issues de ces dispositifs, ou tout simplement en applaudissant ou en encourageant cette belle démarche.",
@@ -64,14 +64,15 @@
     "aria": "Zoom sur les métiers d’Encadrant Technique et d’Accompagnant Socio-Professionnel",
     "title": "Zoom sur les métiers d’Encadrant Technique et d’Accompagnant Socio-Professionnel",
     "summary": "Quand on parle d’insertion professionnelle, on pense souvent aux bénéficiaires, à leur parcours, à leur retour progressif vers l’emploi. Mais derrière chacun d’entre eux, il y a des hommes et des femmes engagés, qui accompagnent, guident, recadrent parfois, encouragent toujours. Ce sont les Encadrants Techniques d’Insertion (ETI) et les Accompagnants Socio-Professionnels (ASP). Deux métiers souvent discrets, mais indispensables au bon fonctionnement d’un chantier d’insertion. Alors, qui sont ces héros du quotidien ? Que font-ils exactement ? Et pourquoi leur rôle est-il aussi déterminant ? On vous dit tout.",
+    "slug": "les-metiers-d-eti-et-asp",
     "content": [
       {
         "subtitle": "Encadrant Technique d’Insertion : le chef d’orchestre",
-        "content": "L’ETI, c’est le capitaine du navire. Il est à la fois formateur, chef d’équipe, technicien et parfois psychologue à ses heures perdues. Concrètement, c’est lui qui encadre les salariés en insertion sur les chantiers, quelque soit l'activité, entretien d’espaces verts, rénovation de bâtiments, gestion des déchets, etc."
+        "description": "L’ETI, c’est le capitaine du navire. Il est à la fois formateur, chef d’équipe, technicien et parfois psychologue à ses heures perdues. Concrètement, c’est lui qui encadre les salariés en insertion sur les chantiers, quelque soit l'activité, entretien d’espaces verts, rénovation de bâtiments, gestion des déchets, etc."
       },
       {
         "subtitle": "La double casquette de l'ETI",
-        "content": [
+        "description": [
           "Ce qui rend ce métier si particulier, c'est la nécessité de jongler en permanence entre deux mondes :",
           {
             "type": "list",
@@ -85,18 +86,18 @@
       },
       {
         "subtitle": "Pas un métier pour les demi-motivés",
-        "content": [
+        "description": [
           "On pourrait croire qu’être ETI, c’est juste gérer une équipe. Eh bien pas seulement. C’est aussi transmettre un savoir-faire tout en cultivant le savoir-être. C’est avoir la patience d’un moine bouddhiste, la fermeté d’un prof de gym, et la bienveillance d’un bon pote. Rien que ça.",
           "Mais c’est aussi un métier incroyablement gratifiant. Voir un salarié qui n’avait jamais tenu un outil progresser, prendre confiance, devenir autonome, c’est une petite victoire quotidienne. Et les ETI, ce sont des collectionneurs de petites victoires."
         ]
       },
       {
         "subtitle": "Accompagnant Socio-Professionnel : l’architecte du parcours de vie",
-        "content": "Si l’ETI est le capitaine du terrain, l’ASP, lui, est l’architecte de l’itinéraire. Moins visible sur le chantier, il travaille en coulisses pour que le salarié ne reste pas à quai. L’ASP, c’est le professionnel qui bâtit un parcours d’insertion cohérent, réaliste et adapté à chaque salarié du chantier."
+        "description": "Si l’ETI est le capitaine du terrain, l’ASP, lui, est l’architecte de l’itinéraire. Moins visible sur le chantier, il travaille en coulisses pour que le salarié ne reste pas à quai. L’ASP, c’est le professionnel qui bâtit un parcours d’insertion cohérent, réaliste et adapté à chaque salarié du chantier."
       },
       {
         "subtitle": "Des missions multiples, exigeantes et stratégiques (mais promis, pas de jargon pompeux ici)",
-        "content": [
+        "description": [
           "L’ASP commence par dresser un diagnostic de la situation de chaque salarié. Il identifie les freins à l’emploi (santé, logement, mobilité, manque de formation…), construit un projet professionnel, et met en place un accompagnement individualisé.",
           "Il aide à :",
           {
@@ -114,14 +115,14 @@
       },
       {
         "subtitle": "Un rôle de soutien et de confiance",
-        "content": [
+        "description": [
           "L’ASP est souvent celui qui voit venir les décrochages, les petits blocages ou les grandes angoisses. Il ne résout pas tout, mais il écoute, oriente, soutient, et surtout, il croit en la personne en face. Même quand elle-même doute encore.",
           "C’est un métier où l’on se prend des vents, des lapins, parfois des « j’veux plus venir », mais aussi beaucoup de merci, de regards qui changent, et de belles réussites à la clé."
         ]
       },
       {
         "subtitle": "ETI / ASP, un duo qui fonctionne",
-        "content": [
+        "description": [
           "La réussite d’un parcours d’insertion repose sur la complémentarité entre l’ETI et l’ASP. L’un agit sur le terrain, l’autre en backstage, mais tous deux œuvrent dans la même direction, celle de remettre en mouvement des personnes que la vie a parfois mises sur pause.",
           "Quand la communication est fluide entre eux, quand les infos circulent, quand les regards se croisent en disant « il va mieux cette semaine, non ? », alors on sait qu’on avance dans la bonne direction.",
           "Et pour les bénéficiaires, ce tandem devient un cadre sécurisant, une structure de référence, un point d’appui pour avancer."
@@ -129,35 +130,226 @@
       },
       {
         "subtitle": "Des métiers qui méritent d’être reconnus et valorisés",
-        "content": [
+        "description": [
           "Ces métiers ne sont pas toujours les plus visibles, ni les mieux rémunérés, soyons honnêtes. Mais ils sont fondamentaux. Sans ETI et sans ASP, aucun chantier d’insertion ne tiendrait la route.",
           "Ils demandent une solide dose d’empathie, de rigueur, d’adaptabilité, et une bonne résistance à la fatigue émotionnelle. Mais ils offrent en retour, un sens profond, une utilité sociale réelle, et le sentiment de contribuer, chaque jour, à réparer un peu le monde."
         ]
       },
       {
         "subtitle": "Des métiers de lien, d’impact, et d’humanité",
-        "content": [
+        "description": [
           "L’Encadrant Technique d’Insertion et l’Accompagnant Socio-Professionnel sont les deux béquilles sur lesquelles s’appuie l’insertion. Sans eux, pas de dynamique, pas d’élan. Grâce à eux, des centaines de personnes chaque année retrouvent une place, un cap, et une dignité.",
           "Alors si vous croisez un ETI ou un ASP aujourd’hui, pensez à leur dire merci, ou à leur offrir un café parce que franchement, c’est mérité."
         ]
       }
-    ],
-    "slug": "les-metiers-d-eti-et-asp"
+    ]
   },
   {
     "id": 3,
     "image": "/img8.webp",
-    "aria": "Convergences",
-    "title": "Convergences",
-    "summary": "test",
-    "slug": "convergences"
+    "aria": "Quand le chantier devient tremplin – focus sur Convergence France",
+    "title": "Quand le chantier devient tremplin – focus sur Convergence France",
+    "summary": "Dans le paysage parfois brouillon de l’insertion sociale et professionnelle, certaines initiatives se distinguent par leur impact et leur humanité. Convergence France fait clairement partie de ces pépites. Avec ses dispositifs innovants comme les Premières Heures en Chantier (PHC) ou Au-Delà du Chantier, l’association agit au plus près de ceux qui, souvent, n’ont plus ni emploi, ni logement, ni confiance en eux. Et si on allait voir de plus près comment ce chantier pas comme les autres redonne du souffle à des vies cabossées ?",
+    "slug": "convergence-france",
+    "content": [
+      {
+        "subtitle": "Convergence, c’est quoi exactement ?",
+        "description": [
+          "C’est une association nationale dédiée à l’insertion des personnes les plus éloignées du marché du travail. Son objectif : recréer du lien, redonner un cadre, et remettre le pied à l’étrier à ceux qui, pour mille raisons, en sont tombés.",
+          "Loin des dispositifs standardisés, Convergence France propose un accompagnement sur-mesure, dans un esprit de proximité, d’écoute et de bienveillance. En gros : ici, on ne vous demande pas de cocher des cases pour rentrer dans le moule, on adapte le moule à votre réalité."
+        ]
+      },
+      {
+        "subtitle": "Le dispositif PHC : Premières Heures en Chantier",
+        "description": [
+          "Le PHC, c’est un peu l’antidote au \"tout ou rien\". Pas question ici de balancer quelqu’un sur un chantier à temps plein alors qu’il n’a pas bossé depuis 5 ans. On commence doucement, avec quelques heures de travail par semaine. L’idée c’est de réapprivoiser le rythme, les collègues, les responsabilités. Sans pression, mais avec un vrai cadre.",
+          "Les activités proposées sont variées : entretien d’espaces verts, gestion des déchets, viticulture, bâtiment, mais surtout, adaptées aux capacités physiques et aux envies du bénéficiaire. Parce qu’un projet professionnel, ça se construit. Et ça commence par retrouver l’envie de se lever le matin."
+        ]
+      },
+      {
+        "subtitle": "Plus qu’un job : un accompagnement global",
+        "description": [
+          "L’originalité de Convergence France, c’est son approche holistique. On ne parle pas seulement d’emploi, mais de reconstruction personnelle. Parce que quand on traverse des galères lourdes — précarité, addictions, problèmes de santé mentale, isolement, etc. — un contrat de travail ne suffit pas.",
+          "C’est là qu’intervient Au-Delà du Chantier, un accompagnement renforcé pour celles et ceux qui ont besoin de soins, de soutien psychologique, d’aide pour accéder aux droits, trouver un logement, gérer leurs démarches. En résumé, un vrai filet de sécurité pour avancer sans retomber."
+        ]
+      },
+      {
+        "subtitle": "Des parcours personnalisés, des résultats concrets",
+        "description": [
+          "Chaque bénéficiaire est suivi par un encadrant technique et un référent social. Ensemble, ils construisent un parcours adapté : formation, soutien administratif, accès aux soins, gestion du quotidien. On avance étape par étape, avec comme boussole la dignité et l’autonomie.",
+          "Et les résultats sont là : regain d’estime de soi, stabilisation de la situation personnelle, retour progressif à l’emploi durable, parfois même à des projets de formation ou de reconversion. Certaines personnes finissent par décrocher un CDI, d’autres continuent leur route dans une autre structure d’insertion ou créent leur propre activité. C’est du concret, du visible, et du palpable."
+        ]
+      },
+      {
+        "subtitle": "Les partenariats",
+        "description": [
+          "Rien de tout cela ne serait possible sans un solide réseau de partenaires : collectivités locales, bailleurs sociaux, entreprises du territoire, associations spécialisées, ou encore services de santé. Ce maillage territorial est la force de Convergence France. Il permet une adaptation fine aux réalités de chaque territoire, urbain ou rural.",
+          "Dans une zone où il n’y a ni transports, ni agence France Travail, ni médecin dispo avant 3 mois, les enjeux ne sont pas les mêmes que dans une grande ville. Convergence France l’a bien compris, et agit en conséquence."
+        ]
+      },
+      {
+        "subtitle": "Un impact reconnu",
+        "description": [
+          "Les études sont unanimes : ce type d’accompagnement fonctionne. Le travail en environnement sécurisé, la reprise progressive d’activité, la mise en confiance, tout cela permet aux bénéficiaires de sortir durablement de la précarité.",
+          "Un point capital est souvent mis en avant : la transformation personnelle. Travailler, toucher un salaire, être utile — même quelques heures par semaine — ça change tout. Les visages s’ouvrent, les épaules se redressent, les regards s’éclairent. On a vu des personnes silencieuses devenir les blagueurs du groupe, d’autres reprendre contact avec leur famille, envisager des projets qu’elles croyaient inaccessibles. C’est de ça dont il s’agit, au fond : remettre de la lumière là où tout semblait éteint."
+        ]
+      },
+      {
+        "subtitle": "Et demain ?",
+        "description": [
+          "Convergence France ne compte pas s’arrêter là. L’association prévoit de développer de nouveaux chantiers, notamment dans les zones rurales souvent oubliées des grandes politiques d’insertion. Elle mise aussi sur le renforcement de ses actions de formation, pour coller aux besoins réels du marché du travail.",
+          "Un autre axe de développement essentiel, c’est la mobilité. Car oui, avoir un job à 20 km de chez soi, c’est bien, à condition de pouvoir s’y rendre. Là aussi, des partenariats avec les transports publics, des solutions de covoiturage ou de prêts de véhicules sont en cours d’expérimentation."
+        ]
+      },
+      {
+        "subtitle": "Pour conclure",
+        "description": [
+          "Vous l’aurez compris, Convergence France, c’est un chantier humain avant tout. Une main tendue, un filet de sécurité, une marche sur laquelle s’appuyer pour remonter la pente. Grâce à une approche souple, inclusive, et profondément humaine, l’association réussit à transformer des parcours de vie cabossés en trajectoires d’avenir.",
+          "Alors oui, tout n’est pas parfait : l’accès au logement reste l’épine dans le pied, les financements doivent être consolidés, les territoires mieux couverts. Mais une chose est sûre : en matière d’insertion, Convergence France a prouvé que les solutions existent, à condition de faire confiance à l’humain, et de lui laisser le temps de renaître."
+        ]
+      }
+    ]
   },
   {
     "id": 4,
     "image": "/img8.webp",
     "aria": "Le financement des chantiers d'insertion",
     "title": "Le financement des chantiers d'insertion",
-    "summary": "test",
-    "slug": "le-financement-des-chantiers-d-insertion"
+    "summary": "",
+    "slug": "le-financement-des-chantiers-d-insertion",
+    "content": [
+      {
+        "subtitle": "De l'humain et des chiffres",
+        "description": [
+          "Les chantiers d'insertion, aussi appelés structures d'insertion par l'activité économique (SIAE), ne sont pas de simples dispositifs d'aide. Ils représentent une rampe de lancement pour les personnes éloignées de l'emploi, en leur permettant de reprendre pied dans le monde du travail par le biais d'activités économiques encadrées. Mais derrière un parcours réussi, un contrat de travail, un nouvel élan, il y a le nerf de la guerre : le financement.",
+          "Alors, comment sont financés les chantiers d'insertion ? Quelles sont les sources disponibles ? À quelles conditions ? Et comment assurer la pérennité de ces structures qui, chaque année, permettent à des milliers de personnes de sortir de l’isolement et de retrouver une place dans la société ? On fait le point."
+        ]
+      },
+      {
+        "subtitle": "Un modèle économique hybride",
+        "description": [
+          "Le financement des chantiers d’insertion repose sur un modèle économique mixte. Contrairement à une entreprise classique, ces structures ne visent pas le profit, mais l’impact social. Elles doivent donc composer entre subventions publiques et recettes propres.",
+          {
+            "subsubtitle": "Les aides de l’État",
+            "text": [
+              "La principale source de financement des chantiers d’insertion provient de l’État, via l’Aide au Poste d’Insertion (API). Cette aide permet de couvrir une partie du coût salarial des personnes en contrat d’insertion. Elle est versée par l’État pour chaque poste occupé par un salarié en parcours d’insertion.",
+              "En complément, les structures peuvent percevoir des subventions de fonctionnement, notamment dans le cadre de conventions avec l’État ou ses services déconcentrés (DDETS)."
+            ]
+          },
+          {
+            "subsubtitle": "Les collectivités territoriales",
+            "text": [
+              "Régions, départements, communes… les collectivités locales sont les acteurs principaux de ce scénario. Elles peuvent intervenir via :",
+              {
+                "type": "list",
+                "items": [
+                  "des co-financements de postes ou de projets spécifiques ;",
+                  "la mise à disposition de locaux ou de matériel ;",
+                  "la commande publique ou des marchés réservés (avec, par exemple, une obligation pour les entreprises de faire travailler des personnes éloignées de l’emploi)."
+                ]
+              },
+              "Ce soutien permet d’arrimer les structures à leur territoire et favoriser les synergies locales."
+            ]
+          },
+          {
+            "subsubtitle": "Les recettes d’activité ",
+            "text": [
+              "Les chantiers d’insertion développent également une activité économique propre. Maraîchage, recyclerie, menuiserie, entretien d’espaces verts ou autres services, ces prestations génèrent des recettes.",
+              "Ces revenus ne couvrent jamais l’ensemble des charges, mais ils participent activement à l’autonomie financière des structures. Et surtout, ils permettent aux salariés en insertion d’être pleinement acteurs d’un projet concret."
+            ]
+          },
+          {
+            "subsubtitle": "Autres ressources",
+            "text": [
+              "Certaines structures mobilisent des fonds européens (FSE+, notamment), ou bénéficient de soutiens de fondations privées et de mécénats d’entreprises. C’est souvent le cas pour des projets novateurs ou expérimentaux."
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "Le rôle central de l’Aide au Poste",
+        "description": [
+          "Parlons chiffres (mais sans migraine, promis).",
+          "L’Aide au Poste est calculée sur la base d’un montant forfaitaire annuel par poste en insertion. En 2024, ce montant était d’environ 11 000 à 12 000 euros par poste en Atelier Chantier d’Insertion (ACI).",
+          "Mais attention, cette aide n’est pas versée automatiquement. Elle est conditionnée :",
+          {
+            "type": "list",
+            "items": [
+              "au respect des objectifs d’accompagnement socio-professionnel ;",
+              "à la mise en œuvre d’un projet d’insertion cohérent ;",
+              "à la production régulière de bilans d’activité."
+            ]
+          },
+          "Traduction : un chantier d’insertion ne touche pas de l’argent pour \"occuper les gens\", mais pour les accompagner réellement vers un retour à l’emploi.",
+          "Cette aide ne couvre qu’une partie du salaire (souvent autour de 70 %). Le reste est à la charge de la structure d’insertion. D’où l’importance de diversifier les financements."
+        ]
+      },
+      {
+        "subtitle": "Un équilibre fragile",
+        "description": [
+          {
+            "subsubtitle": "Une dépendance forte aux subventions",
+            "text": [
+              "Si la mixité des ressources est un objectif, la réalité montre une forte dépendance aux aides publiques. Or, les budgets alloués peuvent varier d’une année sur l’autre, selon les priorités politiques ou les contraintes budgétaires.",
+              "Une baisse de subvention, un retard de versement, et c’est toute la structure qui vacille."
+            ]
+          },
+          {
+            "subsubtitle": "Une recherche constante du juste milieu",
+            "text": [
+              "Les structures n’ont de cesse de jongler entre l’économique et le social. Si elles sont trop axées sur la rentabilité, elles risquent de perdre leur mission première. A contrario, si elles sont trop dépendantes des aides, elles perdent leur marge de manœuvre.",
+              "L’enjeu est donc de développer des modèles hybrides résilients, capables de s’adapter mais en gardant en ligne de mire leur cœur de mission : l’accompagnement."
+            ]
+          },
+          {
+            "subsubtitle": "La complexité administrative",
+            "text": [
+              "Qui dit financements multiples dit dossiers multiples, rapports multiples, bilans multiples…",
+              "La charge administrative liée au financement est lourde, et peut mobiliser beaucoup de temps et d’énergie. Certaines petites structures peinent à suivre."
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "Vers de nouvelles sources de financement ?",
+        "description": [
+          "De plus en plus de structures cherchent à innover dans leur modèle économique.",
+          [
+            {
+              "subsubtitle": "L’entrepreneuriat social ",
+              "text": [
+                "Pour gagner plus de revenus, certaines structures d’insertion choisissent de vendre des produits ou services de qualité, un peu comme des entreprises classiques, mais avec une mission sociale.",
+                "Pour réussir, elles doivent souvent se former davantage ou travailler en lien avec des entreprises dites classiques."
+              ]
+            },
+            {
+              "subsubtitle": "L’impact investing",
+              "text": [
+                "Kesako ? C’est un type d’investissement où des personnes ou des entreprises choisissent de mettre de l’argent dans des structures qui ont une mission sociale.",
+                "L’idée, c’est de faire un peu de profit, oui, mais surtout de créer un impact positif mesurable sur la société (comme aider des gens à retrouver un emploi, par exemple).",
+                "Ce type de financement commence doucement à se développer en France.",
+                "Pour les chantiers d’insertion, cela reste encore marginal, mais cela pourrait devenir une piste sérieuse. A condition toutefois de bien en mesurer l’effet."
+              ]
+            },
+            {
+              "subsubtitle": "Les appels à projets",
+              "text": [
+                "De nombreux financeurs publics ou privés lancent régulièrement des appels à projets autour de l’innovation sociale, de l’économie circulaire ou de l’inclusion.",
+                "Les chantiers d’insertion peuvent tirer parti de ces opportunités pour tester de nouveaux formats, financer des expérimentations, et diversifier leurs ressources."
+              ]
+            }
+          ]
+        ]
+      },
+      {
+        "subtitle": "Conclusion",
+        "description": [
+          "Le financement des chantiers d’insertion est un sujet aussi complexe que vital. Il ne s’agit pas seulement de faire entrer de l’argent, mais de construire une stratégie pérenne, cohérente avec la mission sociale de la structure.",
+          "Dans un contexte de tensions budgétaires, de réformes et d’exigences accrues, les SIAE doivent faire preuve d’ingéniosité, de rigueur et parfois d’un brin de patience face aux lourdeurs administratives.",
+          "Alors si l’on devait résumer ? Les chantiers d’insertion ne font pas seulement du social, mais aussi des miracles budgétaires.",
+          "Parce que l'enjeu en vaut la chandelle : offrir une seconde chance, redonner de la dignité, et contribuer à une société plus inclusive. Et pour cela, chaque euro compte."
+        ]
+      }
+    ]
   }
 ]
