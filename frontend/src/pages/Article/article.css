@@ -6,7 +6,12 @@
   padding: 0 1rem !important;
   width: 100% !important;
   box-sizing: border-box !important;
-  text-align: center !important;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .article-header {
