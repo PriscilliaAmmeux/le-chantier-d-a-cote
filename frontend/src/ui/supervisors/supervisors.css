@@ -1,0 +1,33 @@
+.encadrement-section {
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.section-text {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.beneficiaires-list,
+.objectifs-list,
+.missions-list {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.beneficiaires-list li,
+.objectifs-list li,
+.missions-list li {
+  margin-bottom: 0.8rem;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .encadrement-section {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+}

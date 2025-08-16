@@ -22,7 +22,7 @@ export default function EconomicInsertionSection() {
           />
         </div>
         <div className="content-wrapper">
-          <SubSubtitle subSubtitle="Accompagnateur SocioProfessionel & Encadrant Technique d'Insertion des métiers spécifiques aux SIAE" />
+          <SubSubtitle subSubtitle="Accompagnateur SocioProfessionel & Encadrant Technique d'Insertion des métiers spécifiques aux IAE" />
           <div className="text-content">
             {textContent.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
