@@ -131,6 +131,9 @@ export default function Supervisors() {
       <SubSubtitle
         subSubtitle=" Le lien entre encadrement technique et accompagnement
         socio-professionnel"
+      <SubSubtitle
+        subSubtitle="Le lien entre encadrement technique et accompagnement
+        socio-professionnel"
       />
 
       <p className="section-text">
