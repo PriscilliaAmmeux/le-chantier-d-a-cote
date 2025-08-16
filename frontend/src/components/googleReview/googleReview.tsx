@@ -16,6 +16,7 @@ export default function GoogleReview({
   className = "",
 }: GoogleReviewProps) {
   // Générer les étoiles en fonction du rating
+  // Generate stars based on rating
   const stars = "★".repeat(rating) + "☆".repeat(5 - rating);
 
   // Première lettre de l'auteur pour l'avatar
