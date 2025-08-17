@@ -4,6 +4,7 @@ import Supervisors from "../../ui/supervisors/supervisors";
 import GoogleReview from "../googleReview/googleReview";
 import VideoSection from "../videoSection/videoSection";
 import "./socioprofessionalSection.css";
+import testimonials from "../../api/testimonials.json";
 
 const videosData = [
   {
@@ -19,6 +20,8 @@ const videosData = [
 ];
 
 export default function SocioprofessionalSection() {
+  const testimonial1 = testimonials.find((t) => t.id === 1);
+  const testimonial2 = testimonials.find((t) => t.id === 2);
   return (
     <section>
       <div className="missions-subtitle">
@@ -32,19 +35,23 @@ export default function SocioprofessionalSection() {
         deux leviers essentiels : l’encadrement technique sur le terrain et
         l’accompagnement socio-professionnel.
       </p>
-      <GoogleReview
-        rating={5}
-        text="Très bons encadrants merci. Travail très diversifié, travail bien fait. Merci pour tous ceux qui travaillent en cet endroit."
-        author="Annie Piaugeard"
-        date="Il y a un an"
-      />
+      {testimonial1 && (
+        <GoogleReview
+          rating={testimonial1.rating as 1 | 2 | 3 | 4 | 5}
+          text={testimonial1.text}
+          author={testimonial1.author}
+          date={testimonial1.date}
+        />
+      )}
       <Supervisors />
-      <GoogleReview
-        rating={5}
-        text="Très bon travail, rapide et propre. Très satisfaite 😊"
-        author="Carine Partaud"
-        date="Il y a 2 ans"
-      />
+      {testimonial2 && (
+        <GoogleReview
+          rating={testimonial2.rating as 1 | 2 | 3 | 4 | 5}
+          text={testimonial2.text}
+          author={testimonial2.author}
+          date={testimonial2.date}
+        />
+      )}
       <p className="missions-text">
         Avec Le Chantier d’à Côté, chaque pas compte, chaque progrès est
         valorisé. Nous croyons en une insertion durable, humaine et adaptée à
