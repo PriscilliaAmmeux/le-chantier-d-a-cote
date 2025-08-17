@@ -17,15 +17,15 @@ export default function Activities() {
         retour à l’emploi : l’entretien des espaces verts, la rénovation de
         bâtiments et les travaux viticoles.
       </p>
-      <section className="activity-section margin-top">
+      <section id="green-space" className="activity-section margin-top">
         <GreenSpace />
       </section>
 
-      <section className="activity-section">
+      <section id="building" className="activity-section">
         <Building />
       </section>
 
-      <section className="activity-section">
+      <section id="viticultural" className="activity-section">
         <ViticulturalServices />
       </section>
       <div className="activities-btn-center">

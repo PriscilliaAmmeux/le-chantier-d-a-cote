@@ -8,7 +8,9 @@ export default function Convergences() {
   return (
     <Layout className="convergences">
       <Title text="Convergences" />
-      <SectionConvergences />
+      <section id="association-convergence-france">
+        <SectionConvergences />
+      </section>
 
       <section className="data-section">
         <div className="data-placeholder">
@@ -18,8 +20,9 @@ export default function Convergences() {
           </p>
         </div>
       </section>
-
-      <SectionFirstHours />
+      <section id="premieres-heures">
+        <SectionFirstHours />
+      </section>
     </Layout>
   );
 }

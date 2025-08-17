@@ -3,7 +3,7 @@ import "./sectionConvergences.css";
 
 export default function SectionConvergences() {
   return (
-    <section className="margin-top-subtitle">
+    <section  className="margin-top-subtitle">
       <Subtitle subtitle="L'association Convergence France" />{" "}
       <p className="convergences-text">
         <a
