@@ -2,25 +2,25 @@
   {
     "id": 1,
     "name": "Antoine",
-    "photo": "profil.png",
-    "presentation": "attente texte"
+    "photo": "antoine.jpg",
+    "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre encadrant au sein du Chantier d’à Côté."
   },
   {
     "id": 2,
     "name": "David",
-    "photo": "profil.png",
-    "presentation": "attente texte"
+    "photo": "david.jpg",
+    "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre encadrant au sein du Chantier d’à Côté."
   },
   {
     "id": 3,
     "name": "Gabrielle",
-    "photo": "profil.png",
-    "presentation": "attente texte"
+    "photo": "gabrielle.jpg",
+    "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre encadrant au sein du Chantier d’à Côté."
   },
   {
     "id": 4,
     "name": "Brice",
-    "photo": "profil.png",
-    "presentation": "attente texte"
+    "photo": "brice.jpg",
+    "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre encadrant au sein du Chantier d’à Côté."
   }
 ]
