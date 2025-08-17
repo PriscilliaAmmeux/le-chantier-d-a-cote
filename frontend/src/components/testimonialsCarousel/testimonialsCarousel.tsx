@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 // @ts-expect-error: Ignore missing type declarations for Swiper CSS
 import "swiper/css/navigation";
 import "./TestimonialsCarousel.css";
+import GoogleReview from "../googleReview/googleReview";
 
 export default function TestimonialsCarousel() {
   return (
@@ -20,10 +21,16 @@ export default function TestimonialsCarousel() {
         slidesPerView={1}>
         {testimonials.map((t, i) => (
           <SwiperSlide key={i}>
-            <div className="testimonial">
-              <p className="testimonial-text">"{t.text}"</p>
-              <p className="testimonial-author">— {t.author}</p>
-            </div>
+            <GoogleReview
+              rating={
+                [1, 2, 3, 4, 5].includes(t.rating)
+                  ? (t.rating as 1 | 2 | 3 | 4 | 5)
+                  : 5
+              }
+              text={t.text}
+              author={t.author}
+              date={t.date}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

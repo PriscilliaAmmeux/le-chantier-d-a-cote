@@ -1,14 +1,16 @@
 [
   {
-    "author": "Alice",
-    "text": "Super expérience, je recommande vivement !"
+    "id": 1,
+    "author": "Annie Piaugeard",
+    "text": "Très bons encadrants merci. Travail très diversifier, travail bien fait . Merci pour tous ceux qui travaillent en cet endroit.",
+    "rating": 5,
+    "date": "Il y a 2 ans"
   },
   {
-    "author": "Bob",
-    "text": "Une équipe à l'écoute et très professionnelle."
-  },
-  {
-    "author": "Claire",
-    "text": "Le Chantier d'à côté a changé ma vie !"
+    "id": 2,
+    "author": "Carine Partaud",
+    "text": "Très bon travail, rapide et propre. Très satisfaite 😊",
+    "rating": 5,
+    "date": "Il y a 2 ans"
   }
 ]
