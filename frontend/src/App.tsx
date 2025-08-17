@@ -10,7 +10,8 @@ import About from "./pages/About/about";
 import Article from "./pages/Article/Article";
 import LegalNotices from "./pages/LegalNotices/legalNotices";
 import PrivacyPolicy from "./pages/PrivacyPolicy/privacyPolicy";
-import ScrollToTop from "./components/scrollToTop/ScrollToTop";
+import ScrollToTop from "./components/scrollToTop/scrollToTop";
+
 
 function App() {
   return (
