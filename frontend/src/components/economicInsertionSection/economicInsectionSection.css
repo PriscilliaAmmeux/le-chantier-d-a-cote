@@ -1,3 +1,4 @@
+/* Video and text container layout */
 .video-text-container {
   display: flex;
   gap: 2rem;
@@ -6,6 +7,7 @@
   padding: 0 2rem;
 }
 
+/* Video wrapper styling */
 .video-wrapper {
   flex: 1;
   min-width: 300px;
@@ -17,6 +19,7 @@
   aspect-ratio: 16/9;
 }
 
+/* Content wrapper for text */
 .content-wrapper {
   flex: 1;
   min-width: 300px;
@@ -24,11 +27,13 @@
   flex-direction: column;
 }
 
+/* Introduction text styling */
 .text-introduction p {
   line-height: 1.6;
   text-align: justify;
 }
 
+/* Main content section */
 .content-section {
   background-color: var(--color-green-opacity);
   position: relative;
@@ -40,13 +45,14 @@
   line-height: 1.7;
 }
 
+/* Mission subtitle styling */
 .missions-subtitle {
   text-align: left;
   margin-bottom: 1rem;
   padding-left: 0;
 }
 
-/* Styles pour le contenu additionnel */
+/* Additional content section styling */
 .additional-content {
   margin-top: 2rem;
   padding: 0 2rem;
@@ -56,6 +62,7 @@
   margin-bottom: 2.5rem;
 }
 
+/* Section titles */
 .additional-content h3 {
   color: var(--color-bright-green);
   font-size: 1.5rem;
@@ -64,6 +71,7 @@
   padding-bottom: 0.5rem;
 }
 
+/* Paragraph styling */
 .additional-content p {
   margin-bottom: 1rem;
   color: #333;
@@ -71,6 +79,7 @@
   text-align: justify;
 }
 
+/* Custom bullet list styling */
 .additional-content ul {
   margin: 1.5rem 0;
   padding-left: 0;
@@ -86,6 +95,7 @@
   text-align: justify;
 }
 
+/* Custom bullet points */
 .additional-content li::before {
   content: "•";
   color: var(--color-bright-green);
@@ -95,10 +105,12 @@
   top: 0;
 }
 
+/* Conclusion section title */
 .conclusion h3 {
   color: var(--color-bright-green);
 }
 
+/* Mobile responsive design */
 @media (max-width: 480px) {
   .video-text-container {
     padding: 0 0.5rem;
