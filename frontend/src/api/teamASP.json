@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "name": "Gwen",
-    "photo": "profil.png",
-    "presentation": "attente texte"
+    "name": "Maggy",
+    "photo": "maggy.jpg",
+    "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre accompagnatrice au sein du Chantier d’à Côté."
   },
   {
     "id": 2,
-    "name": "Natacha",
-    "photo": "profil.png",
-    "presentation": "attente texte"
+    "name": "Patricia",
+    "photo": "patricia.jpg",
+    "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre accompagnatrice au sein du Chantier d’à Côté."
   }
 ]

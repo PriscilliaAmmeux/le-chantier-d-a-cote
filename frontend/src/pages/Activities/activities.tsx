@@ -4,7 +4,6 @@ import Title from "../../ui/title/title";
 import "./activities.css";
 import Building from "../../ui/building/building";
 import ViticulturalServices from "../../ui/viticulturalServices/viticulturalServices";
-import ContactLink from "../../ui/contactLink/contactLink";
 import Button from "../../ui/button/button";
 
 export default function Activities() {
