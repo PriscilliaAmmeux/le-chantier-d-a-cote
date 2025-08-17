@@ -27,7 +27,6 @@
 /* Responsive */
 @media (max-width: 768px) {
   .encadrement-section {
-    margin: 2rem 1rem;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
   }
 }

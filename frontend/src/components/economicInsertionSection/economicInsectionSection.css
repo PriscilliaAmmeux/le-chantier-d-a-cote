@@ -24,7 +24,7 @@
   flex-direction: column;
 }
 
-.text-content {
+.text-introduction p {
   line-height: 1.6;
   text-align: justify;
 }
@@ -46,14 +46,94 @@
   padding-left: 0;
 }
 
-@media (max-width: 768px) {
+/* Styles pour le contenu additionnel */
+.additional-content {
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+
+.additional-content > div {
+  margin-bottom: 2.5rem;
+}
+
+.additional-content h3 {
+  color: var(--color-bright-green);
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid var(--color-bright-green);
+  padding-bottom: 0.5rem;
+}
+
+.additional-content p {
+  margin-bottom: 1rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.additional-content ul {
+  margin: 1.5rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.additional-content li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #333;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.additional-content li::before {
+  content: "•";
+  color: var(--color-bright-green);
+  font-size: 1.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.conclusion h3 {
+  color: var(--color-bright-green);
+}
+
+@media (max-width: 480px) {
   .video-text-container {
-    flex-direction: column;
+    padding: 0 0.5rem;
+    gap: 0.5rem;
   }
 
-  .video-wrapper,
-  .content-wrapper {
-    flex: none;
-    width: 100%;
+  .additional-content {
+    padding: 0 0.25rem;
+    margin-top: 0.5rem;
+  }
+
+  .additional-content > div {
+    padding: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .additional-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+
+  .additional-content p {
+    margin-bottom: 0.5rem;
+  }
+
+  .additional-content ul {
+    margin: 0.5rem 0;
+  }
+
+  .additional-content li {
+    margin-bottom: 0.4rem;
+  }
+
+  .content-section {
+    padding: 0.25rem 0.5rem;
   }
 }

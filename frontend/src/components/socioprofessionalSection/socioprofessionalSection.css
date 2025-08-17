@@ -10,4 +10,13 @@
   padding: 0 2rem;
 }
 
+@media (max-width: 480px) {
+  .missions-subtitle {
+    margin: 1rem 0 0 1rem;
+  }
 
+  .missions-text {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+  }
+}
