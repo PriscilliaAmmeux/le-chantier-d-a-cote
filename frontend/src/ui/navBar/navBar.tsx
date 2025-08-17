@@ -8,11 +8,11 @@ export default function NavBar() {
   const dropdownRef = useRef<HTMLLIElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Fonction simple pour scroller vers une section
+  // Simple function to scroll to a section
   const scrollToSection = (sectionId: string) => {
     setIsMissionsOpen(false);
 
-    // Si on est déjà sur la page missions
+    // If we're already on the missions page
     if (location.pathname === "/missions") {
       setTimeout(() => {
         document.getElementById(sectionId)?.scrollIntoView({
@@ -22,7 +22,7 @@ export default function NavBar() {
     }
   };
 
-  // Fermer le dropdown si on clique ailleurs
+  // Close the dropdown if clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -39,7 +39,7 @@ export default function NavBar() {
     };
   }, []);
 
-  // Gérer l'ouverture avec délai
+  // Handle opening with delay
   const handleMouseEnter = () => {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
@@ -47,14 +47,14 @@ export default function NavBar() {
     setIsMissionsOpen(true);
   };
 
-  // Gérer la fermeture avec délai
+  // Handle closing with delay
   const handleMouseLeave = () => {
     timeoutRef.current = setTimeout(() => {
       setIsMissionsOpen(false);
-    }, 300); // Délai de 300ms avant fermeture
+    }, 300); // 300ms delay before closing
   };
 
-  // Toggle du dropdown
+  // Toggle the dropdown
   const toggleDropdown = () => {
     setIsMissionsOpen(!isMissionsOpen);
   };
