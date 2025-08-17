@@ -8,9 +8,13 @@ export default function Missions() {
   return (
     <Layout>
       <Title text="Missions" />
-      <SocioprofessionalSection />
+      <section id="encadrement-accompagnement">
+        <SocioprofessionalSection />
+      </section>
 
-      <EconomicInsertionSection />
+      <section id="insertion-economique">
+        <EconomicInsertionSection />
+      </section>
     </Layout>
   );
 }
