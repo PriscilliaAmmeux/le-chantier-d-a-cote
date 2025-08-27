@@ -12,9 +12,9 @@ interface TeamListProps {
 
 export default function TeamList({ members }: TeamListProps) {
   return (
-    <div className="team-supervisors-list">
+    <ul className="team-supervisors-list">
       {members.map((member, idx) => (
-        <div
+        <li
           className={`supervisor-row ${
             idx % 2 === 0 ? "left-photo" : "right-photo"
           }`}
@@ -24,7 +24,6 @@ export default function TeamList({ members }: TeamListProps) {
               <img
                 src={member.photo}
                 alt={`Portrait de ${member.name}`}
-                aria-label={`Portrait de ${member.name}`}
                 className="supervisor-photo"
                 loading="lazy"
                 width={120}
@@ -48,7 +47,6 @@ export default function TeamList({ members }: TeamListProps) {
               <img
                 src={member.photo}
                 alt={`Portrait de ${member.name}`}
-                aria-label={`Portrait de ${member.name}`}
                 className="supervisor-photo"
                 loading="lazy"
                 width={120}
@@ -56,8 +54,8 @@ export default function TeamList({ members }: TeamListProps) {
               />
             </>
           )}
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }

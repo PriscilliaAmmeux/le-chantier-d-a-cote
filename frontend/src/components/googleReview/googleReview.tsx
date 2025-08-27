@@ -15,16 +15,14 @@ export default function GoogleReview({
   date,
   className = "",
 }: GoogleReviewProps) {
-  // Générer les étoiles en fonction du rating
   // Generate stars based on rating
   const stars = "★".repeat(rating) + "☆".repeat(5 - rating);
 
-  // Première lettre de l'auteur pour l'avatar
   const authorInitial = author.charAt(0).toUpperCase();
 
   return (
-    <div className={`google-review ${className}`}>
-      <div className="review-header">
+    <section className={`google-review ${className}`}>
+      <header className="review-header">
         <div className="google-info">
           <span className="google-text">Google</span>
           <img
@@ -37,17 +35,17 @@ export default function GoogleReview({
           <span className="stars">{stars}</span>
           <span className="rating">{rating}.0</span>
         </div>
-      </div>
+      </header>
       <div className="review-content">
-        <p className="review-text">"{text}"</p>
-        <div className="review-author">
-          <div className="author-initial">{authorInitial}</div>
-          <div className="author-info">
-            <span className="author-name">{author}</span>
-            <span className="review-date">{date}</span>
-          </div>
-        </div>
+        <blockquote className="review-text">"{text}"</blockquote>
       </div>
-    </div>
+      <footer className="review-author">
+        <div className="author-initial">{authorInitial}</div>
+        <div className="author-info">
+          <span className="author-name">{author}</span>
+          <span className="review-date">{date}</span>
+        </div>
+      </footer>
+    </section>
   );
 }

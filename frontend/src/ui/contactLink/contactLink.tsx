@@ -8,7 +8,7 @@ interface ContactLinkProps {
 export default function ContactLink({ children }: ContactLinkProps) {
   return (
     <Link to="/contact" className="link-contact font-bold">
-      {children || "page contact"}
+      {children || "Aller à la page contact"}
     </Link>
   );
 }

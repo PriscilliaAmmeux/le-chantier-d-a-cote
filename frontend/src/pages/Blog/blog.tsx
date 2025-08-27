@@ -13,11 +13,7 @@ export default function Blog() {
         {articlesData.map((article) => (
           <article key={article.id} className="blog-card">
             <div className="blog-card-image">
-              <img
-                src={article.image}
-                alt={article.title}
-                aria-label={article.aria}
-              />
+              <img src={article.image} alt={article.title} />
             </div>
             <div className="blog-card-content">
               <h3 className="blog-card-title">{article.title}</h3>
@@ -25,7 +21,7 @@ export default function Blog() {
               <div className="blog-card-action">
                 <Link to={`/blog/${article.slug}`}>
                   <Button
-                    text="Voir l'article"
+                    text="Lire l'article"
                     ariaLabel={`Lire l'article ${article.title}`}
                   />
                 </Link>
