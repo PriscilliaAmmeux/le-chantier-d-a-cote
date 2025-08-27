@@ -3,7 +3,7 @@ import "./adress.css";
 export default function Adress() {
   return (
     <section className="adress-section">
-      <h4 className="adress-title">Où nous trouver&nbsp;?</h4>
+      <h2 className="adress-title">Où nous trouver&nbsp;?</h2>
       <div className="adress-block">
         <p className="adress-line">
           12 route de l'ancien séminaire 16370 Val-de-Cognac

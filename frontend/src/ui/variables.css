@@ -1,6 +1,6 @@
 :root {
   --color-green: #9cd484;
-  --color-bright-green: #0cb424;
+  --color-bright-green: #08911d;
   --color-brown: #4c342c;
   --color-green-opacity: rgba(var(--color-green-rgb, 156, 212, 132), 0.17);
 }

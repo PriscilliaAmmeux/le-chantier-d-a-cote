@@ -19,8 +19,7 @@ export default function Footer() {
 
       <div className="footer-center">
         <p>
-          © {new Date().getFullYear()}{" "}
-          <span className="font-bold-white">Le Chantier d'à côté.</span>{" "}
+          © {new Date().getFullYear()} <span>Le Chantier d'à côté.</span>{" "}
           <span className="not-display-mobile">Tous droits réservés.</span>
         </p>
         <div className="footer-links">
