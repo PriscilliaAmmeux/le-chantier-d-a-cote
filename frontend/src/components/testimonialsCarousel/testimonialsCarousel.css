@@ -12,12 +12,12 @@
 
 .swiper-button-prev {
   left: 20px;
-  color: var(--color-green);
+  color: var(--color-bright-green);
 }
 
 .swiper-button-next {
   right: 20px;
-  color: var(--color-green);
+  color: var(--color-bright-green);
 }
 
 .swiper-pagination-bullet:hover {
@@ -35,7 +35,7 @@
 }
 
 .swiper-pagination-bullet {
-  background: var(--color-green);
+  background: var(--color-bright-green);
   opacity: 1;
 }
 

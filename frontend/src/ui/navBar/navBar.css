@@ -30,12 +30,11 @@
   font-size: 1.1rem;
 }
 
-/* Style hover uniforme pour tous les liens ET le dropdown-trigger */
 .navbar-list li a:hover,
 .navbar-list li a:focus,
 .dropdown-trigger:hover {
   text-decoration: underline;
-  color: var(--color-green);
+  color: var(--color-bright-green);
 }
 
 /* Dropdown styles */
@@ -46,10 +45,10 @@
 .dropdown-trigger {
   background: none;
   border: none;
-  color: var(--color-brown); 
-  font-size: 1.1rem; 
+  color: var(--color-brown);
+  font-size: 1.1rem;
   font-family: inherit;
-  font-weight: 600; 
+  font-weight: 600;
   cursor: pointer;
   padding: 0;
   display: flex;
@@ -61,7 +60,7 @@
 .dropdown-arrow {
   font-size: 0.7rem;
   transition: transform 0.3s ease;
-  color: var(--color-green);
+  color: var(--color-bright-green);
 }
 
 .dropdown-arrow.open {

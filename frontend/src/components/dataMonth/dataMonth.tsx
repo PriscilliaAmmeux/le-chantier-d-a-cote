@@ -25,7 +25,7 @@ export default function DataMonth({ month = "juin" }: DataMonthProps) {
 
   return (
     <section className="dataMonth-section">
-      <h3 className="title-data-month font-bold">Au mois de {month}</h3>
+      <h2 className="title-data-month font-bold">Au mois de {month}</h2>
       <div className="data-grid">
         {stats.map((item, index) => (
           <div className="data-block" key={index}>
