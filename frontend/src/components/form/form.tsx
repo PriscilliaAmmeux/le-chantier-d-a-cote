@@ -35,7 +35,7 @@ export default function Form({ className }: FormProps) {
     const regex = /^(06|07)\d{8}$/;
     if (!regex.test(phone)) {
       alert(
-        "Veuillez entrer un numéro de téléphone valide exemple 06 01 23 45 56."
+        "Veuillez entrer un numéro de téléphone valide exemple 0601234556."
       );
       return;
     }
@@ -96,6 +96,7 @@ export default function Form({ className }: FormProps) {
         Votre nom
       </label>
       <input
+        id="name"
         type="text"
         name="user_name"
         placeholder="Votre nom *"
@@ -108,6 +109,7 @@ export default function Form({ className }: FormProps) {
         Votre prénom
       </label>
       <input
+        id="firstname"
         type="text"
         name="user_firstname"
         placeholder="Votre prénom *"
@@ -120,6 +122,7 @@ export default function Form({ className }: FormProps) {
         Votre téléphone par exemple: 0612345678 (sans espace)
       </label>
       <input
+        id="phone"
         type="tel"
         name="user_phone"
         placeholder="Votre téléphone *"
@@ -132,6 +135,7 @@ export default function Form({ className }: FormProps) {
         Votre email
       </label>
       <input
+        id="email"
         type="email"
         name="user_email"
         placeholder="Votre email *"
@@ -144,6 +148,7 @@ export default function Form({ className }: FormProps) {
         Tapez ici votre message
       </label>
       <textarea
+        id="message"
         name="message"
         placeholder="Votre message *"
         required
@@ -177,6 +182,7 @@ export default function Form({ className }: FormProps) {
       </div>
       <div className="form-submit-btn">
         <Button
+          type="submit"
           text="Envoyer mon message"
           ariaLabel={"Cliquez sur le bouton pour envoyer le message"}
         />

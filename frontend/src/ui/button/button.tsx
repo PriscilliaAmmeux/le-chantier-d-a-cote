@@ -5,9 +5,9 @@ interface ButtonProps {
   text: string;
   to?: string;
   ariaLabel?: string;
+  type?: "button" | "submit" | "reset";
 }
-
-export default function Button({ text, to, ariaLabel }: ButtonProps) {
+export default function Button({ text, to, ariaLabel, type }: ButtonProps) {
   if (to) {
     return (
       <Link
@@ -23,7 +23,7 @@ export default function Button({ text, to, ariaLabel }: ButtonProps) {
   return (
     <button
       className="custom-button font-bold"
-      type="button"
+      type={type}
       aria-label={ariaLabel || text}>
       {text}
     </button>
