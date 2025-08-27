@@ -28,18 +28,14 @@ export default function Article() {
     );
   }
 
-  // Rendu d'un élément de liste
   const renderList = (item: ListContent, index: number) => (
-    <ul key={index} className="article-list">
+    <ul key={index}>
       {item.items.map((listItem, listIndex) => (
-        <li key={listIndex} className="article-list-item">
-          {listItem}
-        </li>
+        <li key={listIndex}>{listItem}</li>
       ))}
     </ul>
   );
 
-  // Rendu d'une sous-section (subsubtitle + text)
   const renderSubSection = (subSection: SubSection, index: number) => (
     <div key={index} className="article-subsection">
       <h4 className="article-subsubtitle">{subSection.subsubtitle}</h4>
@@ -55,9 +51,7 @@ export default function Article() {
     </div>
   );
 
-  // Rendu d'un élément de contenu (gérant tous les types)
   const renderContentItem = (item: ContentItem, index: number): JSX.Element => {
-    // Cas simple : texte
     if (typeof item === "string") {
       return (
         <p key={index} className="article-paragraph">
@@ -65,17 +59,15 @@ export default function Article() {
         </p>
       );
     }
-    // Cas : liste
+
     if (typeof item === "object" && "type" in item && item.type === "list") {
       return renderList(item, index);
     }
 
-    // Cas : sous-section (subsubtitle + text)
     if (typeof item === "object" && "subsubtitle" in item) {
       return renderSubSection(item, index);
     }
 
-    // Cas : array de sous-sections
     if (Array.isArray(item)) {
       return (
         <div key={index} className="article-subsections-group">
@@ -89,18 +81,14 @@ export default function Article() {
     return <div key={index}>Contenu non reconnu</div>;
   };
 
-  // Rendu du contenu d'une section (description)
   const renderSectionDescription = (description: Section["description"]) => {
-    // Description simple (string)
     if (typeof description === "string") {
       return <p className="article-paragraph">{description}</p>;
     }
 
-    // Description complexe (array)
     return description.map((item, index) => renderContentItem(item, index));
   };
 
-  // Rendu d'une section complète
   const renderSection = (section: Section, index: number) => (
     <div key={index} className="article-section">
       <h2 className="article-subtitle">{section.subtitle}</h2>

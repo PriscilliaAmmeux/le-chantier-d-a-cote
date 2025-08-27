@@ -22,7 +22,7 @@
 .back-link {
   display: inline-block;
   margin-bottom: 1rem;
-  color: var(--color-green, #4a7c59);
+  color: var(--color-bright-green);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -52,7 +52,6 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Titre avec la même largeur que le contenu */
 /* Title with the same width as the content */
 .article-title {
   max-width: 800px !important;
@@ -84,9 +83,9 @@
 .article-subtitle {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--color-brown, #6c4a27);
+  color: var(--color-bright-green);
   margin-bottom: 1.5rem;
-  border-bottom: 2px solid var(--color-green, #4a7c59);
+  border-bottom: 2px solid var(--color-bright-green);
   padding-bottom: 0.5rem;
 }
 
@@ -114,6 +113,7 @@
   color: #2c3e50;
   margin-bottom: 0.5rem;
 }
+
 
 .article-subtext {
   margin-left: 0.5rem;

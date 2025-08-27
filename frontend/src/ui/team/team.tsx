@@ -18,7 +18,7 @@ export default function Team() {
           en insertion et de 2 accompagnatrices socio-personnelles.
         </p>
 
-        <section className="margin-top">
+        <section>
           <SubSubtitle
             subSubtitle={"Nos Encadrants Techniques en Insertion (ETI)"}
           />
