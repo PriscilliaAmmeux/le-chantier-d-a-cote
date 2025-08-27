@@ -29,7 +29,7 @@ const buildingList = [
 
 const buildingMissions = [
   {
-    title: "Peinture intérieure et extérieure. ",
+    title: "Peinture intérieure et extérieure : ",
     subtitle:
       "C’est l’activité la plus répandue sur nos chantiers.  Les participants apprennent à :",
     desc: [
@@ -41,7 +41,7 @@ const buildingMissions = [
       "On y développe minutie, patience, coordination œil-main, ainsi qu’un vrai sens de l’esthétique et du travail bien fait.",
   },
   {
-    title: "Pose de revêtements de sol.",
+    title: "Pose de revêtements de sol : ",
     desc: [
       "Parquet flottant, lino ou carrelage, cette mission initie à la prise de mesure, à la découpe, à l’alignement, et à la pose selon les normes.",
     ],
@@ -49,7 +49,7 @@ const buildingMissions = [
       "Cela demande concentration, rigueur et précision. C’est une excellente école pour apprendre à travailler de manière structurée, en suivant un plan précis.",
   },
   {
-    title: "Petite maçonnerie.",
+    title: "Petite maçonnerie : ",
     desc: [
       "Les participants découvrent les gestes de base du bâtiment : reboucher un mur, monter une cloison, réaliser des joints ou des enduits, etc.",
     ],
@@ -57,7 +57,7 @@ const buildingMissions = [
       "Ils apprennent aussi à manipuler les matériaux, à comprendre la logique de construction et à respecter les normes de sécurité.",
   },
   {
-    title: "Préparation des supports.",
+    title: "Préparation des supports :",
     desc: [
       "Avant toute rénovation, il est essentiel de nettoyer, poncer et lisser les surfaces. Bien que cette étape soit souvent invisible pendant le chantier, ses effets se révèlent pleinement une fois le travail terminé.",
     ],
@@ -65,7 +65,7 @@ const buildingMissions = [
       "Elle permet de développer la rigueur, l’anticipation et le sens du détail, tout en soulignant l’importance du travail préparatoire dans la réussite de tout projet de rénovation (ou autre).",
   },
   {
-    title: "Nettoyage et remise en état de chantier.",
+    title: "Nettoyage et remise en état de chantier :",
     desc: [
       "Chacune de nos interventions se termine par une remise en propreté du chantier, incluant le tri des déchets, le balayage, le rangement des outils, etc.",
       "C’est une mission qui responsabilise et forme à l’autonomie. Elle souligne que la qualité du travail ne se limite pas aux tâches techniques, mais comprend aussi le respect des lieux (ateliers et chantiers) et du matériel utilisé.",

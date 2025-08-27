@@ -142,7 +142,7 @@ export default function ViticulturalServices() {
         summary={viticulturalSummary}>
         Nos trois principales missions viticoles sont la taille, tirage,
         égourmandage et le relevage.
-      </MissionsList>{" "}
+      </MissionsList>
     </section>
   );
 }
