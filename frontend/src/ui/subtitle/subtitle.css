@@ -2,12 +2,50 @@
 
 .subtitle {
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: var(--color-brown);
+  margin-bottom: 1.2rem;
+  color: #222;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  padding: 0 0.2em 0.2em 0.2em;
+  animation: pop-title 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.subtitle::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(90deg, #bbb 60%, #eaeaea 100%);
+  border-radius: 2px;
+  margin: 0.3em auto 0 auto;
+}
+
+@keyframes pop-title {
+  0% {
+    transform: scale(0.95) translateY(-10px);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.03) translateY(2px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding-bottom: 0.1em;
+  }
+  .subtitle::after {
+    height: 3px;
+    width: 50%;
   }
 }

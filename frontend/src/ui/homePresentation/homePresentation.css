@@ -15,6 +15,11 @@
   justify-content: center;
 }
 
+.text-left-presentation {
+  text-align: left;
+  font-size: 1.25rem;
+}
+
 @media (max-width: 768px) {
   .home-presentation-text {
     text-align: center;

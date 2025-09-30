@@ -10,8 +10,7 @@
   line-height: 1.5;
 }
 
-.home-presentation-text-objective h3,
-p {
+.home-presentation-text-objective h3 {
   text-align: center;
 }
 
@@ -24,6 +23,13 @@ p {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.framed-text {
+  background: var(--color-green-opacity, #eafaf1);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem 2rem;
 }
 
 @media (max-width: 900px) {

@@ -16,7 +16,6 @@
   color: var(--color-brown);
   line-height: 1.8;
   margin-bottom: 1.5rem;
-  text-align: justify;
   font-size: 1rem;
 }
 
@@ -84,7 +83,7 @@
 
   .convergences-text {
     font-size: 0.95rem;
-    text-align: justify;
+
   }
 }
 
