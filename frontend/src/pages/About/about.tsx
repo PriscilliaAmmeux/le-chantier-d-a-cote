@@ -5,12 +5,12 @@ import Layout from "../../ui/layout/layout";
 import WhyWorkTogether from "../../ui/whyWorkTogether/whyWorkTogether";
 import WhoWeAre from "../../ui/whoWeAre/whoWeAre";
 import InterventionZones from "../../ui/interventionZones/interventionZones";
-import HowFinance from "../../ui/howFinance";
+import HowFinance from "../../ui/howFinance/howFinance";
 import HowToJoin from "../../ui/howToJoin/howToJoin";
 
 export default function About() {
   return (
-    <Layout>
+    <Layout className="about-margin">
       <WhoWeAre />
       <StoryChantier />
       <Team />

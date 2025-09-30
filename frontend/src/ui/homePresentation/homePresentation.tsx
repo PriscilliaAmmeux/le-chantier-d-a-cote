@@ -24,7 +24,7 @@ export default function HomePresentation() {
   return (
     <section className="home-presentation-text">
       {presentationParagraphs.map((text, index) => (
-        <p className="text-align-justify" key={index}>
+        <p className="text-left-presentation" key={index}>
           {text}
         </p>
       ))}

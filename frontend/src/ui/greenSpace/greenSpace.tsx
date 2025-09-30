@@ -67,13 +67,13 @@ export default function GreenSpace() {
           className="sub-subtitle-highlight"
           subSubtitle="Entretien des espaces verts et des espaces naturels"
         />
-        <p className="text-align-justify line-height">
+        <p className=" line-height">
           On a choisi cette activité économique pour les nombreux avantages qui
           en découlent, à savoir :
         </p>
         <ul className="line-height ">
           {greenSpacesBenefits.map((item, idx) => (
-            <li className="text-align-justify line-height" key={idx}>
+            <li className=" line-height" key={idx}>
               <span className="font-bold">{item.title}</span> {item.desc}
             </li>
           ))}

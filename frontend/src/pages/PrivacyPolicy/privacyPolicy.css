@@ -19,7 +19,6 @@
 .privacy-text {
   line-height: 1.7;
   margin-bottom: 1.2rem;
-  text-align: justify;
   color: #444;
   font-size: 1rem;
 }
@@ -62,9 +61,4 @@
     font-size: 0.9rem;
     line-height: 1.6;
   }
-}
-
-.privacy-text {
-  font-size: 0.9rem;
-  line-height: 1.6;
 }

@@ -10,7 +10,7 @@ export default function Activities() {
   return (
     <Layout>
       <Title text="Activités proposées par Le Chantier d’À Côté" />
-      <p className="text-align-justify line-height margin-top">
+      <p className="line-height margin-top">
         Notre association d’insertion sociale et professionnelle propose aux
         bénéficiaires divers ateliers et chantiers pour les former et les
         initier au marché du travail. Parmi nos principales activités pour le

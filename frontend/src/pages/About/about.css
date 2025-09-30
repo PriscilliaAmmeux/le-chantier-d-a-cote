@@ -1,23 +1,20 @@
 @import "../../ui/variables.css";
 
+.about-margin {
+  margin: 1rem 2rem;
+}
+
 .about-cards-row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 2rem;
   margin: 2rem 0;
-  align-items: start;
-}
-
-.about-cards-col-left,
-.about-cards-col-right {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  align-items: stretch;
 }
 
 @media (max-width: 900px) {
   .about-cards-row {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 0;
   }
 }

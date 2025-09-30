@@ -30,7 +30,7 @@
 /* Introduction text styling */
 .text-introduction p {
   line-height: 1.6;
-  text-align: justify;
+ 
 }
 
 /* Main content section */
@@ -75,7 +75,7 @@
   margin-bottom: 1rem;
   color: #333;
   line-height: 1.6;
-  text-align: justify;
+
 }
 
 /* Custom bullet list styling */
@@ -90,7 +90,7 @@
   position: relative;
   color: #333;
 
-  text-align: justify;
+
 }
 
 /* Custom bullet points */

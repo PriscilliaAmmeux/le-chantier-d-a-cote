@@ -5,7 +5,7 @@ import "./homeIntro.css";
 
 export default function HomeIntro() {
   return (
-    <section className="home-presentation-text-objective text-align-justify">
+    <section className="home-presentation-text-objective  framed-text">
       <SubSubtitle
         subSubtitle={"Accompagnement – Encadrement – Insertion professionnelle"}
       />

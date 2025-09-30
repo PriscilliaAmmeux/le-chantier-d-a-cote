@@ -9,11 +9,8 @@ export default function Team() {
   return (
     <section className="team">
       <div className="team-inner">
-        <div className="text-align-center">
-          <Subtitle subtitle="Présentation du personnel" />
-        </div>
-
-        <p className="text-align-justify ">
+        <Subtitle subtitle="Présentation du personnel" />
+        <p className=" ">
           L’équipe du Chantier d’à côté est composée de 4 encadrants techniques
           en insertion et de 2 accompagnatrices socio-personnelles.
         </p>
@@ -22,13 +19,13 @@ export default function Team() {
           <SubSubtitle
             subSubtitle={"Nos Encadrants Techniques en Insertion (ETI)"}
           />
-          <p className="text-align-justify">
+          <p>
             Au cœur des activités du Chantier, les encadrants techniques en
             insertion transmettent bien plus que des gestes professionnels. Ils
             forment, soutiennent et motivent les salariés en parcours, en les
             guidant chaque jour sur le terrain.
           </p>
-          <p className="text-align-justify">
+          <p>
             Leur engagement concret et bienveillant permet aux bénéficiaires de
             retrouver des repères, des compétences et une place active dans la
             société.
@@ -40,12 +37,12 @@ export default function Team() {
           <SubSubtitle
             subSubtitle={"Nos Accompagnatrices Socio-Professionnelles (ASP)"}
           />
-          <p className="text-align-justify">
+          <p>
             À l’écoute des parcours de vie souvent cabossés, les
             accompagnatrices socio-personnelles tissent un lien essentiel entre
             le travail en Chantier et la reconstruction personnelle.
           </p>
-          <p className="text-align-justify">
+          <p>
             Leur rôle : accueillir sans juger, soutenir sans brusquer, orienter
             sans imposer. Elles sont les repères humains d’un accompagnement
             individualisé et bienveillant.

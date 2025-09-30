@@ -1,7 +1,6 @@
 import Layout from "../../ui/layout/layout";
 import SubSubtitle from "../../ui/subSubtitle/subSubtitle";
 import Title from "../../ui/title/title";
-import { Link } from "react-router-dom";
 import "./privacyPolicy.css";
 
 const privacySections = [

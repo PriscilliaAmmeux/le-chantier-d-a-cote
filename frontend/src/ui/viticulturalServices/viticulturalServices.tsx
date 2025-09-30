@@ -88,7 +88,7 @@ export default function ViticulturalServices() {
           subSubtitle="Prestations manuelles viticoles"
           className="sub-subtitle-highlight"
         />
-        <p className="text-align-justify line-height">
+        <p className=" line-height">
           Il s’agit des travaux réalisés à la main dans les vignes tout au long
           de l’année, une activité emblématique de notre belle région. En
           participant aux campagnes viticoles, les personnes en insertion
@@ -99,39 +99,39 @@ export default function ViticulturalServices() {
         </p>
         <ul className="line-height ">
           {viticultureList.map((item, idx) => (
-            <li className="text-align-justify line-height" key={idx}>
+            <li className=" line-height" key={idx}>
               <span className="font-bold">{item.title}</span> {item.desc}
             </li>
           ))}
         </ul>
       </ActivityBlock>
       {viticulturalParagraphs.map((text, idx) => (
-        <p className="text-align-justify line-height padding-top" key={idx}>
+        <p className=" line-height padding-top" key={idx}>
           {text}
         </p>
       ))}
       <div className="margin-top margin-bottom">
-        <p className="text-align-justify line-height">
+        <p className=" line-height">
           Ces formations sont reconnues par les employeurs du territoire, ce qui
           représente un véritable levier pour les salariés. Elles permettent de
           :
         </p>
         <ul className="line-height ">
           {formationBenefits.map((item, idx) => (
-            <li className="text-align-justify line-height" key={idx}>
+            <li className=" line-height" key={idx}>
               <span className="font-bold">{item}</span>
             </li>
           ))}
         </ul>
       </div>
       <div className="margin-top margin-bottom padding-bottom">
-        <p className="text-align-justify line-height">
+        <p className=" line-height">
           La formation a permis aux encadrants techniques de formaliser leur
           travail, ainsi que de :
         </p>
         <ul className="line-height ">
           {encadrantBenefits.map((item, idx) => (
-            <li className="text-align-justify line-height" key={idx}>
+            <li className=" line-height" key={idx}>
               <span className="font-bold">{item}</span>
             </li>
           ))}

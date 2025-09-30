@@ -45,7 +45,7 @@ export default function HowToJoin() {
 
       <div>
         <SubSubtitle subSubtitle="Pour bénéficier du Parcours d’Insertion" />
-        <p className="text-align-justify">
+        <p>
           Les participants sont embauchés sous Contrat à Durée Déterminée
           d’Insertion (CDDI) et accompagnés, individuellement et collectivement,
           pour franchir tous les obstacles liés à leur insertion. Le recrutement
@@ -57,18 +57,16 @@ export default function HowToJoin() {
       <ol className="howtojoin-steps">
         <li>
           <SubSubtitle subSubtitle="Aucun prérequis, aucune sélection" />
-          <p className="text-align-justify">
+          <p>
             Nous accueillons des personnes souvent laissées à l’écart des
             dispositifs traditionnels :
           </p>
           <ul>
             {profiles.map((profile, index) => (
-              <li key={index} className="text-align-justify">
-                {profile}
-              </li>
+              <li key={index}>{profile}</li>
             ))}
           </ul>
-          <p className="text-align-justify">
+          <p>
             Pour le PHC, l’accès se fait via une prescription de FT, MDS, CCAS,
             acteurs du logement, maraudeurs ou simplement du bouche-à-oreille.
           </p>
@@ -77,30 +75,28 @@ export default function HowToJoin() {
         <li>
           <SubSubtitle subSubtitle="Une intégration progressive, adaptée à chacun (PHC)" />
           {integrationSteps.map((step, idx) => (
-            <p className="text-align-justify" key={idx}>
-              {step}
-            </p>
+            <p key={idx}>{step}</p>
           ))}
         </li>
 
         <li>
           <SubSubtitle subSubtitle="Nos promesses et objectifs" />
-          <p className="text-align-justify">Notre ambition est de :</p>
+          <p className="">Notre ambition est de :</p>
           <ul>
             {goals.map((goal, index) => (
-              <li key={index} className="text-align-justify">
-                {goal}
-              </li>
+              <li key={index}>{goal}</li>
             ))}
           </ul>
-          <p className="text-align-justify margin-top">
+          <p className=" margin-top">
             Le Chantier d’à Côté joue pleinement son rôle de tremplin. Mais la
             réussite repose aussi sur la coopération continue avec les
             partenaires sociaux et médico-sociaux.
           </p>
-          <p className="text-align-justify">
+          <p>
             Pour bénéficier de notre accompagnement, contactez-nous au{" "}
-            <a href="tel:+33545320609">+33 5 45 32 06 09</a>.
+            <a href="tel:+33545320609" className="howtojoin-phone-link">
+              +33 5 45 32 06 09
+            </a>
           </p>
         </li>
       </ol>
@@ -109,9 +105,7 @@ export default function HowToJoin() {
         <SubSubtitle subSubtitle="Notre rôle" />
         <ul>
           {ourRole.map((role, idx) => (
-            <li key={idx} className="text-align-justify">
-              {role}
-            </li>
+            <li key={idx}>{role}</li>
           ))}
         </ul>
       </div>
@@ -119,9 +113,7 @@ export default function HowToJoin() {
       <SubSubtitle subSubtitle="Ce que nous construisons ensemble" />
       <ul>
         {whatWeBuild.map((item, index) => (
-          <li key={index} className="text-align-justify">
-            {item}
-          </li>
+          <li key={index}>{item}</li>
         ))}
       </ul>
     </section>

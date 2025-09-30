@@ -86,20 +86,20 @@ export default function Building() {
           className="sub-subtitle-highlight"
           subSubtitle="Rénovation second œuvre des bâtiments"
         />
-        <p className="text-align-justify line-height">
+        <p className=" line-height">
           La rénovation de bâtiment fait partie des piliers de notre
           accompagnement social. C’est une activité riche, complète et
           structurante pour les personnes éloignées de l’emploi que nous
           accompagnons.
         </p>
-        <p className="text-align-justify line-height">
+        <p className=" line-height">
           Pourquoi proposons-nous la rénovation de bâtiments ? Parce que cette
           mission coche de nombreuses cases utiles à une réelle insertion dans
           l’emploi :
         </p>
         <ul className="line-height ">
           {buildingList.map((item, idx) => (
-            <li className="text-align-justify line-height" key={idx}>
+            <li className=" line-height" key={idx}>
               <span className="font-bold">{item.title}</span> {item.desc}
             </li>
           ))}

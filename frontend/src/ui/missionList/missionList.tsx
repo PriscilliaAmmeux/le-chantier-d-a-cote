@@ -21,10 +21,10 @@ export default function MissionsList({
   return (
     <section>
       <h4 className="mission-list-title">Les différents types de missions</h4>
-      {children && <p className="text-align-justify line-height">{children}</p>}
+      {children && <p className=" line-height">{children}</p>}
       <ul className="margin-list">
         {missions.map((mission, idx) => (
-          <li className="text-align-justify line-height" key={idx}>
+          <li className=" line-height" key={idx}>
             <span className="font-bold">{mission.title}</span>
             {mission.subtitle && (
               <div className="mission-subtitle">{mission.subtitle}</div>
@@ -53,7 +53,7 @@ export default function MissionsList({
           {summary.map((text, idx) => (
             <p
               className={
-                "text-align-justify line-height" +
+                " line-height" +
                 (idx === summary.length - 1 ? " green-space-summary-large" : "")
               }
               key={idx}>
