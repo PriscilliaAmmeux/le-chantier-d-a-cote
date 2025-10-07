@@ -1,69 +1,87 @@
 import logo from "/logo-footer.webp";
 import { FaFacebook } from "react-icons/fa";
 import "./footer.css";
-import { GrLinkedin } from "react-icons/gr";
 import ScrollToTopButton from "../../components/scrollToTopButton/scrollToTopButton";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-left">
-        <img
-          src={logo}
-          alt="Logo du Chantier d'à Côté"
-          aria-label="Logo du Chantier d'à Côté"
-          className="footer-logo"
-        />
+      <div className="footer-main">
+        <section className="footer-left">
+          <img
+            src={logo}
+            alt="Logo du Chantier d'à Côté"
+            aria-label="Logo du Chantier d'à Côté"
+            className="footer-logo"
+          />
+        </section>
+        <section className="footer-center">
+          <div className="footer-links-columns">
+            <div className="footer-links-col">
+              <Link to="/about" className="footer-link">
+                Qui sommes-nous ?
+              </Link>
+              <Link to="/activities" className="footer-link">
+                Nos prestations
+              </Link>
+              <Link to="/missions" className="footer-link">
+                Missions
+              </Link>
+              <Link to="/convergences" className="footer-link">
+                Convergences
+              </Link>
+              <Link to="/faq" className="footer-link">
+                FAQ
+              </Link>
+            </div>
+            <div className="footer-links-col">
+              <Link to="/blog" className="footer-link">
+                Blog
+              </Link>
+              <Link to="/contact" className="footer-link">
+                Contact
+              </Link>
+              <Link to="/legalNotices" className="footer-link">
+                Mentions légales
+              </Link>
+              <Link to="/privacyPolicy" className="footer-link">
+                Politiques de confidentialité
+              </Link>
+            </div>
+            <div className="footer-social-col">
+              <a
+                href="https://www.facebook.com/groups/520437525576711?locale=fr_FR"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Page Facebook du Chantier d'à Côté"
+                className="footer-link">
+                <FaFacebook className="social-icon" />
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
 
-      <div className="footer-center">
-        <p>
-          © {new Date().getFullYear()} <span>Le Chantier d'à côté.</span>{" "}
-          <span className="not-display-mobile">Tous droits réservés.</span>
-        </p>
-        <div className="footer-links">
-          <Link to="/legalNotices" className="footer-link cursor-pointer">
-            Mentions légales
-          </Link>
-          <Link to="/privacyPolicy" className="footer-link cursor-pointer">
-            Politiques de confidentialités
-          </Link>
-        </div>
-        <p>
-          Design et développement par{" "}
-          <a
-            href="https://www.priscillia-ammeux-portfolio.fr/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footer-link">
-            Priscillia Ammeux
-          </a>{" "}
-          & rédaction par{" "}
-          <a
-            href="https://www.instagram.com/motssurmesure/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="footer-link">
-            Christelle (Mots sur Mesure)
-          </a>
-        </p>
+      <div className="footer-copyright">
+        © {new Date().getFullYear()} Le Chantier d'à Côté. Tous droits réservés.
       </div>
-
-      <div className="footer-right">
+      <div className="footer-credits">
+        Design et développement par{" "}
         <a
-          href="https://www.facebook.com/groups/520437525576711?locale=fr_FR"
+          href="https://www.pixelia-and-co.fr/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Page Facebook du Chantier d'à Côté">
-          <FaFacebook className="social-icon" />
-        </a>
+          className="footer-link">
+          Pixelia&Co
+        </a>{" "}
+        & rédaction par{" "}
         <a
-          href="https://www.linkedin.com"
+          href="https://www.instagram.com/motssurmesure/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Page LinkedIn du Chantier d'à Côté">
-          <GrLinkedin className="social-icon" />
+          className="footer-link">
+          Christelle (Mots sur Mesure)
         </a>
       </div>
       <ScrollToTopButton />
