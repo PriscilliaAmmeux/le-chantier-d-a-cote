@@ -1,4 +1,4 @@
-import DataMonth from "../../components/dataMonth/dataMonth";
+import DataYear from "../../components/dataYear/dataYear";
 import TestimonialsCarousel from "../../components/testimonialsCarousel/testimonialsCarousel";
 import Button from "../../ui/button/button";
 import HomeIntro from "../../ui/homeIntro/homeIntro";
@@ -11,15 +11,13 @@ import "./Home.css";
 export default function Home() {
   return (
     <Layout>
-      <section>
-        <Title text="Le Chantier d'à côté" isHome />
-        <DataMonth />
-      </section>
+      <Title text="Le Chantier d'à côté" isHome />
       <HomeIntro />
       <section className="home-presentation">
         <HomePresentation />
         <div className="home-presentation-financiers">
           <SectionFinanciers />
+          <DataYear />
         </div>
       </section>
       <section className="button-center">

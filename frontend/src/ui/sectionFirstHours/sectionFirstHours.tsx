@@ -27,6 +27,7 @@ const firstHoursData = [
 
       "Il s'agit ici de reconsidérer l'aspect professionnel mais les dimensions sociales, psychologiques et sanitaires du bénéficiaire. En étant pris en charge de cette façon, la personne augmente ses chances de réussite en parcours de réinsertion.",
     ],
+    img: "/lutte-isolement.webp",
   },
   {
     title: "Missions sociales et d'insertion professionnelle",
@@ -34,6 +35,7 @@ const firstHoursData = [
       "Le but de Convergence France est de rétablir une stabilité sociale durable pour les bénéficiaires. En effet, l'accompagnement individualisé a de nombreux objectifs. En participant à un chantier d'insertion, les bénéficiaires développent de nouvelles compétences. Ils sont formés aux gestes professionnels, à la gestion d'équipe, à l'entretien des équipements, et peuvent même recevoir des formations qualifiantes. En mobilisant à nouveau l'intérêt et l'apprentissage, les salariés reprennent confiance et développent ainsi leur estime de soi, ce qui les prépare à leur retour à un emploi stable.",
       "En outre, le suivi social est la pierre angulaire de ce processus. Les obstacles se présentent tout au long du parcours d'insertion. D'où l'intérêt d'un accompagnement pour gérer les démarches administratives, la recherche d'un logement, l'accès aux soins, ou les problèmes liés à des dépendances (alcool, drogues, etc.). Ce suivi assure une réintégration sociale réussie.",
     ],
+    img: "/help.webp",
   },
   {
     title: "Partenariats locaux et territoriaux",
@@ -41,6 +43,7 @@ const firstHoursData = [
       "L'ingrédient du succès de cette recette est le partenariat. Le programme PHC, par exemple, fonctionne en étroite collaboration avec les services sociaux, les agences de l'emploi, les centres de santé et les entreprises locales. Ces collaborations sont indispensables à la réinsertion.",
       "Pour aider chacun à retrouver sa place, Convergence France adapte ses actions aux besoins du terrain. Cette approche de proximité (milieu rural ou zone urbaine sensible) rend l'accompagnement plus pertinent, plus efficace. Les liens tissés avec les collectivités locales permettent de financer les projets et de mieux coordonner les actions. Quand tout le monde avance dans le même sens, les chances de réussite s'en trouvent décuplées.",
     ],
+    img: "/partenariat.webp",
   },
   {
     title: "Impact et bilan de l'action",
@@ -49,6 +52,7 @@ const firstHoursData = [
       "Le plus grand changement constaté concerne l'estime de soi des bénéficiaires. Le fait de travailler dans un environnement structuré et de recevoir un salaire régulier leur permet de se reconstruire sur le plan personnel. De plus, Convergence France a constaté une baisse des comportements déviants, tels que l'alcoolisme ou les violences, chez les participants.",
       "Sur le plan professionnel, plusieurs bénéficiaires ont réussi à trouver un emploi stable, soit au sein des structures d'insertion, soit dans des entreprises partenaires. D'autres ont pu entamer une reconversion en suivant des formations dans des secteurs variés. Cette forme de réinsertion permet de sortir la tête de l'eau, de stabiliser sa situation, et de devenir autonome. Cependant, l'accès au logement reste le caillou dans la chaussure pour de nombreux bénéficiaires.",
     ],
+    img: "/résultat.webp",
   },
   {
     title: "Perspectives",
@@ -73,6 +77,7 @@ const firstHoursData = [
         transports publics ou privés, pourrait dissiper ce blocage.
       </>,
     ],
+    img: "/idée.webp",
   },
   {
     title: "Conclusion",
@@ -93,6 +98,7 @@ const firstHoursData = [
         besoin.
       </>
     ),
+    img: "/conclusion.webp",
   },
 ];
 
@@ -105,15 +111,30 @@ export default function SectionFirstHours() {
       {firstHoursData.map((item, index) => (
         <article key={index} className="firsthours-item">
           <h3 className="firsthours-title">{item.title}</h3>
-          <div className="firsthours-content">
-            {Array.isArray(item.description) ? (
-              item.description.map((paragraph, paragraphIndex) => (
-                <p key={paragraphIndex} className="convergences-text">
-                  {paragraph}
-                </p>
-              ))
-            ) : (
-              <p className="convergences-text">{item.description}</p>
+          <div
+            className={`firsthours-flex${item.img ? " with-img" : ""} ${
+              index % 2 === 1 ? "img-left" : "img-right"
+            }`}>
+            {item.img && index % 2 === 1 && (
+              <div className="firsthours-img-wrapper">
+                <img src={item.img} alt="" className="firsthours-img" />
+              </div>
+            )}
+            <div className="firsthours-content">
+              {Array.isArray(item.description) ? (
+                item.description.map((paragraph, paragraphIndex) => (
+                  <p key={paragraphIndex} className="convergences-text">
+                    {paragraph}
+                  </p>
+                ))
+              ) : (
+                <p className="convergences-text">{item.description}</p>
+              )}
+            </div>
+            {item.img && index % 2 === 0 && (
+              <div className="firsthours-img-wrapper">
+                <img src={item.img} alt="" className="firsthours-img" />
+              </div>
             )}
           </div>
         </article>

@@ -16,7 +16,10 @@ export default function Convergences() {
         <div className="data-placeholder">
           <h3 className="data-title">Données et chiffres clés</h3>
           <p className="data-text">
-            Section en attente des statistiques officielles
+            30 salariés convergence
+          </p>
+          <p className="data-text">
+            3 parcours 1eres heures en milieu rural
           </p>
         </div>
       </section>

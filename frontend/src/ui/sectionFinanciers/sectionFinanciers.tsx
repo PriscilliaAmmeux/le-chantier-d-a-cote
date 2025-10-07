@@ -3,7 +3,7 @@ import logoCharente from "/logoCharente.webp";
 import logoRepFrance from "/logo-de-la-republique-francaise.webp";
 import logoConvergence from "/convergence.webp";
 import "./sectionFinanciers.css";
-import SubSubtitle from "../subSubtitle/subSubtitle";
+import Subtitle from "../subtitle/subtitle";
 
 const financeurs = [
   {
@@ -31,7 +31,7 @@ const financeurs = [
 export default function SectionFinanciers() {
   return (
     <section className="section-financeurs">
-      <SubSubtitle subSubtitle="Financeurs" />
+      <Subtitle subtitle="Financeurs" />
       <div className="logos-wrapper">
         {financeurs.map((f, i) => (
           <img
