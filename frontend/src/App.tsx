@@ -11,7 +11,7 @@ import Article from "./pages/Article/Article";
 import LegalNotices from "./pages/LegalNotices/legalNotices";
 import PrivacyPolicy from "./pages/PrivacyPolicy/privacyPolicy";
 import ScrollToTop from "./components/scrollToTop/scrollToTop";
-
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
   return (
@@ -29,6 +29,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/legalNotices" element={<LegalNotices />} />
         <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
