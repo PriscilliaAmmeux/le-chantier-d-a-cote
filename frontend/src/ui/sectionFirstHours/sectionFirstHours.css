@@ -40,6 +40,30 @@
   padding-bottom: 0;
 }
 
+.firsthours-img-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.firsthours-img {
+  max-width: 240px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.firsthours-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.firsthours-content {
+  flex: 1 1 0;
+}
+
 /* ================================================
    RESPONSIVE DESIGN
    ================================================ */
@@ -50,6 +74,13 @@
     padding: 1rem 1rem;
   }
 
+  .firsthours-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
   .firsthours-title {
     font-size: 1.3rem;
     padding-bottom: 0.8rem;
@@ -57,6 +88,12 @@
 
   .convergences-text {
     font-size: 0.95rem;
+  }
+
+  .firsthours-img {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 1rem;
   }
 }
 
@@ -75,6 +112,19 @@
     padding-bottom: 0.6rem;
   }
 
+  .firsthours-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .firsthours-img {
+    max-width: 140px;
+    width: 100%;
+    margin-top: 0;
+  }
   .convergences-text {
     font-size: 0.9rem;
     line-height: 1.6;

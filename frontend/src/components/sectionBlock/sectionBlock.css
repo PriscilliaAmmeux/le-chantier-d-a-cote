@@ -1,0 +1,38 @@
+/* Ajoute dans sectionBlock.css */
+.section-block-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-block-content {
+  flex: 2 1 0;
+}
+
+.section-block-img-wrapper {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.section-block-img {
+  max-width: 240px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .section-block-flex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .section-block-img-wrapper {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .section-block-img {
+    max-width: 100px;
+  }
+}

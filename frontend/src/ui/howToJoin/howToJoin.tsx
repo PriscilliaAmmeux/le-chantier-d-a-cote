@@ -43,15 +43,22 @@ export default function HowToJoin() {
     <section className="section-how-to-join">
       <Subtitle subtitle="Comment rejoindre le Chantier d’à Côté ?" />
 
-      <div>
-        <SubSubtitle subSubtitle="Pour bénéficier du Parcours d’Insertion" />
-        <p>
-          Les participants sont embauchés sous Contrat à Durée Déterminée
-          d’Insertion (CDDI) et accompagnés, individuellement et collectivement,
-          pour franchir tous les obstacles liés à leur insertion. Le recrutement
-          est ouvert toute l’année sur la{" "}
-          <ContactLink>plateforme de l’inclusion</ContactLink>.
-        </p>
+      <div className="howtojoin-flex">
+        <div className="howtojoin-text">
+          <SubSubtitle subSubtitle="Pour bénéficier du Parcours d’Insertion" />
+          <p>
+            Les participants sont embauchés sous Contrat à Durée Déterminée
+            d’Insertion (CDDI) et accompagnés, individuellement et
+            collectivement, pour franchir tous les obstacles liés à leur
+            insertion. Le recrutement est ouvert toute l’année sur la{" "}
+            <ContactLink>plateforme de l’inclusion</ContactLink>.
+          </p>
+        </div>
+        <img
+          src="/list.webp"
+          alt="illustration pour rejoindre le parcours"
+          className="howtojoin-image"
+        />
       </div>
 
       <ol className="howtojoin-steps">

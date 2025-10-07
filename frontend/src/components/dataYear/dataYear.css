@@ -1,0 +1,23 @@
+@import "../../ui/variables.css";
+
+.dataYear-section {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-value {
+  color: var(--color-bright-green);
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .data-value {
+    font-size: 1.5rem;
+  }
+  .dataYear-section {
+    margin: 0.5rem 0;
+  }
+}
