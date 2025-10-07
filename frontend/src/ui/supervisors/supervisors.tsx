@@ -1,7 +1,20 @@
 import SectionBlock from "../../components/sectionBlock/sectionBlock";
+import { useEffect, useState } from "react";
 import "./supervisors.css";
 
+function useIsMobile(breakpoint = 700) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= breakpoint);
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= breakpoint);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [breakpoint]);
+  return isMobile;
+}
+
 export default function Supervisors() {
+  const isMobile = useIsMobile();
+
   return (
     <section className="encadrement-section">
       {/* Encadrement */}
@@ -28,7 +41,7 @@ export default function Supervisors() {
       />
       {/* Objectif de l'encadrement */}
       <SectionBlock
-        index={1}
+        index={isMobile ? 0 : 1}
         title="Objectif de l'encadrement"
         paragraphs={[
           "Encadrer sur le terrain, c'est, d'un côté, rendre possible l'accès ou le retour à l'emploi aux personnes en réinsertion professionnelle. Et, d'un autre côté, bien sûr faciliter le parcours d'insertion aux personnes éloignées de l'emploi listées ci-dessus.",
@@ -62,7 +75,7 @@ export default function Supervisors() {
 
       {/* Accompagnement */}
       <SectionBlock
-        index={1}
+        index={isMobile ? 0 : 1}
         title="Accompagnement"
         paragraphs={[
           "Nous connaissons les difficultés des premières fois : trouver sa place dans une équipe déjà soudée, affronter les premières erreurs, dépasser le syndrome de l'imposteur, ou encore trouver un équilibre entre travail et vie personnelle.",
