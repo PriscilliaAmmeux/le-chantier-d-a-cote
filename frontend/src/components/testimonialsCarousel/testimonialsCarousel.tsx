@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // @ts-expect-error: Ignore missing type declarations for Swiper CSS
 import "swiper/css/navigation";
-import "./TestimonialsCarousel.css";
+import "./testimonialsCarousel.css";
 import GoogleReview from "../googleReview/googleReview";
 
 export default function TestimonialsCarousel() {
