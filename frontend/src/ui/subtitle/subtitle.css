@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 768px) {
   .subtitle {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-bottom: 0.1em;
   }
   .subtitle::after {
