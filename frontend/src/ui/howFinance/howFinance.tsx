@@ -1,10 +1,10 @@
-import CardSection from "../../components/cardSection/cardSection";
+import SectionCard from "../../components/sectionCard/sectionCard";
 import Subtitle from "../subtitle/subtitle";
 import "./howFinance.css";
 
 export default function HowFinance() {
   return (
-    <CardSection>
+    <SectionCard>
       <Subtitle subtitle={"Comment finançons-nous nos missions ?"} />
       <p className="how-finance-text ">
         Le Chantier d’à Côté finance ses missions grâce à un modèle hybride :
@@ -13,6 +13,6 @@ export default function HowFinance() {
         Cette diversité de ressources garantit notre indépendance et la
         pérennité de notre action au service de l’insertion.
       </p>
-    </CardSection>
+    </SectionCard>
   );
 }
