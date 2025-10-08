@@ -6,9 +6,9 @@ import HomePresentation from "../../ui/homePresentation/homePresentation";
 import Layout from "../../ui/layout/layout";
 import SectionFinanciers from "../../ui/sectionFinanciers/sectionFinanciers";
 import Title from "../../ui/title/title";
-import "./home.css";
+import "./accueil.css";
 
-export default function Home() {
+export default function Accueil() {
   return (
     <Layout>
       <Title text="Le Chantier d'à côté" isHome />
