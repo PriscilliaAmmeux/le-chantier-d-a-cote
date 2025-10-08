@@ -2,25 +2,29 @@
   {
     "id": 1,
     "name": "Antoine",
-    "photo": "antoine.jpg",
+    "role": "Encadrant ETI Vigne et Espaces Verts",
+    "photo": "Antoine-L-_-encadrant-vigne-et-espaces-verts.webp",
     "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre encadrant au sein du Chantier d’à Côté."
   },
   {
     "id": 2,
     "name": "David",
-    "photo": "david.jpg",
+    "role": "Encadrant ETI Bâtiment",
+    "photo": "David-b-Encadrant-bâtiment.webp",
     "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre encadrant au sein du Chantier d’à Côté."
   },
   {
     "id": 3,
     "name": "Gabrielle",
-    "photo": "gabrielle.jpg",
+    "role": "Encadrante ETI 1ères heures en milieu Rural, Vigne et Espaces Verts",
+    "photo": "Gabrielle-G-encadrante-Ieres-heures-en-milieu-Rural-vigne-et-espaces-verts.webp",
     "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre encadrant au sein du Chantier d’à Côté."
   },
   {
     "id": 4,
     "name": "Brice",
-    "photo": "brice.jpg",
+    "role": "Encadrant ETI Espaces Verts et Vigne",
+    "photo": "Brice-T-eti-espaces-verts-et-vigne.webp",
     "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre encadrant au sein du Chantier d’à Côté."
   }
 ]
