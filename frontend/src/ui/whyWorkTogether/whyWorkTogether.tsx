@@ -1,10 +1,10 @@
-import CardSection from "../../components/cardSection/cardSection";
+import SectionCard from "../../components/sectionCard/sectionCard";
 import Subtitle from "../subtitle/subtitle";
 import "./whyWorkTogether.css";
 
 export default function WhyWorkTogether() {
   return (
-    <CardSection>
+    <SectionCard>
       <Subtitle subtitle={"Pourquoi travailler ensemble ?"} />
       <p className="">
         Parce que nous ne nous contentons pas d’accompagner — nous comprenons.
@@ -47,6 +47,6 @@ export default function WhyWorkTogether() {
         que nous accompagnons – afin aussi de donner les moyens de
         professionnaliser les équipes.
       </p>
-    </CardSection>
+    </SectionCard>
   );
 }
