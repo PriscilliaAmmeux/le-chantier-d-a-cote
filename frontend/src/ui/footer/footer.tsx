@@ -3,6 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import "./footer.css";
 import ScrollToTopButton from "../../components/scrollToTopButton/scrollToTopButton";
 import { Link } from "react-router-dom";
+import logoUE from "/UE.webp";
 
 export default function Footer() {
   return (
@@ -58,6 +59,12 @@ export default function Footer() {
                 className="footer-link">
                 <FaFacebook className="social-icon" />
               </a>
+              <img
+                src={logoUE}
+                alt="Logo Union Européenne"
+                aria-label="Logo Union Européenne"
+                className="footer-logo-ue"
+              />
             </div>
           </div>
         </section>

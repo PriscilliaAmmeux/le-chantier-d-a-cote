@@ -10,6 +10,7 @@ const financeurs = [
     src: logoUE,
     alt: "Logo Co-financé par l'Union Européenne",
     aria: "Logo Co-financé par l'Union Européenne",
+    big: true,
   },
   {
     src: logoCharente,
@@ -27,13 +28,21 @@ const financeurs = [
     aria: "Logo convergence",
   },
 ];
-
 export default function SectionFinanciers() {
   return (
+    // ...existing code...
     <section className="section-financeurs">
       <Subtitle subtitle="Financeurs" />
-      <div className="logos-wrapper">
-        {financeurs.map((f, i) => (
+      <div className="logos-wrapper logos-ue">
+        <img
+          src={financeurs[0].src}
+          alt={financeurs[0].alt}
+          aria-label={financeurs[0].aria}
+          className="logo-financeurs big"
+        />
+      </div>
+      <div className="logos-wrapper logos-autres">
+        {financeurs.slice(1).map((f, i) => (
           <img
             key={i}
             src={f.src}

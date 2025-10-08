@@ -4,15 +4,45 @@
   padding: 0;
 }
 
+.header-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
 .header-logo {
   width: 15rem;
   height: auto;
   display: block;
-  margin: 0 auto;
+}
+
+.header-logo-ue {
+  height: 100px;
+  width: auto;
+  display: inline-block;
 }
 
 @media (max-width: 768px) {
   .header-logo {
     width: 10rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-logos {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 0;
+  }
+  .header-logo {
+    width: 8rem;
+  }
+  .header-logo-ue {
+    height: 100px;
   }
 }

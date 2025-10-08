@@ -61,7 +61,7 @@
 .footer-social-col {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  gap: 2rem;
   justify-content: flex-start;
   min-width: 70px;
   margin-left: 2rem;
@@ -105,6 +105,10 @@
   color: #333;
   margin-top: 0.5rem;
   text-align: center;
+}
+
+.footer-logo-ue {
+  height: 80px;
 }
 
 @media (max-width: 700px) {

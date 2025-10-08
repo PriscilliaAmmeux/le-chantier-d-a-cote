@@ -6,12 +6,12 @@ export default function WhyWorkTogether() {
   return (
     <SectionCard>
       <Subtitle subtitle={"Pourquoi travailler ensemble ?"} />
-      <p className="">
+      <p className="line-height margin-bottom-text">
         Parce que nous ne nous contentons pas d’accompagner — nous comprenons.
         Nous savons que derrière chaque situation, il y a une histoire, des
         freins imbriqués, des parcours cabossés.
       </p>
-      <p className=" line-height ">
+      <p className="line-height margin-bottom-text">
         <span className="font-bold">Notre force :</span> un accompagnement
         humain, individualisé et ancré dans le réel. Nous avançons avec chaque
         personne, pas à pas, pour lever durablement les obstacles à son
@@ -23,7 +23,7 @@ export default function WhyWorkTogether() {
         :
       </p>
       <ul>
-        <li className=" line-height ">
+        <li className=" line-height margin-bottom-text">
           Atelier, vestiaires, bureaux, salle de pause, salle de réunion
           équipée, serre et jardin d’activités.
         </li>
@@ -36,7 +36,7 @@ export default function WhyWorkTogether() {
         <li className=" line-height ">
           Un 6ème camion mis à disposition par Grand Cognac pour la navette,
         </li>
-        <li>
+        <li className=" line-height margin-bottom-text">
           Un parc de matériel professionnel régulièrement renouvelé grâce à un
           plan d’investissement.
         </li>
