@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/home";
 import Missions from "./pages/Missions/missions";
 import Convergences from "./pages/Convergences/convergences";
 import Faq from "./pages/Faq/faq";
@@ -11,6 +10,7 @@ import Article from "./pages/Article/Article";
 import LegalNotices from "./pages/LegalNotices/legalNotices";
 import PrivacyPolicy from "./pages/PrivacyPolicy/privacyPolicy";
 import ScrollToTop from "./components/scrollToTop/scrollToTop";
+import Home from "./pages/Home/Home";
 
 
 function App() {
