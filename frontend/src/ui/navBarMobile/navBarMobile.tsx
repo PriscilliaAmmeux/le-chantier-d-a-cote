@@ -26,7 +26,7 @@ export default function NavBarMobile() {
       <Link to="/missions" aria-label="Missions">
         <FaTasks className="nav-icon" />
       </Link>
-      <Link to="/convergences" aria-label="Convergences">
+      <Link to="/convergence" aria-label="Convergence">
         <FaUsers className="nav-icon" />
       </Link>
       <Link to="/faq" aria-label="FAQ">

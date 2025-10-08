@@ -1,11 +1,11 @@
 import Subtitle from "../subtitle/subtitle";
-import "./sectionConvergences.css";
+import "./sectionConvergence.css";
 
-export default function SectionConvergences() {
+export default function SectionConvergence() {
   return (
-    <section  className="margin-top-subtitle">
+    <section className="margin-top-subtitle">
       <Subtitle subtitle="L'association Convergence France" />{" "}
-      <p className="convergences-text">
+      <p className="convergence-text">
         <a
           href="https://convergence-france.org/"
           target="_blank"
@@ -28,12 +28,12 @@ export default function SectionConvergences() {
         du travail, et en garantissant un accompagnement personnalisé ainsi
         qu’un soutien renforcé.
       </p>
-      <div className="convergences-item">
-        <h3 className="convergences-subtitle">
+      <div className="convergence-item">
+        <h3 className="convergence-subtitle">
           Contexte et origines de Convergence France
         </h3>
-        <div className="convergences-content">
-          <p className="convergences-text">
+        <div className="convergence-content">
+          <p className="convergence-text">
             A l’origine de Convergence France, il y a tout le panel des
             personnes en difficulté, premières victimes de l’exclusion sociale
             et professionnelle. L’association se distingue par son approche
@@ -44,7 +44,7 @@ export default function SectionConvergences() {
             décrocheurs scolaires, et anciens détenus font partie des publics en
             difficulté.
           </p>
-          <p className="convergences-text">
+          <p className="convergence-text">
             Les missions de{" "}
             <span className="font-bold color-brown">Convergence France</span> se
             déploient à travers un réseau de structures partenaires à l’échelle

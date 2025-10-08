@@ -12,7 +12,7 @@
    TEXT & CONTENT
    ================================================ */
 
-.convergences-text {
+.convergence-text {
   color: var(--color-brown);
   line-height: 1.8;
   margin-bottom: 1.5rem;
@@ -23,11 +23,11 @@
   color: var(--color-brown);
 }
 
-.convergences-text:last-child {
+.convergence-text:last-child {
   margin-bottom: 0;
 }
 
-.convergences-content {
+.convergence-content {
   margin-top: 1rem;
 }
 
@@ -51,7 +51,7 @@
    CONVERGENCE ELEMENTS
    ================================================ */
 
-.convergences-item {
+.convergence-item {
   margin: 2.5rem 0;
   padding: 2rem;
   background: #fafafa;
@@ -59,7 +59,7 @@
   border-left: 4px solid var(--color-bright-green);
 }
 
-.convergences-subtitle {
+.convergence-subtitle {
   color: var(--color-bright-green);
   font-size: 1.4rem;
   font-weight: 600;
@@ -72,27 +72,26 @@
    ================================================ */
 
 @media screen and (max-width: 768px) {
-  .convergences-item {
+  .convergence-item {
     margin: 1.5rem 0;
     padding: 1.5rem;
   }
 
-  .convergences-subtitle {
+  .convergence-subtitle {
     font-size: 1.2rem;
   }
 
-  .convergences-text {
+  .convergence-text {
     font-size: 0.95rem;
-
   }
 }
 
 @media screen and (max-width: 480px) {
-  .convergences-item {
+  .convergence-item {
     padding: 1rem;
   }
 
-  .convergences-subtitle {
+  .convergence-subtitle {
     font-size: 1.1rem;
   }
 }
