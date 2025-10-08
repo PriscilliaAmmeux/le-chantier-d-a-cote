@@ -123,12 +123,12 @@ export default function SectionFirstHours() {
             <div className="firsthours-content">
               {Array.isArray(item.description) ? (
                 item.description.map((paragraph, paragraphIndex) => (
-                  <p key={paragraphIndex} className="convergences-text">
+                  <p key={paragraphIndex} className="convergence-text">
                     {paragraph}
                   </p>
                 ))
               ) : (
-                <p className="convergences-text">{item.description}</p>
+                <p className="convergence-text">{item.description}</p>
               )}
             </div>
             {item.img && index % 2 === 0 && (

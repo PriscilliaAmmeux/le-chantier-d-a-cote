@@ -28,8 +28,8 @@ export default function Footer() {
               <Link to="/missions" className="footer-link">
                 Missions
               </Link>
-              <Link to="/convergences" className="footer-link">
-                Convergences
+              <Link to="/convergence" className="footer-link">
+                Convergence
               </Link>
               <Link to="/faq" className="footer-link">
                 FAQ
@@ -81,7 +81,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           className="footer-link">
-          Christelle (Mots sur Mesure)
+          Christelle Debrabant (Mots sur Mesure)
         </a>
       </div>
       <ScrollToTopButton />

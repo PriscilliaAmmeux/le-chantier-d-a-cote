@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Missions from "./pages/Missions/missions";
-import Convergences from "./pages/Convergences/convergences";
 import Faq from "./pages/Faq/faq";
 import Blog from "./pages/Blog/blog";
 import Contact from "./pages/Contact/contact";
@@ -11,6 +10,7 @@ import LegalNotices from "./pages/LegalNotices/legalNotices";
 import PrivacyPolicy from "./pages/PrivacyPolicy/privacyPolicy";
 import ScrollToTop from "./components/scrollToTop/scrollToTop";
 import Accueil from "./pages/Accueil/accueil";
+import Convergence from "./pages/Convergence/convergence";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/activities" element={<Activities />} />
         <Route path="/missions" element={<Missions />} />
-        <Route path="/convergences" element={<Convergences />} />
+        <Route path="/convergence" element={<Convergence />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/:slug" element={<Article />} />

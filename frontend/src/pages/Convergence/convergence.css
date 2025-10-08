@@ -1,6 +1,6 @@
 @import "../../ui/variables.css";
 
-.convergences {
+.convergence {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 2rem;
@@ -10,7 +10,7 @@
   background-color: var(--color-bright-green);
   position: relative;
   box-sizing: border-box;
-  max-width: 30%;
+  max-width: 40%;
   margin: 2rem auto;
   padding: 2rem 4rem;
   display: flex;
@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .convergences {
+  .convergence {
     padding: 0 1rem;
   }
   .data-section {
@@ -49,7 +49,7 @@
 }
 
 @media (max-width: 480px) {
-  .convergences {
+  .convergence {
     padding: 0 0.5rem;
   }
   .data-section {
