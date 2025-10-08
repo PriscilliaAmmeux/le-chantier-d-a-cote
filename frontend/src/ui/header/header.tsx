@@ -1,7 +1,7 @@
 import logo from "/logo.webp";
 import NavBar from "../navBar/navBar";
 import NavBarMobile from "../navBarMobile/navBarMobile";
-import "./Header.css";
+import "./header.css";
 
 export default function Header() {
   return (

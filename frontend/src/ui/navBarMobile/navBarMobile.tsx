@@ -1,4 +1,4 @@
-import "./NavBarMobile.css";
+import "./navBarMobile.css";
 import { Link } from "react-router-dom";
 import {
   FaHome,

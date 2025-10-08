@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Button.css";
+import "./button.css";
 
 interface ButtonProps {
   text: string;
