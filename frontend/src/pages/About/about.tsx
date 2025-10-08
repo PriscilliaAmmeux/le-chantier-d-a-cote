@@ -1,6 +1,6 @@
 import StoryChantier from "../../ui/storyChantier/storyChantier";
 import Team from "../../ui/team/team";
-import "./About.css";
+import "./about.css";
 import Layout from "../../ui/layout/layout";
 import WhyWorkTogether from "../../ui/whyWorkTogether/whyWorkTogether";
 import WhoWeAre from "../../ui/whoWeAre/whoWeAre";
