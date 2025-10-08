@@ -1,5 +1,5 @@
 import SubSubtitle from "../../ui/subSubtitle/subSubtitle";
-import "./VideoSection.css";
+import "./videoSection.css";
 
 interface VideoData {
   id: string;

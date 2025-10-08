@@ -1,14 +1,14 @@
 import React from "react";
-import "./cardSection.css";
+import "./sectionCard.css";
 
-interface CardSectionProps {
+interface SectionCardProps {
   children: React.ReactNode;
   className?: string;
 }
 
-export default function CardSection({
+export default function SectionCard({
   children,
   className = "",
-}: CardSectionProps) {
-  return <section className={`card-section ${className}`}>{children}</section>;
+}: SectionCardProps) {
+  return <section className={`section-card ${className}`}>{children}</section>;
 }

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./ScrollToTopButton.css"; 
+import "./scrollToTopButton.css"; 
 
 
 export default function ScrollToTopButton() {

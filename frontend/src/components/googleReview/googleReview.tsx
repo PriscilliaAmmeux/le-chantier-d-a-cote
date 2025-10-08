@@ -1,4 +1,4 @@
-import "./GoogleReview.css";
+import "./googleReview.css";
 
 export type GoogleReviewProps = {
   rating: 1 | 2 | 3 | 4 | 5;
