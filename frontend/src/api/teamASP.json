@@ -1,14 +1,10 @@
 [
   {
-    "id": 1,
-    "name": "Maggy",
-    "photo": "maggy.jpg",
-    "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre accompagnatrice au sein du Chantier d’à Côté."
-  },
-  {
-    "id": 2,
-    "name": "Patricia",
-    "photo": "patricia.jpg",
-    "presentation": "Présentation à venir. Découvrez prochainement le parcours et l’engagement de notre accompagnatrice au sein du Chantier d’à Côté."
+    "title": "Les ASP un binôme de compet !",
+    "subtitle": "Natacha et Gwenaelle, toutes deux issues de la formation Conseillère en insertion professionnelle, dans le cadre d’une reconversion ; venant du commerce pour l’une et du secteur medico-social pour l’autre.",
+    "credo": "Leur credo : mettre la personne au centre de l’action : projet, formation , résolution  des freins…",
+    "vision": "Leurs visions :  Après un certain âge, mon ami, on ne peut plus mettre la faute sur l’enfance, sur le père absent, sur la mère toxique, sur l’école qui ne nous a pas compris. Tout cela explique beaucoup de choses, mais ne justifie pas tout. Il arrive un moment où nous ne sommes plus le produit de notre environnement, mais celui de nos choix. Et là, c’est difficile d’affronter le miroir. La vie demande du courage : celui de se guérir, de se reconstruire, de devenir la personne qu’on ne nous a jamais appris à être. Soit tu choisis de rester prisonnier de ce qui t’a blessé, soit tu décides d’écrire une nouvelle histoire. La douleur, on ne peut pas l’éviter. Mais le destin, ah…… le destin, tu peux le réinventer chaque jour qui passe.",
+    "imgNatacha": "natacha.webp",
+    "imgGwenaelle": "gwenaelle.webp"
   }
 ]

@@ -33,10 +33,8 @@ export default function Team() {
           <TeamList members={teamSupervisors} />
         </section>
 
-        <section>
-          <SubSubtitle
-            subSubtitle={"Nos Accompagnatrices Socio-Professionnelles (ASP)"}
-          />
+        <section className="asp-section">
+          <SubSubtitle subSubtitle="Nos Accompagnatrices Socio-Professionnelles (ASP)" />
           <p>
             À l’écoute des parcours de vie souvent cabossés, les
             accompagnatrices socio-personnelles tissent un lien essentiel entre
@@ -47,7 +45,32 @@ export default function Team() {
             sans imposer. Elles sont les repères humains d’un accompagnement
             individualisé et bienveillant.
           </p>
-          <TeamList members={teamASP} />
+          <div className="asp-card">
+            <div className="asp-card-header">
+              <h3>{teamASP[0].title}</h3>
+              <p className="asp-subtitle">{teamASP[0].subtitle}</p>
+              <p className="asp-credo">{teamASP[0].credo}</p>
+            </div>
+            <div className="asp-photos">
+              <div className="asp-photo-block">
+                <img
+                  src={teamASP[0].imgNatacha}
+                  alt="Natacha"
+                  className="asp-photo"
+                />
+                <span className="asp-name">Natacha</span>
+              </div>
+              <div className="asp-photo-block">
+                <img
+                  src={teamASP[0].imgGwenaelle}
+                  alt="Gwenaelle"
+                  className="asp-photo"
+                />
+                <span className="asp-name">Gwenaelle</span>
+              </div>
+            </div>
+            <blockquote className="asp-vision">{teamASP[0].vision}</blockquote>
+          </div>
         </section>
       </div>
     </section>

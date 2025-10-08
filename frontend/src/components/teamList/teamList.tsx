@@ -2,6 +2,7 @@ import "./teamList.css";
 
 type TeamMember = {
   name: string;
+  role: string;
   photo: string;
   presentation: string;
 };
@@ -31,6 +32,7 @@ export default function TeamList({ members }: TeamListProps) {
               />
               <div className="supervisor-info">
                 <div className="supervisor-name font-bold">{member.name}</div>
+                <div className="supervisor-role">{member.role}</div>
                 <div className="supervisor-presentation">
                   {member.presentation}
                 </div>
