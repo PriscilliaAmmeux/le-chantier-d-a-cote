@@ -10,15 +10,14 @@ import Article from "./pages/Article/Article";
 import LegalNotices from "./pages/LegalNotices/legalNotices";
 import PrivacyPolicy from "./pages/PrivacyPolicy/privacyPolicy";
 import ScrollToTop from "./components/scrollToTop/scrollToTop";
-import Home from "./pages/Home/Home";
-
+import Accueil from "./pages/Accueil/accueil";
 
 function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Accueil />} />
         <Route path="/about" element={<About />} />
         <Route path="/activities" element={<Activities />} />
         <Route path="/missions" element={<Missions />} />
