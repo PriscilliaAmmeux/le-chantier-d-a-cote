@@ -62,14 +62,14 @@ export default function Form({ className }: FormProps) {
     emailjs
       .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then(
-        (result) => {
+        (_) => {
           Swal.fire({
             title: "Succès!",
             text: "Votre message a bien été envoyé.",
             icon: "success",
           });
         },
-        (error) => {
+        (_) => {
           Swal.fire({
             title: "Erreur!",
             text: "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer plus tard.",
@@ -89,7 +89,7 @@ export default function Form({ className }: FormProps) {
       onSubmit={sendEmail}
       noValidate>
       <div className="form-header">
-        <h4 className="form-header-title">Envoie nous un message</h4>
+        <h4 className="form-header-title">Envoyez nous un message</h4>
       </div>
 
       <label htmlFor="name" className="sr-only">
