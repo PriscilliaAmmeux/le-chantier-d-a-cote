@@ -1,32 +1,44 @@
 .logo-financeurs {
-  width: 5rem;
+  height: 50px;
+  transition: transform 0.2s;
+}
+
+.logos-ue {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.logos-autres {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.logo-financeurs {
+  height: 50px;
+  transition: transform 0.2s;
+}
+
+.logo-financeurs.big {
+  height: 140px !important;
+  max-width: auto;
+  margin-top: 2rem;
 }
 
 .section-financeurs {
   border-radius: 12px;
-  padding: 2rem 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 0.5rem;
   margin: 2rem auto;
+  padding: 2rem;
   max-width: 30rem;
 }
 
-.section-financeurs .logos-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin-top: 1.5rem;
-}
-
-.logo-financeurs {
-  max-height: 60px;
-  max-width: 160px;
-  object-fit: contain;
+.logos-wrapper {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -39,7 +51,15 @@
     justify-content: space-around;
   }
   .logo-financeurs {
-    max-height: 50px;
-    max-width: 90px;
+    height: 30px;
+  }
+  .logo-financeurs.big {
+    height: 50px !important;
+    margin-top: 1rem;
+  }
+  .logos-ue,
+  .logos-autres {
+    justify-content: center;
+    gap: 1rem;
   }
 }
