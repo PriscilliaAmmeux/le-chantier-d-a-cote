@@ -52,7 +52,7 @@ export default function Team() {
               <p className="asp-credo">{teamASP[0].credo}</p>
             </div>
             <div className="asp-photos">
-              <div className="asp-photo-block">
+              <div className="asp-photo-card asp-photo-card-left">
                 <img
                   src={teamASP[0].imgNatacha}
                   alt="Natacha"
@@ -60,7 +60,7 @@ export default function Team() {
                 />
                 <span className="asp-name">Natacha</span>
               </div>
-              <div className="asp-photo-block">
+              <div className="asp-photo-card asp-photo-card-right">
                 <img
                   src={teamASP[0].imgGwenaelle}
                   alt="Gwenaelle"
