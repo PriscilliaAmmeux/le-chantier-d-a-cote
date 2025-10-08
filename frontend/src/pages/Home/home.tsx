@@ -6,7 +6,7 @@ import HomePresentation from "../../ui/homePresentation/homePresentation";
 import Layout from "../../ui/layout/layout";
 import SectionFinanciers from "../../ui/sectionFinanciers/sectionFinanciers";
 import Title from "../../ui/title/title";
-import "./Home.css";
+import "./home.css";
 
 export default function Home() {
   return (
