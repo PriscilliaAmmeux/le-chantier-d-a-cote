@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import "./scrollToTopButton.css"; 
-
+import { FaArrowUp } from "react-icons/fa";
+import "./scrollToTopButton.css";
 
 export default function ScrollToTopButton() {
   const [isVisible, setIsVisible] = useState(false);
@@ -31,7 +31,7 @@ export default function ScrollToTopButton() {
         onClick={scrollToTop}
         className={`style-button-scroll ${isVisible ? "visible" : ""}`}
         aria-label="Remonter en haut de la page">
-        ↑ Haut de page
+        <FaArrowUp size={20} color="#fff" />
       </button>
     </section>
   );
