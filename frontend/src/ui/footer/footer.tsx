@@ -3,7 +3,7 @@ import { FaFacebook } from "react-icons/fa";
 import "./footer.css";
 import ScrollToTopButton from "../../components/scrollToTopButton/scrollToTopButton";
 import { Link } from "react-router-dom";
-import logoUE from "/UE.webp";
+import logoUE from "/logo-Union-Européenne-cofinancé-par-l-UE.webp";
 
 export default function Footer() {
   return (

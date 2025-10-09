@@ -1,4 +1,4 @@
-import logoUE from "/UE.webp";
+import logoUE from "/logo-Union-Européenne-cofinancé-par-l-UE.webp";
 import logoCharente from "/logoCharente.webp";
 import logoRepFrance from "/logo-de-la-republique-francaise.webp";
 import logoConvergence from "/convergence.webp";
@@ -30,7 +30,6 @@ const financeurs = [
 ];
 export default function SectionFinanciers() {
   return (
-    // ...existing code...
     <section className="section-financeurs">
       <Subtitle subtitle="Financeurs" />
       <div className="logos-wrapper logos-ue">

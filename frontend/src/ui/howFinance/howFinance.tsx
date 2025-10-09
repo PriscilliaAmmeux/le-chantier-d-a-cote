@@ -1,6 +1,7 @@
 import SectionCard from "../../components/sectionCard/sectionCard";
 import Subtitle from "../subtitle/subtitle";
 import "./howFinance.css";
+import logoUE from "/logo-Union-Européenne-cofinancé-par-l-UE.webp";
 
 export default function HowFinance() {
   return (
@@ -13,6 +14,12 @@ export default function HowFinance() {
         Cette diversité de ressources garantit notre indépendance et la
         pérennité de notre action au service de l’insertion.
       </p>
+      <img
+        src={logoUE}
+        alt="Logo cofinancé par l'Union Européenne"
+        aria-label="Logo cofinancé par l'Union Européenne"
+        className="how-finance-logo-ue"
+      />
     </SectionCard>
   );
 }

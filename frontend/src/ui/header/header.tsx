@@ -1,5 +1,5 @@
 import logo from "/logo.webp";
-import logoUE from "/UE.webp";
+import logoUE from "/logo-Union-Européenne-cofinancé-par-l-UE.webp";
 import NavBar from "../navBar/navBar";
 import NavBarMobile from "../navBarMobile/navBarMobile";
 import "./header.css";

@@ -21,7 +21,7 @@
 }
 
 .header-logo-ue {
-  height: 100px;
+  height: 60px;
   width: auto;
   display: inline-block;
 }
@@ -43,6 +43,6 @@
     width: 8rem;
   }
   .header-logo-ue {
-    height: 100px;
+    height: 60px;
   }
 }

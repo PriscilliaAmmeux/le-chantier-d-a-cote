@@ -10,7 +10,7 @@
   background-color: var(--color-bright-green);
   position: relative;
   box-sizing: border-box;
-  max-width: 40%;
+  max-width: 60%;
   margin: 2rem auto;
   padding: 2rem 4rem;
   display: flex;
@@ -21,6 +21,15 @@
 
 .data-placeholder {
   text-align: center;
+}
+
+.data-section-and-logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem auto;
+  width: fit-content;
 }
 
 .data-title {
@@ -45,6 +54,10 @@
     margin: 1rem;
     border-radius: 15px;
     max-width: 80%;
+  }
+  .data-section-and-logo {
+    flex-direction: column;
+    gap: 16px;
   }
 }
 

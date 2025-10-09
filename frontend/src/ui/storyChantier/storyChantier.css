@@ -5,6 +5,10 @@
   line-height: 1.7;
 }
 
+.story-site {
+  margin-bottom: 2rem;
+}
+
 .story-list {
   list-style-type: disc;
   margin-bottom: 1rem;
