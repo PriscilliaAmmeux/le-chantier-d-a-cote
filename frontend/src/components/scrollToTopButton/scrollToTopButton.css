@@ -1,11 +1,40 @@
 .style-button-scroll {
   position: fixed;
-  bottom: 100px;
+  bottom: 40px;
   right: 40px;
+  width: 56px;
+  height: 56px;
   background-color: var(--color-brown);
   color: #fff;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s, transform 0.3s, background 0.2s;
+  z-index: 1000;
+}
+
+.style-button-scroll.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.style-button-scroll:hover {
+  background-color: var(--color-bright-green);
+}
+
+.style-button-scroll svg {
+  display: block;
+}
+
+.style-button-scroll svg {
+  display: block;
+  color: #fff !important;
+  fill: #fff !important;
 }

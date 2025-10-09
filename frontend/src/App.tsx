@@ -8,14 +8,12 @@ import About from "./pages/About/about";
 import Article from "./pages/Article/Article";
 import LegalNotices from "./pages/LegalNotices/legalNotices";
 import PrivacyPolicy from "./pages/PrivacyPolicy/privacyPolicy";
-import ScrollToTop from "./components/scrollToTop/scrollToTop";
 import Accueil from "./pages/Accueil/accueil";
 import Convergence from "./pages/Convergence/convergence";
 
 function App() {
   return (
     <BrowserRouter>
-      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/about" element={<About />} />
