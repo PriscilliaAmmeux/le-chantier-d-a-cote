@@ -1,1 +1,8 @@
 @import "../../ui/variables.css";
+
+.missions-logo-ue {
+  display: block;
+  margin: 1rem auto 2rem auto;
+  max-width: 220px;
+  height: auto;
+}

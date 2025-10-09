@@ -1,33 +1,45 @@
 import Subtitle from "../subtitle/subtitle";
 import "./sectionConvergence.css";
+import logoConvergence from "/convergence.webp";
 
 export default function SectionConvergence() {
   return (
     <section className="margin-top-subtitle">
-      <Subtitle subtitle="L'association Convergence France" />{" "}
-      <p className="convergence-text">
-        <a
-          href="https://convergence-france.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="convergence-link">
-          Convergence France
-        </a>{" "}
-        est une association nationale dédiée à l’insertion sociale et
-        professionnelle des personnes les plus éloignées de l’emploi. Depuis sa
-        création, l’association a mis en place des dispositifs novateurs, dont
-        les{" "}
-        <span className="font-bold color-brown">
-          Premières Heures en Chantier (PHC)
-        </span>
-        , afin de soutenir les individus dans leur parcours de réinsertion.
-        L’objectif principal de{" "}
-        <span className="font-bold color-brown">Convergence France</span> est de
-        briser le cycle de l’exclusion en proposant aux personnes en grande
-        précarité, des opportunités de réintégration progressive dans le monde
-        du travail, et en garantissant un accompagnement personnalisé ainsi
-        qu’un soutien renforcé.
-      </p>
+      <div className="convergence-header">
+        <div className="convergence-header-text">
+          <Subtitle subtitle="L'association Convergence France" />
+          <p className="convergence-text">
+            <a
+              href="https://convergence-france.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="convergence-link">
+              Convergence France
+            </a>{" "}
+            est une association nationale dédiée à l’insertion sociale et
+            professionnelle des personnes les plus éloignées de l’emploi. Depuis
+            sa création, l’association a mis en place des dispositifs novateurs,
+            dont les{" "}
+            <span className="font-bold color-brown">
+              Premières Heures en Chantier (PHC)
+            </span>
+            , afin de soutenir les individus dans leur parcours de réinsertion.
+            L’objectif principal de{" "}
+            <span className="font-bold color-brown">Convergence France</span>{" "}
+            est de briser le cycle de l’exclusion en proposant aux personnes en
+            grande précarité, des opportunités de réintégration progressive dans
+            le monde du travail, et en garantissant un accompagnement
+            personnalisé ainsi qu’un soutien renforcé.
+          </p>
+        </div>
+        <img
+          src={logoConvergence}
+          alt="Logo Convergence France"
+          aria-label="Logo Convergence France"
+          className="missions-logo-ue"
+        />
+      </div>
+
       <div className="convergence-item">
         <h3 className="convergence-subtitle">
           Contexte et origines de Convergence France

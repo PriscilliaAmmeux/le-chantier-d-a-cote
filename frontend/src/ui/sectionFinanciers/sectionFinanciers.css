@@ -21,8 +21,7 @@
 }
 
 .logo-financeurs.big {
-  height: 140px !important;
-  max-width: auto;
+  height: 80px;
   margin-top: 2rem;
 }
 
@@ -43,8 +42,11 @@
 
 @media screen and (max-width: 480px) {
   .section-financeurs {
-    padding: 1rem 0;
-    margin: 1rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
   .section-financeurs .logos-wrapper {
     gap: 0;
@@ -54,12 +56,14 @@
     height: 30px;
   }
   .logo-financeurs.big {
-    height: 50px !important;
+    height: 80px;
     margin-top: 1rem;
   }
   .logos-ue,
   .logos-autres {
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 1rem;
   }
 }
