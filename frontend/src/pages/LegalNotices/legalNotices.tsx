@@ -29,8 +29,8 @@ const legalSections = [
             content: "Association loi 1901",
           },
           {
-            title: "Directrices de la publication : ",
-            content: "Priscillia Ammeux et Christelle",
+            title: "Directeur de la publication : ",
+            content: "Le chantier d'à Côté",
           },
           {
             title: "Hébergeur du site : ",
@@ -39,7 +39,7 @@ const legalSections = [
           {
             title: "Développement et maintenance : ",
             content:
-              '<a href="https://www.priscillia-ammeux-portfolio.fr/" target="_blank" rel="noopener noreferrer" class="legal-link">Priscillia Ammeux</a>',
+              '<a href="https://www.pixelia-and-co.fr" target="_blank" rel="noopener noreferrer" class="legal-link">Pixelia&Co</a>',
           },
           {
             title: "Rédaction des contenus : ",
