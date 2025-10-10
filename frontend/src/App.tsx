@@ -10,10 +10,12 @@ import LegalNotices from "./pages/LegalNotices/legalNotices";
 import PrivacyPolicy from "./pages/PrivacyPolicy/privacyPolicy";
 import Accueil from "./pages/Accueil/accueil";
 import Convergence from "./pages/Convergence/convergence";
+import ScrollToTop from "./components/scrollToTop/scrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/about" element={<About />} />
