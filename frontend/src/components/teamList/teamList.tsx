@@ -13,51 +13,24 @@ interface TeamListProps {
 
 export default function TeamList({ members }: TeamListProps) {
   return (
-    <ul className="team-supervisors-list">
-      {members.map((member, idx) => (
-        <li
-          className={`supervisor-row ${
-            idx % 2 === 0 ? "left-photo" : "right-photo"
-          }`}
-          key={member.name}>
-          {idx % 2 === 0 ? (
-            <>
-              <img
-                src={member.photo}
-                alt={`Portrait de ${member.name}`}
-                className="supervisor-photo"
-                loading="lazy"
-                width={120}
-                height={120}
-              />
-              <div className="supervisor-info">
-                <div className="supervisor-name font-bold">{member.name}</div>
-                <div className="supervisor-role">{member.role}</div>
-                <div className="supervisor-presentation">
-                  {member.presentation}
-                </div>
-              </div>
-            </>
-          ) : (
-            <>
-              <div className="supervisor-info">
-                <div className="supervisor-name font-bold">{member.name}</div>
-                <div className="supervisor-presentation">
-                  {member.presentation}
-                </div>
-              </div>
-              <img
-                src={member.photo}
-                alt={`Portrait de ${member.name}`}
-                className="supervisor-photo"
-                loading="lazy"
-                width={120}
-                height={120}
-              />
-            </>
-          )}
-        </li>
+    <div className="team-supervisors-grid">
+      {members.map((member) => (
+        <div className="supervisor-card" key={member.name}>
+          <img
+            src={member.photo}
+            alt={`Portrait de ${member.name}`}
+            className="supervisor-photo"
+            loading="lazy"
+            width={120}
+            height={120}
+          />
+          <div className="supervisor-info">
+            <div className="supervisor-name font-bold">{member.name}</div>
+            <div className="supervisor-role">{member.role}</div>
+            <div className="supervisor-presentation">{member.presentation}</div>
+          </div>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 }
