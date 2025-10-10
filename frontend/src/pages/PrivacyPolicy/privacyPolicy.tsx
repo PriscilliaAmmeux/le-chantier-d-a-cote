@@ -90,7 +90,7 @@ const privacySections = [
   },
   {
     id: "maj",
-    title: "Dernière mise à jour",
+    title: "Dernière mise à jour le 10/10/2025",
     content: [
       {
         type: "text",
