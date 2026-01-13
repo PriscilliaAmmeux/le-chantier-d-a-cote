@@ -113,7 +113,7 @@ Le formulaire de contact utilise EmailJS pour l'envoi d'emails. Pour configurer 
 
 ## 👥 Équipe
 
-- **Développement & Design** : [Priscillia Ammeux](https://www.priscillia-ammeux-portfolio.fr/)
+- **Développement & Design** : [Priscillia Ammeux de Pixelia&Co](https://www.pixelia-and-co.fr/)
 - **Rédaction de contenu** : [Christelle (Mots sur Mesure)](https://www.instagram.com/motssurmesure/)
 
 ## 📄 Licence
