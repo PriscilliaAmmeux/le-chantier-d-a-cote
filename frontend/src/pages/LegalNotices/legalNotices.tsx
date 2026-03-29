@@ -37,7 +37,7 @@ const legalSections = [
             content: "Vercel",
           },
           {
-            title: "Développement et maintenance : ",
+            title: "Développement ",
             content:
               '<a href="https://www.pixelia-and-co.fr" target="_blank" rel="noopener noreferrer" class="legal-link">Pixelia&Co</a>',
           },

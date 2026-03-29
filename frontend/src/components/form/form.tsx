@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import Swal from "sweetalert2";
 import Button from "../../ui/button/button";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 
 import "./form.css";
 
@@ -17,8 +18,11 @@ export default function Form({ className }: FormProps) {
   const [message, setMessage] = useState("");
   const [honeypot, setHoneypot] = useState("");
   const [acceptedPrivacy, setAcceptedPrivacy] = useState(false);
+  const [isSending, setIsSending] = useState(false);
+  const [recaptchaValue, setRecaptchaValue] = useState<string | null>(null);
 
   const form = useRef<HTMLFormElement>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -33,7 +37,7 @@ export default function Form({ className }: FormProps) {
     }
 
     const regex = /^(06|07)\d{8}$/;
-    if (!regex.test(phone)) {
+    if (!regex.test(phone.trim())) {
       alert(
         "Veuillez entrer un numéro de téléphone valide exemple 0601234556."
       );
@@ -59,6 +63,12 @@ export default function Form({ className }: FormProps) {
       return;
     }
 
+    if (!recaptchaValue) {
+      alert("Veuillez vérifier le reCAPTCHA.");
+      return;
+    }
+
+    setIsSending(true);
     emailjs
       .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then(
@@ -79,6 +89,13 @@ export default function Form({ className }: FormProps) {
       )
       .catch((error) => {
         console.error("Error sending email: ", error);
+      })
+      .finally(() => {
+        setIsSending(false);
+        setRecaptchaValue(null);
+        if (recaptchaRef.current) {
+          recaptchaRef.current.reset();
+        }
       });
   };
 
@@ -102,6 +119,7 @@ export default function Form({ className }: FormProps) {
         placeholder="Votre nom *"
         required
         aria-required="true"
+        maxLength={50}
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
@@ -115,6 +133,7 @@ export default function Form({ className }: FormProps) {
         placeholder="Votre prénom *"
         required
         aria-required="true"
+        maxLength={50}
         value={firstname}
         onChange={(e) => setFirstname(e.target.value)}
       />
@@ -128,6 +147,7 @@ export default function Form({ className }: FormProps) {
         placeholder="Votre téléphone *"
         required
         aria-required="true"
+        maxLength={10}
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
       />
@@ -141,6 +161,7 @@ export default function Form({ className }: FormProps) {
         placeholder="Votre email *"
         required
         aria-required="true"
+        maxLength={100}
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
@@ -153,6 +174,7 @@ export default function Form({ className }: FormProps) {
         placeholder="Votre message *"
         required
         aria-required="true"
+        maxLength={1000}
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       />
@@ -180,11 +202,19 @@ export default function Form({ className }: FormProps) {
           </a>
         </label>
       </div>
+      <div className="form-recaptcha">
+        <ReCAPTCHA
+          ref={recaptchaRef}
+          sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY || ""}
+          onChange={(value) => setRecaptchaValue(value)}
+        />
+      </div>
       <div className="form-submit-btn">
         <Button
           type="submit"
-          text="Envoyer mon message"
+          text={isSending ? "Envoi en cours..." : "Envoyer mon message"}
           ariaLabel={"Cliquez sur le bouton pour envoyer le message"}
+          disabled={isSending}
         />
       </div>
     </form>
